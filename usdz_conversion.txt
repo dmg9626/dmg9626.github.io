@@ -1,0 +1,12 @@
+// Call usdz_converter with xcrun.
+xcrun usdz_converter RetroTV.obj RetroTV.usdz
+
+// PBR textures can be applied to groups (meshes and submeshes) with the -g option.
+xcrun usdz_converter RetroTV.obj RetroTV.usdz
+ -g RetroTVMesh
+ -color_map RetroTV_Albedo.png
+ -metallic_map RetroTV_Metallic.png
+ -roughness_map RetroTV_Roughness.png
+ -normal_map RetroTV_Normal.png
+ -ao_map RetroTV_AmbientOcclusion.png
+ -emissive_map RetroTV_Emissive.png 
