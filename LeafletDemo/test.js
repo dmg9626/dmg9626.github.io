@@ -11,9 +11,9 @@ function getColor(d) {
 
 function onEachFeature(feature, layer) {
     layer.on({
-        mouseover: highlightFeature,
-        mouseout: resetHighlight,
-        click: zoomToFeature
+        click: highlightFeature,
+        // mouseout: resetHighlight,
+        // click: zoomToFeature
     });
 }
 
@@ -28,10 +28,19 @@ function style(feature) {
     };
 }
 
+
+var currentSelectedState;
 function highlightFeature(e) {
     var layer = e.target;
 
-    console.log("highlighting feature " + e);
+
+    console.log("selected state " + layer.feature.properties.name);
+
+    if(currentSelectedState != null) {
+        console.log("Previously selected state: " + currentSelectedState.target.feature.properties.name);
+        resetHighlight(currentSelectedState);
+    }
+    currentSelectedState = e;
 
     layer.setStyle({
         weight: 5,
