@@ -1,5 +1,5 @@
 var selectedStyle = {
-    weight: 5,
+    weight: 4,
     color: '#666',
     dashArray: '',
     fillOpacity: 0.7
@@ -7,9 +7,9 @@ var selectedStyle = {
 
 var highlightedStyle = {
     weight: 3,
-    color: '#666',
+    color: '#AAA',
     dashArray: '',
-    fillOpacity: 0.7
+    fillOpacity: 0.75
 };
 
 // sets base style for all regions on map
@@ -66,7 +66,11 @@ function highlightFeature(e) {
 
     if(!compareStates(e, currentSelectedState)) {
         layer.setStyle(highlightedStyle);
+    }
 
+    // Bring highlight layer to front
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
     }
 }
 
@@ -110,6 +114,11 @@ function mouseout(e) {
         return;
     }
     resetHighlight(e);
+
+    // Bring selected 
+    if(currentSelectedState != null) {
+        currentSelectedState.target.bringToFront();
+    }
 }
 
 function resetHighlight(e) {
@@ -117,7 +126,8 @@ function resetHighlight(e) {
 
     // Remove stroke
     geojson.resetStyle(e.target);
-    // info.update();
+
+    console.log(e)
 }
 
 function zoomToFeature(e) {
