@@ -18,23 +18,23 @@ email: dmg9626@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
    I make the games I want to play.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.drewgraham.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.drewgrahamdev.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: drew_graham
 github_username:  dmg9626
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  # - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
