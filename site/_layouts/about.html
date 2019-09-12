@@ -1,162 +1,60 @@
-<html>
-    <head>
-        <!-- favicon -->
-        <link rel="shortcut icon" href="/images/misc/favicon-user.ico"/>
-
-        <!-- jQuery 3.3.1 -->
-        <!-- <script src="/local_modules/jquery/jquery-3.3.1.min.js"></script> -->
-        <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-        
-        <!-- Bootstrap 4.0 -->
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-        <!-- Bootstrap 4.0 CSS -->
-        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-
-        <!-- <link rel="stylesheet" href="/node_modules/bootswatch/dist/superhero/bootstrap.min.css"> -->
-        
-        <!-- my stylesheet -->
-        <link rel="stylesheet" href="/main.css">
-
-        <!-- Cabin font -->
-        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">  
-    </head>
-
-    <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-            <a class="navbar-brand" href="/">Drew Graham</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="/games">Games</a>
-                    <a class="nav-item nav-link active" href="/about">About</a>
-                    <a class="nav-item nav-link disabled">Blog (coming soon)</a>
-                </div>
-            </div>
-        </nav>
-
-        <div class="container">
-            <!-- <br> -->
-            <div class="jumbotron jumbotron-sub bg-transparent">
+---
+layout: default
+---
+<!-- <br> -->
+<div class="jumbotron jumbotron-sub bg-transparent">
                 
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- Profile image aligned left -->
-                        <img class="rounded" style='float:left;width:225px;height:225px; margin-right:40px;' src="images/about/profile.jpg" title="That's me!"/>
+    <div class="row">
+        <div class="col-md-12">
+            <!-- Profile image aligned left -->
+            <img class="rounded" style='float:left;width:225px;height:225px; margin-right:40px;' src="images/about/profile.jpg" title="That's me!"/>
 
-                        <div class="game-description-text">
-                            <!-- Text body -->
-                            <h2>About Me</h1>
-                            <p>I'm a game developer from Orlando, currently enrolled at Drexel University in Computer Science with a Game Development concentration.</p>
-                            <p>When I'm not talking about games, I can be found enjoying the weather, yelling about internet privacy, or tinkering with my Raspberry Pi.</p>
-                            <br><br>
+            <div class="game-description-text">
+                <!-- Text body -->
+                <h2>About Me</h1>
+                    {{ content }}
+                <br><br>
 
-                            <hr>
+                <hr>
 
-                            <!-- Recently enjoyed -->
-                            <h2>I've recently enjoyed:</h2> <br>
+                <!-- Recently enjoyed -->
+                <h2>I've recently enjoyed:</h2> <br>
 
-                            <div class="row" id="enjoyed">
-                                <!-- game cards go here: -->
-                                
-                                <!-- Example game card: -->
-                                <!-- 
-                                <div class="col-md-4">
-                                    <div class="card" style="width:100%">
-                                        <img class="card-img-top" src="images/about/prey.jpg" alt="Card image">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Title</h4>
-                                            <small>Caption.</small><br><br>
-                                            <a href="#link" class="btn btn-secondary">See More</a>
-                                        </div>
-                                    </div>
-                                </div> -->
-
-                            </div>
-                            <hr>
-                            
-                            <!-- Currently enjoying -->
-                            <h2>I'm currently enjoying:</h2> <br>
-                            <div class="row" id="enjoying">
-
-                                <!-- game cards go here: -->
-
-                            </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </body>
-
-    <script>
-        GetData();
-        function GetData()
-        {
-            $.ajax({
-                type: "GET",
-                url: "/getAboutData",
-                dataType: "json",
-                
-                success: function(msg){
-                    console.log(msg);
+                <div class="row" id="enjoyed">
+                    <!-- game cards go here: -->
+                    <!-- game cards go here: -->
+                    {% for item in site.data.about.currently-enjoying %}
+                        {{ item }}
+                        <br><br>
+                    {% endfor %}
                     
-                    // Check if games response valid
-                    if(msg == null) {
-                        console.log("ERROR: returned list of games is null");
-                    }
-                    else {
-                        FillAboutData(msg);
-                    }
-                }
-            });
-        }
+                    <!-- Example game card: -->
+                    <!-- 
+                    <div class="col-md-4">
+                        <div class="card" style="width:100%">
+                            <img class="card-img-top" src="images/about/prey.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 class="card-title">Title</h4>
+                                <small>Caption.</small><br><br>
+                                <a href="#link" class="btn btn-secondary">See More</a>
+                            </div>
+                        </div>
+                    </div> -->
 
-        function FillAboutData(json)
-        {
-            // fill Currently Enjoying section
-            var currentlyEnjoying = json["currently-enjoying"];
-            var currentlyEnjoyingDiv = $("#enjoying");
-            FillEnjoyingData(currentlyEnjoying, currentlyEnjoyingDiv);
-            
-            // fill Recently Enjoyed section
-            var recentlyEnjoyedDiv = $("#enjoyed");
-            var recentlyEnjoyed = json["recently-enjoyed"];
-            console.log(recentlyEnjoyed);
-            FillEnjoyingData(recentlyEnjoyed, recentlyEnjoyedDiv);
-        }
+                </div>
+                <hr>
+                
+                <!-- Currently enjoying -->
+                <h2>I'm currently enjoying:</h2> <br>
+                <div class="row" id="enjoying">
 
-        function FillEnjoyingData(enjoying, div)
-        {
-            // Empty beforehand (todo: remove this )
-            div.empty();
-            // Iterate through items in json
-            for(var item in enjoying) {
-                console.log("filling card for " + item);
-                
-                // Get attributes
-                var name = enjoying[item].name;
-                var thumbnail = enjoying[item].thumbnail;
-                var link = enjoying[item].link;
-                var caption = enjoying[item].caption;
-                
-                // Create card
-                $("<div class=\"col-md-4\">" +
-                    "<div class=\"card\" style=\"width:100%\">" +
-                        "<img class=\"card-img-top\" src=\"" + thumbnail + "\" alt=\"Card image\">" +
-                        "<div class=\"card-body\">" +
-                            "<h4 class=\"card-title\">" + name + "</h4>" +
-                            "<small>" + caption + "</small><br><br>" +
-                            "<a href=\"" + link + "\" target=\"_blank\" class=\"btn btn-primary\">See More</a>" +
-                        "</div>" +
-                    "</div>" +
-                "</div>"
-                ).appendTo(div);
-            }
-        }
-    </script>
-</html>
+                    <!-- game cards go here: -->
+                    {% for item in site.data.about.recently-enjoyed %}
+                        {{ item }}
+                        <br><br>
+                    {% endfor %}
+                </div>
+        </div>
+    </div>
+
+</div>
