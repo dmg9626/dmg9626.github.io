@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="/images/misc/favicon-user.ico"/>
+        
+        <!-- Bootstrap 4.0 -->
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Bootstrap 4.0 CSS -->
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        
+        <!-- my stylesheet -->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <!-- Cabin font -->
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">  
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+            <a class="navbar-brand" href="/">Drew Graham</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="/games">Games</a>
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    <a class="nav-item nav-link disabled">Blog (coming soon)</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <!-- Page Title -->
+            <h1>{{ page.title }}</h1>
+
+            <!-- Page Content  -->
+            <section>
+                {{ content }}
+            </section>
+        </div>
+    </body>
+</html>
