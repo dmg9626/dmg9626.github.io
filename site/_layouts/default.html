@@ -14,6 +14,14 @@
 
         <!-- Cabin font -->
         <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">  
+        
+        <!-- Add page title if given -->
+        <title>
+            Drew Graham
+            {% if page.title %} 
+                | {{ page.title }} 
+            {% endif %}
+        </title>
     </head>
 
     <body>
@@ -35,7 +43,11 @@
 
         <div class="container">
             <!-- Page Title -->
-            <h1>{{ page.title }}</h1>
+            <h1>
+                {% unless page.hide_title %} 
+                    {{ page.title }} 
+                {% endunless %}
+            </h1>
 
             <!-- Page Content  -->
             <section>
