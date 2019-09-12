@@ -17,29 +17,16 @@
         
         <!-- Add page title if given -->
         <title>
-            Drew Graham
             {% if page.title %} 
-                | {{ page.title }} 
+                {{ page.title }} |
             {% endif %}
+            Drew Graham
         </title>
     </head>
 
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-            <a class="navbar-brand" href="/">Drew Graham</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="/games">Games</a>
-                    <a class="nav-item nav-link" href="/about">About</a>
-                    <a class="nav-item nav-link disabled">Blog (coming soon)</a>
-                </div>
-            </div>
-        </nav>
+        {% include navbar.html %}
 
         <div class="container">
             <!-- Page Title -->
