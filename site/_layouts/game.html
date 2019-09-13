@@ -1,13 +1,18 @@
 ---
 layout: default
 ---
+
+<!-- Select first game with matching ID -->
+{% assign game_match = site.data.games | where: "id", page.game_id | limit: 1 %}
+{% assign game = game_match.first %}
+
 <!-- page header -->
         <div class="container">
             <div class="jumbotron horizontal-center bg-transparent">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h1 id="name"></h1>
-                        <h3 id="shortDescription"></h3>
+                        <h1 id="name">{{game.name}}</h1>
+                        <h3 id="shortDescription">{{game.shortDescription}}</h3>
                     </div>
                 </div>
             </div>
@@ -18,6 +23,7 @@ layout: default
 
             <!-- cover image of game -->
             <div class="row" id="cover-image">
+                <img src="{{game.coverImage}}" class="rounded mx-auto d-block\">
                 <br/>
             </div>
             <br/>
@@ -40,20 +46,16 @@ layout: default
             </div>
             <!-- Grid of game screenshots -->
             <div class="row" id="thumbnail-grid">
-            {% for game in site.data.games %}
-                    {% if game.id == {{page.game_id}} %}
-                        {% for image in game.images %}
-                            <div class="col-md-4">
-                                <figure class="figure">
-                                    <a href="{{image.imagePath}}">
-                                        <img src="{{image.imagePath}}" class="figure-img img-fluid rounded">
-                                    </a>
-                                    <figcaption class="figure-caption">{{image.caption}}</figcaption>
-                                </figure>  
-                            </div>
-                        {% endfor %}
-                    {% endif %}
-            {% endfor %}
+                {% for image in game.images %}
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <a href="{{image.imagePath}}">
+                                <img src="{{image.imagePath}}" class="figure-img img-fluid rounded">
+                            </a>
+                            <figcaption class="figure-caption">{{image.caption}}</figcaption>
+                        </figure>  
+                    </div>
+                {% endfor %}
             </div>
             
 
