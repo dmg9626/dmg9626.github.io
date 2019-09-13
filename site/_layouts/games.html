@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<!-- games grid -->
+</br><h3>My Games</h3></br>
+<div>
+    <div class="row">
+
+        <!-- game cards go here -->
+        {% for game in site.data.games %}
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="/games/{{game.id}}.html" gameId "">
+                        <img src="{{game.thumbnail}}" class="img-rounded" style="width:100%">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">{{game.name}}</h4>
+                        <p class="card-text">{{game.shortDescription}}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+    </div>
+</div>

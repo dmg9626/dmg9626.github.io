@@ -1,0 +1,41 @@
+body {
+  /* bootstrap 3.3.7 CSS */
+  /* background-color: #FFFFFF; */
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 60px;
+  }
+}
+
+.jumbotron {
+  /* bootstrap 3.3.7 CSS */
+  /* background-color: #ebedf1; */
+  /* background-size: cover; */
+}
+
+.jumbotron h1 {
+  font-size: 48px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+}
+
+.game-description .jumbotron {
+  background-color: #e2e6ee;
+}
+
+.jumbotron hr {
+  background-color: rgb(206, 206, 206);
+  height:1px
+}
+
+.game-description-text {
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.btn-primary {
+  background-color: #5376f1;
+  border-color: #5376f1;
+}

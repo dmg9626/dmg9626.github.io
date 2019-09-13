@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<!-- Select first game with matching ID -->
+{% assign game_match = site.data.games | where: "id", page.game_id | limit: 1 %}
+{% assign game = game_match.first %}
+
+<!-- page header -->
+<div class="container">
+    <div class="jumbotron horizontal-center bg-transparent">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 id="name">{{game.name}}</h1>
+                <h3 id="shortDescription">{{game.shortDescription}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- page body -->
+<div class="container">
+
+    <!-- cover image of game -->
+    <div class="row" id="cover-image">
+        <img src="{{game.coverImage}}" class="rounded mx-auto d-block\">
+        <br/>
+    </div>
+    <br/>
+
+    <!-- link to playable game -->
+    {% if page.playable %}
+        <div class="row text-center" id="game-link">
+            <div class="col-md-12">
+                <a href="{{game.link}}">
+                    <button type="button" class="btn btn-primary btn-lg">Play game here!</button>
+                </a>
+            </div>
+        </div>
+        <br>
+    {% endif %}
+
+    
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Screenshots</h3>
+        </div>
+    </div>
+    <!-- Grid of game screenshots -->
+    <div class="row" id="thumbnail-grid">
+        {% for image in game.images %}
+            <div class="col-md-4">
+                <figure class="figure">
+                    <a href="{{image.imagePath}}">
+                        <img src="{{image.imagePath}}" class="figure-img img-fluid rounded">
+                    </a>
+                    <figcaption class="figure-caption">{{image.caption}}</figcaption>
+                </figure>  
+            </div>
+        {% endfor %}
+    </div>
+    
+
+    <!-- game description-->
+    <div class="game-description">
+        <br>
+        <div class="jumbotron">
+            <div  id="description">
+                <!-- Page content goes here -->
+                {{ content }}
+            </div>
+            <br>
+        </div>
+    </div>
+</div>

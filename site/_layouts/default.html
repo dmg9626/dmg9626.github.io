@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="/images/misc/favicon-user.ico"/>
+        
+        <!-- Bootstrap 4.0 -->
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Bootstrap 4.0 CSS -->
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        
+        <!-- my stylesheet -->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <!-- Cabin font -->
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">  
+        
+        <!-- Add page title if given -->
+        <title>
+            {% if page.title %} 
+                {{ page.title }} |
+            {% endif %}
+            Drew Graham
+        </title>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        {% include navbar.html %}
+
+        <div class="container">
+            <!-- Page Content  -->
+            <section>
+                {{ content }}
+            </section>
+        </div>
+    </body>
+</html>
