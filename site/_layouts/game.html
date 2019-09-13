@@ -1,45 +1,7 @@
-<html>
-    <head>
-        <!-- favicon -->
-        <link rel="shortcut icon" href="/images/misc/favicon-user.ico"/>
-
-        <!-- jQuery 3.3.1 -->
-        <!-- <script src="/local_modules/jquery/jquery-3.3.1.min.js"></script> -->
-        <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-        
-        <!-- Bootstrap 4.0 -->
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-        <!-- Bootstrap 4.0 CSS -->
-        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-
-        <!-- <link rel="stylesheet" href="/node_modules/bootswatch/dist/superhero/bootstrap.min.css"> -->
-        
-        <!-- my stylesheet -->
-        <link rel="stylesheet" href="/main.css">
-
-        <!-- Cabin font -->
-        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">  
-    </head>
-    
-    <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-                <a class="navbar-brand" href="/">Drew Graham</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link active" href="/games">Games</a>
-                        <a class="nav-item nav-link" href="/about">About</a>
-                        <a class="nav-item nav-link disabled">Blog (coming soon)</a>
-                    </div>
-                </div>
-            </nav>
-
-        <!-- page header -->
+---
+layout: default
+---
+<!-- page header -->
         <div class="container">
             <div class="jumbotron horizontal-center bg-transparent">
                 <div class="row">
@@ -78,6 +40,14 @@
             </div>
             <!-- Grid of game screenshots -->
             <div class="row" id="thumbnail-grid">
+            <!-- $("<div class=\"col-md-4\">" +
+                "<figure class=\"figure\">" +
+                    "<a href=\"" + imagePath + "\">" +
+                        "<img src=\"" + imagePath + "\" class=\"figure-img img-fluid rounded\">" +
+                    "</a>" +
+                    "<figcaption class=\"figure-caption\">" + caption + "</figcaption>" +
+                "</figure>" +  
+            "</div>").appendTo("#thumbnail-grid"); -->
             </div>
             
 
@@ -85,8 +55,9 @@
             <div class="game-description">
                 <br>
                 <div class="jumbotron">
-                    <div class="game-description-text" id="description">
-                        <h2>Description</h2>
+                    <div  id="description">
+                        <!-- Page content goes here -->
+                        {{ content }}
                     </div>
                     <br>
                 </div>
@@ -97,44 +68,6 @@
     </body>
 
     <script type="text/javascript">
-
-        GetGameData();
-
-        function GetGameData()
-        {
-            // get gameId from url query
-            var urlParams = new URLSearchParams(window.location.search);
-            var id = urlParams.get('gameId');
-            if(id == null) {
-                console.log("unable to get game data, parameter name not found");
-                return;
-            }
-            console.log("getting data for game:" + id);
-
-            $.ajax({
-                type: "GET",
-                url: "/getGameData",
-                dataType: "text",
-                data: {
-                    gameId: id
-                },
-                
-                success: function(msg){
-                    // parse response into json
-                    var json = JSON.parse(msg);
-                    
-                    if(json == null) {
-                        console.log("could not parse response: " + msg);
-                        return;
-                    }
-                    console.log(json);
-                    
-                    FillGameData(json);
-                }
-            });
-
-        }
-        
         // Fills divs with game data
         function FillGameData(json) {
             // get game data
@@ -188,63 +121,5 @@
             }
             $("#description").append("</p>");
             
-            // Fill link to game if playable
-            if(playable) {
-                var link = json["link"];
-                console.log("game is playable, adding link: " + link);
-                var href = $("#game-link a")[0];
-                href.setAttribute("href", link);
-            }
-            else {
-                console.log("game not playable, hiding game-link section");
-
-                // empty contents of game link div
-                var gamelink = $("#game-link");
-                gamelink.empty();
-            }
-            
         }
-
-
-        // Generates screenshots from response on page
-        function GenerateScreenshots(json) {
-            // get images from json
-            var images = json["images"];
-            console.log(images);
-
-            for(var imageKey in images) {
-                // get image json object (contains image path and caption)
-                var image = images[imageKey];
-                
-                // validate
-                if(image == null) {
-                    console.log("image object [" + imageKey + "] not found, continuing");
-                    continue;
-                }
-                console.log("parsing image [" + imageKey + "]");
-
-                // get image path and caption
-                var imagePath = image["imagePath"];
-                var caption = image["caption"];
-                
-                // validate
-                if(imagePath == null || caption == null) {
-                    console.log("Image could not be parsed: path (" + imagePath + "), caption (" + caption + ")");
-                    continue;
-                }
-                
-                // Create screenshot
-                $("<div class=\"col-md-4\">" +
-                    "<figure class=\"figure\">" +
-                        "<a href=\"" + imagePath + "\">" +
-                            "<img src=\"" + imagePath + "\" class=\"figure-img img-fluid rounded\">" +
-                        "</a>" +
-                        "<figcaption class=\"figure-caption\">" + caption + "</figcaption>" +
-                    "</figure>" +  
-                "</div>").appendTo("#thumbnail-grid");
-            }
-        }
-
     </script>
-    
-</html>
