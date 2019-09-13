@@ -29,13 +29,6 @@
         {% include navbar.html %}
 
         <div class="container">
-            <!-- Page Title -->
-            <h1>
-                {% unless page.hide_title %} 
-                    {{ page.title }} 
-                {% endunless %}
-            </h1>
-
             <!-- Page Content  -->
             <section>
                 {{ content }}

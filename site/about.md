@@ -1,7 +1,6 @@
 ---
 layout: about
 title: About Me
-hide_title: true
 permalink: /about/
 ---
 
