@@ -29,14 +29,16 @@ layout: default
     <br/>
 
     <!-- link to playable game -->
-    <div class="row text-center" id="game-link">
-        <div class="col-md-12">
-            <a href="{{game.link}}">
-                <button type="button" class="btn btn-primary btn-lg">Play game here!</button>
-            </a>
+    {% if page.playable %}
+        <div class="row text-center" id="game-link">
+            <div class="col-md-12">
+                <a href="{{game.link}}">
+                    <button type="button" class="btn btn-primary btn-lg">Play game here!</button>
+                </a>
+            </div>
         </div>
-    </div>
-    <br>
+        <br>
+    {% endif %}
 
     
     <div class="row">

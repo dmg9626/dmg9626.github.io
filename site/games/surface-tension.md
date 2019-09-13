@@ -2,6 +2,7 @@
 title: Surface Tension
 layout: game
 game_id: surface-tension
+playable: true
 ---
 <h3>Description</h3>
 <p>Surface Tension is a puzzle platform game that relies on manipulating the properties of surfaces to traverse obstacles. The player can make a surface bouncy to jump up high, or coat it in a slick sheet of ice to quickly slide across the surface. These surfaces are used to solve puzzles, like bouncing a block across a bouncy surface to get it up a ledge. Things get interesting when you use these surface types in tandem - often solutions require both speed and height. The gameplay consists of fast-paced maneuvers woven with restful periods of planning; levels challenge the player to think creatively, quickly, or even both at once.</p>

@@ -10,8 +10,6 @@
     - imagePath: "/images/this-is-trump/screenshots/ThrowTweets.png"
       caption: "Throw Tweets to discredit the Biased Liberal Media!"
   thumbnail: "/images/its-haunt-time/thumbnail.png"
-  playable: true
-  link: "/games/its-haunt-time/"
 
 - name: "This Is Trump"
   id: this-is-trump
@@ -23,8 +21,6 @@
     - imagePath: "/images/this-is-trump/screenshots/ThrowTweets.png"
       caption: "Throw Tweets to discredit the Biased Liberal Media!"
   thumbnail: "/images/this-is-trump/TrumpHead.png"
-  playable: true
-  link: "/games/this-is-trump/"
 
 
 - name: "Surface Tension"
@@ -37,8 +33,6 @@
     - imagePath: "/images/surface-tension/screenshots/slick.png"
       caption: "Slide across the Icy surface to gain extra speed"
   thumbnail: "/images/surface-tension/thumbnail.png"
-  playable: true
-  link: "/games/surface-tension/"
 
 - name: "Perceive n’ Deceive"
   id: perceive-n-deceive

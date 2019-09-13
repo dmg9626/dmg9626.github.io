@@ -2,6 +2,7 @@
 title: It's Haunt Time!
 layout: game
 game_id: its-haunt-time
+playable: true
 ---
 <h3>Description</h3>
 <p><i>It's Haunt Time!</i> is a cute spook-em-up puzzle game designed for mobile devices. You play as Hatto, a ghost trying his best to win the Scare Championships. Help Hatto scare the human; you'll have to navigate his house, interacting with the environment to overcome ephemeral-repelling obstacles like fans, salt, and even a scary cat. Do your best and go for the gold!</p>

@@ -2,6 +2,7 @@
 title: This Is Trump
 layout: game
 game_id: this-is-trump
+playable: true
 ---
 <h3>Description</h3>
 <p>You play as the man in charge President Donald Trump. You are "running for president" but the Bad Hombres and Biased Liberal Media are trying to take you down! Build those walls and tweet like you've never tweeted before in this adrenaline-pumping side scrolling action game!</p>
