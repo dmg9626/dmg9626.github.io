@@ -1,6 +1,5 @@
 ---
 title: It's Haunt Time!
-hide_title: true
 layout: game
 game_id: its-haunt-time
 ---

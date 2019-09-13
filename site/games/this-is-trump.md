@@ -1,6 +1,5 @@
 ---
 title: This Is Trump
-hide_title: true
 layout: game
 game_id: this-is-trump
 ---
