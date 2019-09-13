@@ -2,6 +2,7 @@
 title: Perceive n’ Deceive
 layout: game
 game_id: perceive-n-deceive
+source: site/games
 ---
 <h3>Description</h3>
 <p>The objective of Perceive n’ Deceive is to collect a set of 3 cards of the same color. There are a total of 10 cards: 9 of them have a color (Red, Blue, Green) and an action (Spy, Psychic,Thief). The Wildcard is considered to be a Spy, Psychic and Thief; however, it has no color and cannot form a set.</p>
@@ -30,4 +31,5 @@ game_id: perceive-n-deceive
 
 <h3>Background</h3>
 <p>This game was made for the course GMAP 260 (Overview of Computer Gaming) with a team of four. Without any flashy digital effects to fall back on, this was a great experience in fleshing out an interesting game design that engaged players in fun, balanced competition. We really had game theory in mind while balancing this game through playtests; as we broke down and analyzed our usual playstyles, we developed an experience that slowly unravels into a myriad of mind games based on incremental, imperfect information.</p>
-<p>It was a great exercise in developing deep, interesting game systems based on simple mechanics, a methodology we carried over to our next game in the class: Surface Tension.</p>
+<p>It was a great exercise in developing deep, interesting game systems based on simple mechanics, a methodology we carried over to our next game in the class: <a href="surface-tension.html">Surface Tension</a>.
+</p>
