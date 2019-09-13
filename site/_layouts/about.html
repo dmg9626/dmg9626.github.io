@@ -21,11 +21,18 @@ layout: default
                 <h2>I've recently enjoyed:</h2> <br>
 
                 <div class="row" id="enjoyed">
-                    <!-- game cards go here: -->
+                    <!-- read data from about.yml and generate cards -->
                     {% for item in site.data.about.recently-enjoyed %}
-                        {{item.name}}
-                        {{item.caption}}
-                        <br><br>
+                        <div class="col-md-4">
+                            <div class="card" style="width:100%">
+                                <img class="card-img-top" src="{{item.thumbnail}}" alt="Card image">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{item.name}}</h4>
+                                    <small>{{item.caption}}</small><br><br>
+                                    <a href="{{item.link}}" class="btn btn-secondary">See More</a>
+                                </div>
+                            </div>
+                        </div>
                     {% endfor %}
                     
                     <!-- Example game card: -->
@@ -47,12 +54,18 @@ layout: default
                 <!-- Currently enjoying -->
                 <h2>I'm currently enjoying:</h2> <br>
                 <div class="row" id="enjoying">
-
-                    <!-- game cards go here: -->
+                    <!-- read data from about.yml and generate cards -->
                     {% for item in site.data.about.currently-enjoying %}
-                        {{item.name}}
-                        {{item.caption}}
-                        <br><br>
+                        <div class="col-md-4">
+                            <div class="card" style="width:100%">
+                                <img class="card-img-top" src="{{item.thumbnail}}" alt="Card image">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{item.name}}</h4>
+                                    <small>{{item.caption}}</small><br><br>
+                                    <a href="{{item.link}}" class="btn btn-secondary">See More</a>
+                                </div>
+                            </div>
+                        </div>
                     {% endfor %}
                 </div>
         </div>
