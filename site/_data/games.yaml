@@ -30,12 +30,6 @@
 - name: "Surface Tension"
   id: surface-tension
   shortDescription: "A puzzle-platformer centered around manipulating surfaces"
-  description: 
-    main: 
-    1: "Surface Tension is a puzzle platform game that relies on manipulating the properties of surfaces to traverse obstacles. The player can make a surface bouncy to jump up high, or coat it in a slick sheet of ice to quickly slide across the surface. These surfaces are used to solve puzzles, like bouncing a block across a bouncy surface to get it up a ledge. Things get interesting when you use these surface types in tandem - often solutions require both speed and height. The gameplay consists of fast-paced maneuvers woven with restful periods of planning; levels challenge the player to think creatively, quickly, or even both at once."
-    Background: 
-    1: "This game was developed for the course GMAP 260 (Overview of Computer Gaming) with a team of five, including myself. It was a great experience in applying the object-oriented principles and game programming patterns I've picked up since my previous projects. The codebase we ended up with was far more structured than any of our previous projects - I really pushed to keep our code organized (flexible, scalable, reusable, and functional), finding myself rewriting sections of code multiple times. I'm very proud of the final result; even after the course ended I've found myself adding functionality and improving the code."
-    Github: "https://github.com/dmg9626/surface-tension"
   coverImage: "/images/surface-tension/cover.png"
   images: 
     - imagePath: "/images/surface-tension/screenshots/bounce.png"
@@ -49,23 +43,6 @@
 - name: "Perceive n’ Deceive"
   id: perceive-n-deceive
   shortDescription: "A tabletop game of imperfect information"
-  description: 
-    main: 
-    1: "The objective of Perceive n’ Deceive is to collect a set of 3 cards of the same color. There are a total of 10 cards: 9 of them have a color (Red, Blue, Green) and an action (Spy, Psychic,Thief). The Wildcard is considered to be a Spy, Psychic and Thief; however, it has no color and cannot form a set."
-    2: "A game is played on a board with a 3x3 grid of cards laid face down. The game is round-based, with players taking turns playing actions; who goes first is decided between players or by coin flip."
-    Goal: 
-    1: "The main goal of a round is to identify and claim a Set from the array of cards in order to win tokens (the Pot starts at 1 each round). A Set consists of a card currently in your hand and two cards on the board that are all the same color. A round ends when a Set is called; the winner claims the Pot and the players start a new round."
-    2: "The player who claims a Set receives all tokens in the Pot. The first player to reach 5 tokens wins."
-    "Playing a Turn": 
-    1: "A turn is played in 2 steps:"
-    2: "1. Without revealing your card, choose an action to use for this turn."
-    3: "2. After performing that action, place your card on the board in the open spot and pick up a different card."
-    4: "Note that you can choose to use an action different from the one on your card, but the opponent can choose to call your bluff. This is where the Wildcard shows its value: you can use it to gain any game knowledge you want without the risk of bluffing."
-    Bluffing: 
-    1: "Correctly calling an opponent's bluff (i.e. they claim to use a different action than the one on their card) results in a win, while incorrectly calling an opponent’s bluff grants them the tokens in the Pot, plus one more."
-    Background: 
-    1: "This game was made for the course GMAP 260 (Overview of Computer Gaming) with a team of four, including myself. Without any flashy digital effects, this was a great experience in fleshing out an interesting game design that engaged players in fun, balanced competition. We really had game theory in mind while balancing this game through playtests; as we broke down and analyzed our usual playstyles, we developed a game whose rounds slowly unravel into a myriad of mind games based on incremental, imperfect information."
-    2: "It was a great exercise in developing deep, interesting game systems based on simple mechanics, a methodology we carried over to our next game in the class: Surface Tension."
   coverImage: "/images/perceive-n-deceive/example board.png"
   images: 
     - imagePath: "/images/perceive-n-deceive/set.png"
