@@ -40,14 +40,20 @@ layout: default
             </div>
             <!-- Grid of game screenshots -->
             <div class="row" id="thumbnail-grid">
-            <!-- $("<div class=\"col-md-4\">" +
-                "<figure class=\"figure\">" +
-                    "<a href=\"" + imagePath + "\">" +
-                        "<img src=\"" + imagePath + "\" class=\"figure-img img-fluid rounded\">" +
-                    "</a>" +
-                    "<figcaption class=\"figure-caption\">" + caption + "</figcaption>" +
-                "</figure>" +  
-            "</div>").appendTo("#thumbnail-grid"); -->
+            {% for game in site.data.games %}
+                    {% if game.id == {{page.game_id}} %}
+                        {% for image in game.images %}
+                            <div class="col-md-4">
+                                <figure class="figure">
+                                    <a href="{{image.imagePath}}">
+                                        <img src="{{image.imagePath}}" class="figure-img img-fluid rounded">
+                                    </a>
+                                    <figcaption class="figure-caption">{{image.caption}}</figcaption>
+                                </figure>  
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+            {% endfor %}
             </div>
             
 
@@ -65,61 +71,3 @@ layout: default
           
 
         </div>
-    </body>
-
-    <script type="text/javascript">
-        // Fills divs with game data
-        function FillGameData(json) {
-            // get game data
-            var name = json["name"];
-            var description = json["description"];
-            var shortDescription = json["shortDescription"];
-            var coverImage = json["coverImage"];
-            var playable = json["playable"];
-            
-            // Fill screenshots in thumbnail-grid
-            console.log("generating screenshots");
-            GenerateScreenshots(json);
-            
-            // Fill name, short description, and cover image
-            $("#name").html("<h1>" + name + "</h1>");
-            $("#shortDescription").html("<h5> " + shortDescription + "</h5>");
-            $("#cover-image").html("<img src=\"" + coverImage + "\" class=\"rounded mx-auto d-block\">" + "<br/>");
-            
-            // Cycle through sections of description
-            for(var section in description) {
-                console.log("adding description " + section);
-
-                // Add description header (TODO: parse main section just like others)
-                if(section != "main" && section != "Github") {
-                    $("#description").append("<br><h2>" + section + "</h2>");
-                }
-                
-                // Github link
-                if(section == "Github") {
-                    $("#description").append("<h3>Github: <a href=\"" + description[section] + "\">" + description[section] + "</a></h3>");
-                    continue;
-                }
-                
-                // Create section element
-                console.log("Filling out paragraphs of section " + section + ":");
-                $("#description").append("<p>");
-                
-                // Cycle through each paragraph of section
-                for(var item in description[section]) {
-                    // Append paragraph to description
-                    var paragraph = description[section][item];
-                    $("#description").append(paragraph + "<br><br>");
-
-                    if(description[section][item] == null) {
-                        console.log("Next paragraph null: " + description[section][item]);
-                    }
-                }
-                
-                // Add horizontal rule between sections
-                $("#description").append("<hr>");
-            }
-            $("#description").append("</p>");
-            
-        }
-    </script>
