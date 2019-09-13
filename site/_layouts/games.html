@@ -8,13 +8,13 @@ layout: default
 </br><h3>My Games</h3></br>
 <div>
     <div class="row">
-        
+
         <!-- game cards go here -->
         {% for game in site.data.games %}
             <div class="col-md-4">
                 <div class="card">
                     <a href="/game?gameId=" gameId "">
-                        <img src="" class="img-rounded" style="width:100%">
+                        <img src="{{game.thumbnail}}" class="img-rounded" style="width:100%">
                     </a>
                     <div class="card-body">
                         <h4 class="card-title">{{game.name}}</h4>
