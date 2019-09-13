@@ -1,0 +1,30 @@
+---
+  recently-enjoyed:
+    - name: Metroid Prime
+      thumbnail: images/about/metroid prime.jpg
+      caption: >
+        This game does a stellar job of delivering narrative through the environment.
+      link: "https://kotaku.com/metroid-prime-the-kotaku-review-1764050288"
+
+    - name: Prey
+      thumbnail: images/about/prey.jpg
+      caption: >
+        A fantastic homage to System Shock. I've just finished the main game
+        and I'm excited to dive into the Mooncrash expansion.
+      link: "https://www.rockpapershotgun.com/2017/05/09/prey-review/"
+
+    - name: 'Ghost in the Shell: Stand Alone Complex'
+      thumbnail: images/about/ghost in the shell.jpg
+      caption: > 
+        Don't be misled by the "tactical lingerie" - it's a fantastic sci-fi
+        about sociopolitical manipulation through social media (an advanced subject
+        considering its 2002 debut).
+      link: "https://www.pcgamesn.com/ghost-in-the-shell-stand-alone-complex-first-assault-online/ghost-in-the-shell-stand-alone-complex-first-assault-online-shutting-down"
+
+  currently-enjoying:
+    - name: 'South Park: The Stick of Truth'
+      thumbnail: images/about/stick-of-truth.jpg
+      caption: >
+        I just remembered my favorite show made a game. The humour is spot on
+        with the show and I'm loving every second of it.
+      link: "https://www.rockpapershotgun.com/2016/07/18/south-park-stick-of-truth-archer-rpg/"

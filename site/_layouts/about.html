@@ -22,9 +22,9 @@ layout: default
 
                 <div class="row" id="enjoyed">
                     <!-- game cards go here: -->
-                    <!-- game cards go here: -->
-                    {% for item in site.data.about.currently-enjoying %}
-                        {{ item }}
+                    {% for item in site.data.about.recently-enjoyed %}
+                        {{item.name}}
+                        {{item.caption}}
                         <br><br>
                     {% endfor %}
                     
@@ -49,8 +49,9 @@ layout: default
                 <div class="row" id="enjoying">
 
                     <!-- game cards go here: -->
-                    {% for item in site.data.about.recently-enjoyed %}
-                        {{ item }}
+                    {% for item in site.data.about.currently-enjoying %}
+                        {{item.name}}
+                        {{item.caption}}
                         <br><br>
                     {% endfor %}
                 </div>
