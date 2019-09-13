@@ -13,7 +13,7 @@ layout: default
         {% for game in site.data.games %}
             <div class="col-md-4">
                 <div class="card">
-                    <a href="/game?gameId=" gameId "">
+                    <a href="/{{game.id}}.html" gameId "">
                         <img src="{{game.thumbnail}}" class="img-rounded" style="width:100%">
                     </a>
                     <div class="card-body">
