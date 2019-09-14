@@ -1,0 +1,13 @@
+{
+"companyName": "Spectre Studios",
+"productName": "It's Haunt Time!",
+"dataUrl": "its-haunt-time.data.unityweb",
+"wasmCodeUrl": "its-haunt-time.wasm.code.unityweb",
+"wasmFrameworkUrl": "its-haunt-time.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
