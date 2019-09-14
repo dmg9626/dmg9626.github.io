@@ -1,2 +1,4 @@
-# ignore locally served site
+# default values
 _site/
+.sass-cache
+.jekyll-metadata
