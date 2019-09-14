@@ -13,7 +13,12 @@
         <link rel="stylesheet" href="/assets/css/main.css">
 
         <!-- Cabin font -->
-        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        
+        <!-- Include additional header content if defined for this page -->
+        {% if page.header %} 
+            {% include {{page.header}} %}
+        {% endif %}
         
         <!-- Add page title if given -->
         <title>
