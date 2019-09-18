@@ -3,7 +3,7 @@
 - name: "It's Haunt Time!"
   id: its-haunt-time
   shortDescription: "A cute spook-em-up mobile game"
-  coverImage: "/images/this-is-trump/screenshots/MainMenu.png"
+  coverImage: "/images/its-haunt-time/cover.png"
   images: 
     - imagePath: "/images/this-is-trump/screenshots/RaiseAWall.png"
       caption: "Raise a Wall to keep out the Bad Hombres!"
