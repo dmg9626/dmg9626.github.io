@@ -13,6 +13,9 @@ body {
 .fit-horizontal {
   max-width: 100%;
   height: auto;
+  
+  /* This doesn't seem to be needed */
+  /* display: block;  */
 }
 
 .jumbotron h1 {
