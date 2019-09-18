@@ -3,7 +3,6 @@
 - name: "It's Haunt Time!"
   id: its-haunt-time
   shortDescription: "A cute spook-em-up puzzle game for mobile devices"
-  coverImage: "/images/its-haunt-time/cover.png"
   images: 
     - imagePath: "/images/its-haunt-time/gifs/unplug.gif"
       caption: "Solve puzzles!"

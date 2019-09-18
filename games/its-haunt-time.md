@@ -2,6 +2,7 @@
 title: It's Haunt Time!
 layout: game
 game_id: its-haunt-time
+youtube: "https://www.youtube-nocookie.com/embed/MMdxku52qpM"
 playable: true
 ---
 <h3>Description</h3>
