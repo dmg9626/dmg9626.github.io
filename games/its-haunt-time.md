@@ -15,7 +15,8 @@ playable: true
 
 <p>One of the biggest challenges in this game was designing intuitive mechanics and interactions for the player. We strived to avoid falling back on tutorials to direct the player; instead, we wanted the gameplay to teach the player how to play.</p>
 
+<p><a href="https://sites.google.com/view/itshaunttime/">Visit our webpage</a> for more information, including development blogs from the team.</p>
+
 <hr>
 
-<h4><a href="https://sites.google.com/view/itshaunttime/">Website</a></h4>
 <h4><a href="https://github.com/rushweigelt/itsHauntTime">Github Repo</a></h4>
