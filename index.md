@@ -6,4 +6,6 @@ layout: games
 ---
 
 
+<p style="font-size:20px; margin-top:40px;">
 I make the games I like to play.
+</p>
