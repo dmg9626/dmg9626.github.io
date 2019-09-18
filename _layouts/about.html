@@ -18,9 +18,8 @@ layout: default
 
                 <!-- Recently enjoyed -->
                 <h2>I've recently enjoyed:</h2> <br>
-
-                <div class="row" id="enjoyed">
-                    <!-- read data from about.yml and generate cards -->
+                <div class="row">
+                    <!-- generate cards from about.yml -->
                     {% for item in site.data.about.recently-enjoyed %}
                         <div class="col-md-4">
                             <div class="card" style="width:100%">
@@ -38,8 +37,8 @@ layout: default
                 
                 <!-- Currently enjoying -->
                 <h2>I'm currently enjoying:</h2> <br>
-                <div class="row" id="enjoying">
-                    <!-- read data from about.yml and generate cards -->
+                <div class="row">
+                    <!-- generate cards from about.yml -->
                     {% for item in site.data.about.currently-enjoying %}
                         <div class="col-md-4">
                             <div class="card" style="width:100%">

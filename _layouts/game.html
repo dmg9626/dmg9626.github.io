@@ -11,8 +11,8 @@ layout: default
     <div class="jumbotron horizontal-center bg-transparent">
         <div class="row">
             <div class="col-xs-12">
-                <h1 id="name">{{game.name}}</h1>
-                <h3 id="shortDescription">{{game.shortDescription}}</h3>
+                <h1>{{game.name}}</h1>
+                <h3>{{game.shortDescription}}</h3>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@ layout: default
 
     <!-- link to playable game -->
     {% if page.playable %}
-        <div class="row text-center" id="game-link">
+        <div class="row text-center">
             <div class="col-md-12">
                 <a href="/games/play/{{game.id}}/">
                     <button type="button" class="btn btn-primary btn-lg">Play game here!</button>
@@ -47,7 +47,7 @@ layout: default
         </div>
     </div>
     <!-- Grid of game screenshots -->
-    <div class="row" id="thumbnail-grid">
+    <div class="row">
         {% for image in game.images %}
             <div class="col-md-4">
                 <figure class="figure">
@@ -65,7 +65,7 @@ layout: default
     <div class="game-description">
         <br>
         <div class="jumbotron">
-            <div  id="description">
+            <div>
                 <!-- Page content goes here -->
                 {{ content }}
             </div>
