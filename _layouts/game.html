@@ -21,13 +21,24 @@ layout: default
 <!-- page body -->
 <div class="container">
 
-    <!-- cover image of game -->
-    <div class="row">
-        <img src="{{game.coverImage}}" class="fit-horizontal rounded mx-auto">
+    <!-- cover image -->
+    {% if game.coverImage %}
+        <div class="row">
+            <img src="{{game.coverImage}}" class="fit-horizontal rounded mx-auto">
+        </div>
         <br/>
-    </div>
-    <br/>
+    {% endif %}
 
+    <!-- youtube video embed -->
+    {% if page.youtube %}
+        <div class="row">
+            <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MMdxku52qpM" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <br/>
+    {% endif %}
+    
     <!-- link to playable game -->
     {% if page.playable %}
         <div class="row text-center">

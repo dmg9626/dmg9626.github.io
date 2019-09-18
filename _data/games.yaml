@@ -2,13 +2,12 @@
 
 - name: "It's Haunt Time!"
   id: its-haunt-time
-  shortDescription: "A cute spook-em-up mobile game"
-  coverImage: "/images/its-haunt-time/cover.png"
+  shortDescription: "A cute spook-em-up puzzle game for mobile devices"
   images: 
-    - imagePath: "/images/this-is-trump/screenshots/RaiseAWall.png"
-      caption: "Raise a Wall to keep out the Bad Hombres!"
-    - imagePath: "/images/this-is-trump/screenshots/ThrowTweets.png"
-      caption: "Throw Tweets to discredit the Biased Liberal Media!"
+    - imagePath: "/images/its-haunt-time/gifs/unplug.gif"
+      caption: "Solve puzzles!"
+    - imagePath: "/images/its-haunt-time/gifs/cat.gif"
+      caption: "Interact with the environment!"
   thumbnail: "/images/its-haunt-time/thumbnail.png"
 
 - name: "This Is Trump"
