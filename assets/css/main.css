@@ -9,10 +9,10 @@ body {
   }
 }
 
-.jumbotron {
-  /* bootstrap 3.3.7 CSS */
-  /* background-color: #ebedf1; */
-  /* background-size: cover; */
+/* Scale content to fit container width */
+.fit-horizontal {
+  max-width: 100%;
+  height: auto;
 }
 
 .jumbotron h1 {
