@@ -16,4 +16,5 @@ playable: true
 
 <hr>
 
+<h4><a href="https://sites.google.com/view/itshaunttime/">Website</a></h4>
 <h4><a href="https://github.com/rushweigelt/itsHauntTime">Github Repo</a></h4>
