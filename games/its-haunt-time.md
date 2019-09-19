@@ -11,7 +11,7 @@ playable: true
 <hr>
 
 <h3>Background</h3>
-<p>This game was developed in our Games Workshop class as a vertical-slice prototype, with more levels/features planned for the future.</p> 
+<p>This game was developed in our Games Workshop I class as a vertical-slice prototype, with more levels/features planned for the future.</p> 
 
 <p>As lead programmer, I created a flexible system for scripting the interactable objects in the game, as well as setting up the Unity -> Android/WebGL build pipeline and touch controls. I applied what I learned about software design patterns and ended up developing a very clean, robust codebase that I'd consider using in future projects.</p>
 
