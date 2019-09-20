@@ -6,18 +6,18 @@ youtube: "https://www.youtube-nocookie.com/embed/Q0JVphhA64c"
 ---
 <h3>Description</h3>
 <p>
-The Holy Grail has been shattered into mere fragments, breaking an ancient seal and unleashing minions of hell! Each fragment has reformed into its own grail, manifesting the Holy Grail's true power with various abilities. The Everfrost Grail lets you throw ice spears at your enemies, while the Mech Grail shoots a wide spread of gears.
+The Holy Grail has been shattered into mere fragments, breaking an ancient seal and unleashing minions of hell! Each fragment has reformed into its own grail, manifesting a sliver of the Holy Grail's true power with various abilities. For example, the Everfrost Grail lets you throw ice spears, while the Mech Grail shoots a wide spread of gears at your enemies.
 </p>
 
 <p>
-You'll need these grails to contend with a variety of fearsome foes. The Hellbat darts around the room and spits fireballs, while the Taurush charges at you head-on with a stun attack. Choose your grails wisely, as no playthrough is quite the same: explore a randomly-generated dungeon to assemble the shattered Holy Grail!
+You'll need these grails to contend with a variety of fearsome foes. The Hellbat darts around the room and spits fireballs, while the Taurush charges at you head-on with a stun attack. Choose your grails wisely, as no playthrough is quite the same. Explore a randomly-generated dungeon and gather all fragments to assemble the shattered Holy Grail!
 </p>
 
 <hr>
 
 <h3>Background</h3>
 <p>
-This game was developed in our Games Workshop II class as a moderately fleshed out game prototype.
+This game was developed in my Games Workshop II class as a moderately fleshed out game prototype.
 </p> 
 
 <p>
@@ -25,22 +25,20 @@ After being lead programmer for our last project, <a href="its-haunt-time">Its H
 </p>
 
 <p>
-I made sure to leverage any useful programming patterns I'd learned in Software Design. I'm not sure if it strictly followed any established design pattern, but it seems to make use of the Template and Strategy Patterns.
+I strived to make my tools easy to use for my teammates (both coders and designers). I also made sure to leverage any useful programming patterns I'd learned in Software Design. I'm not sure if it strictly followed any established design pattern, but it seems to make use of the Template and Strategy Patterns.
 </p>
 
 <p>
-Working on this project led me to discover how much I love AI programming. I dove into a dusty textbook<sup>1</sup> in the Computer Science building, <a href="https://www.amazon.com/Artificial-Intelligence-Games-Ian-Millington/dp/0123747317">Artificial Intelligence for Games</a>, and learned about ways to develop various intelligent behaviors like crowd simulation, collision avoidance, and decision trees. I recognized many techniques as things I'd discovered on my own (obviously more refined by the writers), and learned much more about behaviors I couldn't imagine designing on my own. Through reading and experimentation, the biggest lesson in AI programming I learned is that complex behaviors are best designed as a combinationation of simpler behaviors.
+Working on this project led me to discover how much I love AI programming! I dove into a dusty textbook I'd "borrowed" from the Computer Science building, <a href="https://www.amazon.com/Artificial-Intelligence-Games-Ian-Millington/dp/0123747317">Artificial Intelligence for Games</a>, and learned clever ways to develop various intelligent behaviors like crowd simulation, collision avoidance, and decision trees. I recognized a few techniques as things I'd discovered on my own (obviously more refined by the writers), as well as those I couldn't imagine designing on my own.
 </p>
 
+<p>
+Through reading and experimentation, the biggest lesson I learned in AI programming is that complex behaviors are best designed as a combinationation of simpler behaviors. As with programming in general, break down the problem into trivial steps to find your solution.
+</p>
 
 
 <p><a href="https://makhodash.wixsite.com/holytester/">Visit our webpage</a> for more information, including development blogs from the team.</p>
 
-
-<p>
-<i><sup>1</sup>
-Ok it wasn't actually dusty but it makes for a better story</i>
-</p>
 
 <hr>
 
