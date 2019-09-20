@@ -2,7 +2,7 @@
 
 - name: "Holy Tester"
   id: holy-tester
-  shortDescription: "A cute spook-em-up puzzle game for mobile devices"
+  shortDescription: "A procedurally-generated roguelike dungeon crawler"
   thumbnail: "/assets/images/games/holy-tester/thumbnail.png"
 
 - name: "It's Haunt Time!"

@@ -6,16 +6,24 @@ youtube: "https://www.youtube-nocookie.com/embed/Q0JVphhA64c"
 playable: true
 ---
 <h3>Description</h3>
-<p>test</p>
+<p>
+The Holy Grail has been shattered into mere fragments, breaking an ancient seal and unleashing minions of hell! Each fragment has reformed into its own grail, manifesting the Holy Grail's true power with various abilities. The Everfrost Grail lets you throw ice spears at your enemies, while the Mech Grail shoots a wide spread of gears.
+</p>
+
+<p>
+You'll need these grails to contend with a variety of fearsome foes. The Hellbat darts around the room and spits fireballs, while the Taurush charges at you head-on with a stun attack. Choose your grails wisely, as no playthrough is quite the same: explore a randomly-generated dungeon to assemble the shattered Holy Grail!
+</p>
 
 <hr>
 
 <h3>Background</h3>
-<p>This game was developed in our Games Workshop II class as a vertical-slice prototype, with more levels/features planned for the future.</p> 
+<p>
+This game was developed in our Games Workshop II class as a moderately fleshed out game prototype.
+</p> 
 
-<p>As lead programmer, I created a flexible system for scripting the interactable objects in the game, as well as setting up the Unity -> Android/WebGL build pipeline and touch controls. I applied what I learned about software design patterns and ended up developing a very clean, robust codebase that I'd consider using in future projects.</p>
+<p>
 
-<p>One of the biggest challenges we faced was making the game mechanics feel intuitive to the player. We strived to avoid falling back on tutorials to direct the player; our goal was to let the gameplay teach the player.</p>
+</p>
 
 <p><a href="https://makhodash.wixsite.com/holytester/">Visit our webpage</a> for more information, including development blogs from the team.</p>
 
