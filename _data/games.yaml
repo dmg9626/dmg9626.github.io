@@ -15,18 +15,6 @@
       caption: "Interact with the environment!"
   thumbnail: "/assets/images/games/its-haunt-time/thumbnail.png"
 
-- name: "This Is Trump"
-  id: this-is-trump
-  shortDescription: "An interactive Donald Trump experience"
-  coverImage: "/assets/images/games/this-is-trump/screenshots/MainMenu.png"
-  images: 
-    - imagePath: "/assets/images/games/this-is-trump/screenshots/RaiseAWall.png"
-      caption: "Raise a Wall to keep out the Bad Hombres!"
-    - imagePath: "/assets/images/games/this-is-trump/screenshots/ThrowTweets.png"
-      caption: "Throw Tweets to discredit the Biased Liberal Media!"
-  thumbnail: "/assets/images/games/this-is-trump/TrumpHead.png"
-
-
 - name: "Surface Tension"
   id: surface-tension
   shortDescription: "A puzzle-platformer centered around manipulating surfaces"
@@ -52,3 +40,14 @@
     - imagePath: "/assets/images/games/perceive-n-deceive/cards.png"
       caption: "There are 3 blue, green, and red cards that can form a set or perform actions to gain board knowledge. The wildcard can perform any action, but cannot be used to form a set"
   thumbnail: "/assets/images/games/perceive-n-deceive/thumbnail.png"
+
+- name: "This Is Trump"
+  id: this-is-trump
+  shortDescription: "An interactive Donald Trump experience"
+  coverImage: "/assets/images/games/this-is-trump/screenshots/MainMenu.png"
+  images: 
+    - imagePath: "/assets/images/games/this-is-trump/screenshots/RaiseAWall.png"
+      caption: "Raise a Wall to keep out the Bad Hombres!"
+    - imagePath: "/assets/images/games/this-is-trump/screenshots/ThrowTweets.png"
+      caption: "Throw Tweets to discredit the Biased Liberal Media!"
+  thumbnail: "/assets/images/games/this-is-trump/TrumpHead.png"
