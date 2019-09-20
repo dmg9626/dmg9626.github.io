@@ -29,12 +29,18 @@ I made sure to leverage any useful programming patterns I'd learned in Software 
 </p>
 
 <p>
-Working on this project led me to discover how much I love AI programming. I dove into a dusty textbook in the Computer Science building, <a href="https://www.amazon.com/Artificial-Intelligence-Games-Ian-Millington/dp/0123747317">Artificial Intelligence for Games</a>, and learned about all kinds of ways to develop intelligent behaviors. I recognized many techniques as things I'd discovered on my own (obviously more refined by the writers), and learned much more about behaviors I couldn't imagine designing on my own. Through reading and experimentation, the biggest lesson in AI programming I learned is that complex behaviors are best designed as a combinationation of simpler behaviors.
+Working on this project led me to discover how much I love AI programming. I dove into a dusty textbook<sup>1</sup> in the Computer Science building, <a href="https://www.amazon.com/Artificial-Intelligence-Games-Ian-Millington/dp/0123747317">Artificial Intelligence for Games</a>, and learned about ways to develop various intelligent behaviors like crowd simulation, collision avoidance, and decision trees. I recognized many techniques as things I'd discovered on my own (obviously more refined by the writers), and learned much more about behaviors I couldn't imagine designing on my own. Through reading and experimentation, the biggest lesson in AI programming I learned is that complex behaviors are best designed as a combinationation of simpler behaviors.
 </p>
 
 
 
 <p><a href="https://makhodash.wixsite.com/holytester/">Visit our webpage</a> for more information, including development blogs from the team.</p>
+
+
+<p>
+<i><sup>1</sup>
+Ok it wasn't actually dusty but it makes for a better story</i>
+</p>
 
 <hr>
 
