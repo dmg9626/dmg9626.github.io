@@ -21,7 +21,7 @@ This game was developed in our Games Workshop II class as a moderately fleshed o
 </p> 
 
 <p>
-After being lead programmer for our last project, <a href="its-haunt-time/">Its Haunt Time!</a>, I was happy to let someone else lead for this game. I focused on the enemy AI programming and developed a robust Tactic system that gave each enemy unique behaviors. This allowed me to design enemies using the same basic components for movement/attacking, while giving them Tactics that delegated instructions to those components.
+After being lead programmer for our last project, <a href="its-haunt-time">Its Haunt Time!</a>, I was happy to let someone else lead for this game. I focused on the enemy AI programming and developed a robust Tactic system that gave each enemy unique behaviors. This allowed me to design enemies using the same basic components for movement/attacking, while giving them Tactics that delegated instructions to those components.
 </p>
 
 <p>

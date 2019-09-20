@@ -31,5 +31,5 @@ source: site/games
 
 <h3>Background</h3>
 <p>This game was made for the course GMAP 260 (Overview of Computer Gaming) with a team of four. Without any flashy digital effects to fall back on, this was a great experience in fleshing out an interesting game design that engaged players in fun, balanced competition. We really had game theory in mind while balancing this game through playtests; as we broke down and analyzed our usual playstyles, we developed an experience that slowly unravels into a myriad of mind games based on incremental, imperfect information.</p>
-<p>It was a great exercise in developing deep, interesting game systems based on simple mechanics, a methodology we carried over to our next game in the class: <a href="surface-tension.html">Surface Tension</a>.
+<p>It was a great exercise in developing deep, interesting game systems based on simple mechanics, a methodology we carried over to our next game in the class: <a href="surface-tension">Surface Tension</a>.
 </p>
