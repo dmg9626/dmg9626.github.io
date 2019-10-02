@@ -11,10 +11,11 @@ layout: default
 
 <hr>
 
+<!-- Add cover image if given -->
 {% if page.coverImage %}
     {% assign coverImage = page.coverImage %}
     {% include cover_image.html %}
 {% endif %}
 
-
+<!-- Post body goes here -->
 {{ content }}
