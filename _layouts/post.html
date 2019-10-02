@@ -11,5 +11,10 @@ layout: default
 
 <hr>
 
+{% if page.coverImage %}
+    {% assign coverImage = page.coverImage %}
+    {% include cover_image.html %}
+{% endif %}
+
 
 {{ content }}

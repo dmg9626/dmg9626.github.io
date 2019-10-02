@@ -23,10 +23,8 @@ layout: default
 
     <!-- cover image -->
     {% if game.coverImage %}
-        <div class="row">
-            <img src="{{game.coverImage}}" class="fit-horizontal rounded mx-auto">
-        </div>
-        <br/>
+        {% assign coverImage = game.coverImage %}
+        {% include cover_image.html %}
     {% endif %}
 
     <!-- youtube video embed -->
