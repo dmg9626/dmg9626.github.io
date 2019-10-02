@@ -1,10 +1,10 @@
 ---
 
-- name: "Title of my blog post"
-  id: post
-  subtitle: "This is text that would be the subtitle."
-  thumbnail: "/assets/images/games/holy-tester/thumbnail.png"
+# - name: "Title of my blog post"
+#   id: post
+#   subtitle: "This is text that would be the subtitle."
+#   thumbnail: "/assets/images/games/holy-tester/thumbnail.png"
 
-- name: "Post 2"
-  id: post2
-  subtitle: "This is text that would be the 2nd subtitle."
+# - name: "Post 2"
+#   id: post2
+#   subtitle: "This is text that would be the 2nd subtitle."
