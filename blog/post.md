@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-category: test
+title:  "Title of my blog post"
+subtitle: "This is text that would be the subtitle."
+category: blog
 ---
 
 **Hello world**, this is my first Jekyll blog post.
