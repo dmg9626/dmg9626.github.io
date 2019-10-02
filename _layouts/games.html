@@ -9,20 +9,22 @@ layout: default
 <div>
     <div class="row">
 
-        <!-- game cards go here -->
-        {% for game in site.data.games %}
-            <div class="col-md-4" style="margin:10px 0px;">
-                <div class="card">
-                    <a href="/games/{{game.id}}">
-                        <img src="{{game.thumbnail}}" class="img-rounded" style="width:100%">
+            {% for game in site.data.games %}
+                <div class="col-md-4" style="margin:10px 0px;">
+                    <a href="/games/{{game.id}}" style="text-decoration: none; color: black">
+                        <div class="card">
+                            {% if game.thumbnail %}
+                                <img src="{{game.thumbnail}}" class="img-rounded" style="width:100%">
+                            {% endif %}
+                            
+                            <div class="card-body">
+                                <h4 class="card-title">{{game.name}}</h4>
+                                <p class="card-text">{{game.shortDescription}}</p>
+                            </div>
+                        </div>
                     </a>
-                    <div class="card-body">
-                        <h4 class="card-title">{{game.name}}</h4>
-                        <p class="card-text">{{game.shortDescription}}</p>
-                    </div>
                 </div>
-            </div>
-        {% endfor %}
-
-    </div>
+            {% endfor %}
+    
+        </div>
 </div>
