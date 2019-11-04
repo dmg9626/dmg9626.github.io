@@ -2,12 +2,20 @@
 layout: default
 ---
 
+<!-- Select first post with matching ID -->
+{% assign post_match = site.data.posts | where: "id", page.post_id | limit: 1 %}
+{% assign post = post_match.first %}
 
 <h1 class="post-title">{{ page.title }}</h1>
 
 {% if page.subtitle %}
-    <h5 style="padding: 0px 0px 0px 10px">{{ page.subtitle }}</h5>
+    <h5>{{ page.subtitle }}</h5>
 {% endif %}
+
+{% if post.date %}
+    <h6><i>{{ post.date }}</i></h6>
+{% endif %}
+
 
 <hr>
 
