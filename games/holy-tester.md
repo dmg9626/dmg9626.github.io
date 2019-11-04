@@ -21,11 +21,11 @@ This game was developed in my Games Workshop II class as a moderately fleshed ou
 </p> 
 
 <p>
-After being lead programmer for our last project, <a href="its-haunt-time">Its Haunt Time!</a>, I was happy to let someone else lead for this game. I focused on the enemy AI programming and developed a robust Tactic system that gave each enemy unique behaviors. This allowed me to design enemies using the same basic components for movement/attacking, while giving them Tactics that delegated instructions to those components.
+After being lead programmer for our last project, <a href="its-haunt-time">Its Haunt Time!</a>, I was happy to let someone else lead for this game. I focused on the enemy AI programming and developed a robust Enemy Tactic System that gave each enemy unique behaviors. This allowed me to design enemies using the same basic components for movement/attacking, while giving them Tactics that delegated instructions to those components.
 </p>
 
 <p>
-I strived to make my tools easy to use for my teammates (both coders and designers). I also made sure to leverage any useful programming patterns I'd learned in Software Design. I'm not sure if it strictly followed any established design pattern, but it seems to make use of the Template and Strategy Patterns.
+I strived to make my tools easy to use for my teammates (both coders and designers). I also made sure to leverage any useful programming patterns I'd learned in Software Design. I'm not sure if my Tactic system strictly followed any established design pattern, but it seems to make use of the Template and Strategy Patterns.
 </p>
 
 <p>
@@ -43,3 +43,4 @@ Through reading and experimentation, the biggest lesson I learned in AI programm
 <hr>
 
 <h4><a href="https://gitlab.com/yunatatski/holy-tester-backup">Gitlab Repo</a></h4>
+<h4><a href="https://makhodash.wixsite.com/holytester/blog/search/graham">Development Blog</a></h4>
