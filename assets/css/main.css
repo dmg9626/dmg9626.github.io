@@ -1,3 +1,6 @@
+/* Import Rouge code block stylesheet */
+@import url(code-style_github.css);
+
 body {
   /* bootstrap 3.3.7 CSS */
   /* background-color: #FFFFFF; */
