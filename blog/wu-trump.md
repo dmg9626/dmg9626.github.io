@@ -21,25 +21,21 @@ I was sitting on the couch one day listening to Wu-Tang Clan and it hit me: I sh
 
 Ok I'm not exactly sure how the idea came to be, but it was something like that. This was a wacky side-project that drew on my experiences in previous classes. A few years ago in Advanced Programming Techniques, we learned how to develop a Markov Chain that reads in a bunch of sample text, constructs a rudimentary language syntax, and generates simple (usually nonsensical) sentences. Later on I took Web and Mobile Development, where we learned to leverage REST APIs and make simple GET/POST requests.
 
-I started by finding a simple open-source Markov Chain implementation in Python, [Markovify](https://github.com/jsvine/markovify). It let me control stuff like sentence length, so I could ensure the tweets generated wouldn't exceed Twitter's 280 character limit. If you're interested in learning more about the algorithm, check out [this article](https://drmysterian.com/how-to-code-a-python-markov-chain-text-generator/); I read it before starting this project, and it was helpful to see how it works in depth. 
+For this project I used a simple open-source Markov Chain implementation in Python, [Markovify](https://github.com/jsvine/markovify). It let me control stuff like sentence length, so I could ensure the tweets generated wouldn't exceed Twitter's 280 character limit. If you're interested in learning more about the algorithm, check out [this article](https://drmysterian.com/how-to-code-a-python-markov-chain-text-generator/); I read it before starting this project, and it was helpful to see how it works in depth. 
 
 I tested it out by feeding it some Wu-Tang; the lyrics from each song on Enter The 36 Chambers were easy to find on Genius.com. I had to clean up/cut a bit of the text in the lyrics text files, as RZA threw in lots of random conversational bits and Genius added a bunch of annotations.
 
-
-<!-- ![My helpful screenshot](/assets/images/blog/wu-trump/raw_lyrics.png) -->
-
 <!-- Lyrics before/after cleaning up -->
 <div class="row text-center">
-    <img src="/assets/images/blog/wu-trump/raw_lyrics.png" class="text-center" width="50%">
-    <img src="/assets/images/blog/wu-trump/cleaned_up_lyrics.png" class="text-center" width="50%">
+    <img src="/assets/images/blog/wu-trump/raw_lyrics.png" class="blog text-center" width="50%">
+    <img src="/assets/images/blog/wu-trump/cleaned_up_lyrics.png" class="blog text-center" width="50%">
 </div>
 
 
 After cleaning up the input, I was able to start generating some Wu-Tang lyrics:
 
 <!-- Image of generated Wu-Tang tweets -->
-<img src="/assets/images/blog/wu-trump/generated_lyrics.png" class="text-center" width="75%">
-<br>
+<img src="/assets/images/blog/wu-trump/generated_lyrics.png" class="blog text-center" width="75%">
 
 Not my goal, but an enjoyable milestone.
 
@@ -79,10 +75,10 @@ f.close()
 ```
 
 <!-- Image of fetching tweets -->
-<img src="/assets/images/blog/wu-trump/fetching_tweets.png" class="text-center" width="75%">
+<img src="/assets/images/blog/wu-trump/fetching_tweets.png" class="blog text-center" width="75%">
 
 
-Then all I had to do was write a simple script that read in all the text from the Wu-Tang lyrics files and the Trump tweets file.
+Then all I had to do was write a simple script that fed all the Wu-Tang lyrics and Trump tweets into Markovify and generated sentences for tweets:
 
 
 <!-- CODE BLOCK -->
@@ -105,11 +101,9 @@ for i in range(10):
 
 
 Running this spits out a handful of sentences generated from both text sources.
-<br>
 
 <!-- Image of generated tweets -->
-<img src="/assets/images/blog/wu-trump/generated_tweets.png" class="text-center" width="100%">
-
+<img src="/assets/images/blog/wu-trump/generated_tweets.png" class="blog text-center" width="100%">
 
 
 You can see that all of them are essentially gibberish sentences, and some clearly draw more from the Wu-Tang text from the Trump tweets (and visa versa for others). There's also a very neat unintended side-effect of this program though: some sentences include hashtage and even quote-tweets used in Donald's tweets. Twitter seems to handle these elements of tweets as raw text in the tweet body, which get represented as embedded conetent when viewed on Twitter. I didn't expect this to happen at all, but it was really entertaining to see some of these tweets be targeted at random accounts from Donald's tweets.

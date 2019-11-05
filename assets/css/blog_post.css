@@ -1,0 +1,14 @@
+/* Add top-padding to the title */
+.post-title {
+    padding: 15px 0px
+}
+
+/* Add padding around the embedded tweets */
+.twitter-tweet {
+    padding: 15px 0px
+}
+
+/* Image padding */
+img.blog {
+    padding: 15px 
+}
