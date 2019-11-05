@@ -12,6 +12,10 @@ layout: default
     <h5>{{ page.subtitle }}</h5>
 {% endif %}
 
+{% if page.link %}
+    Link: <a href={{page.link}}/>{{page.link}}</a>
+{% endif %}
+
 {% if post.date %}
     <h6><i>{{ post.date }}</i></h6>
 {% endif %}
