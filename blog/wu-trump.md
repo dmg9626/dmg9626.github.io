@@ -122,3 +122,6 @@ This was a fun project to work on outside of my work at Night Kitchen. My friend
 
 <blockquote class="twitter-tweet tw-align-center" data-dnt="true">
 <p lang="en" dir="ltr">THANK YOU you Dallas, Texas - I love gats, if rap was a gun, you wouldn&#39;t bust back</p>&mdash; donald trump tweets mixed with wu tang lyrics (@wutrump) <a href="https://twitter.com/wutrump/status/1191577561186361344">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- <h4><a href="https://github.com/dmg9626/Wu-Trump">Github Repo</a></h4> -->
+Check out the <a href="https://github.com/dmg9626/Wu-Trump">Github repository</a> here.
