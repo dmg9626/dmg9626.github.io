@@ -9,8 +9,8 @@
 #   id: post2
 #   subtitle: "This is text that would be the 2nd subtitle."
 
-- name: "Wu-Trump: Make America Swarm Again"
+- name: "Dev Blog 1: Wu-Trump"
   id: wu-trump
-  subtitle: "A twitter bot that generates tweets based on Wu-Tang lyrics and Donald Trump's tweets."
+  subtitle: "Make America Swarm Again"
   thumbnail: "/assets/images/blog/wu-trump/thumbnail.png"
   date: "11/4/19"

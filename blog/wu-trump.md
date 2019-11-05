@@ -10,7 +10,7 @@ post_id: wu-trump
 ***Foreword:** This is not any sort of endorsement for President Trump. I know I have two Trump-related things on my site now (see: 
 [This Is Trump](/games/this-is-trump)): he's an easy target and apparently a great source of inspiration for side projects.*
 
-I was sitting on the couch one day listening to Wu-Tang Clan and it hit me: I should write a bot that reads in Wu-Tang lyrics and Donald Trump's tweets and generates its own tweets based off the two!
+I was sitting on the couch one day listening to Wu-Tang Clan and it hit me: I should write a Twitter bot that reads in Wu-Tang lyrics and Donald Trump's tweets and generates its own tweets based off the two!
 
 <blockquote class="twitter-tweet tw-align-center" data-dnt="true">
 <p lang="en" dir="ltr">Nancy Pelosi and the fat ass, Wanna get on it like a eighteen wheeler</p>&mdash; donald trump tweets mixed with wu tang lyrics (@wutrump) <a href="https://twitter.com/wutrump/status/1182816805208784896">October 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
