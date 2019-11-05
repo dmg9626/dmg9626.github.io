@@ -10,7 +10,7 @@ post_id: wu-trump
 ***Foreword:** This is not any sort of endorsement for President Trump. I know I have two Trump-related things on my site now (see: 
 [This Is Trump](/games/this-is-trump)): he's an easy target and apparently a great source of inspiration for side projects.*
 
-I was sitting on the couch one day listening to Wu-Tang Clan and it hit me: I should write a bot that reads in Wu-Tang lyrics and Donald Trump's tweets, creates it's own "language" based on the two, and generates tweets!
+I was sitting on the couch one day listening to Wu-Tang Clan and it hit me: I should write a bot that reads in Wu-Tang lyrics and Donald Trump's tweets and generates its own tweets based off the two!
 
 <blockquote class="twitter-tweet tw-align-center" data-dnt="true">
 <p lang="en" dir="ltr">Nancy Pelosi and the fat ass, Wanna get on it like a eighteen wheeler</p>&mdash; donald trump tweets mixed with wu tang lyrics (@wutrump) <a href="https://twitter.com/wutrump/status/1182816805208784896">October 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -19,7 +19,9 @@ I was sitting on the couch one day listening to Wu-Tang Clan and it hit me: I sh
 <p lang="en" dir="ltr">Money over bimbos, that&#39;s what we are MAKING AMERICA GREAT AGAIN! Erupts your brain from the Brooklyn Zoo!<br><br>John will be interviewed by Jeanine Pirro at 9:00 P.M. on <a href="https://twitter.com/FoxNews">@FoxNews</a> at 2:00 P.M. and 7:00 P.M.</p>&mdash; donald trump tweets mixed with wu tang lyrics (@wutrump) <a href="https://twitter.com/wutrump/status/1094695081355952129">February 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-Ok I'm not exactly sure how the idea came to be, but it was something like that. This was a wacky side-project that drew on my experiences in previous classes. A few years ago in Advanced Programming Techniques, we learned how to develop a Markov Chain that reads in a bunch of sample text, constructs a rudimentary language syntax, and generates simple (usually nonsensical) sentences. Later on I took Web and Mobile Development, where we learned to leverage REST APIs and make simple GET/POST requests.
+Ok I don't remember exactly how the idea came to be, but it was something like that. 
+
+This was a wacky side-project that drew on my experiences in previous classes. A few years ago in Advanced Programming Techniques, we learned how to develop a Markov Chain that reads in a bunch of sample text, constructs a rudimentary language syntax, and generates simple (usually nonsensical) sentences. Later on I took Web and Mobile Development, where we learned to leverage REST APIs and make simple GET/POST requests.
 
 For this project I used a simple open-source Markov Chain implementation in Python, [Markovify](https://github.com/jsvine/markovify). It let me control stuff like sentence length, so I could ensure the tweets generated wouldn't exceed Twitter's 280 character limit. If you're interested in learning more about the algorithm, check out [this article](https://drmysterian.com/how-to-code-a-python-markov-chain-text-generator/); I read it before starting this project, and it was helpful to see how it works in depth. 
 
@@ -116,7 +118,7 @@ Unfortunately I couldn't find a reliable way to automate the process of turning 
 <blockquote class="twitter-tweet tw-align-center" data-dnt="true">
 <p lang="en" dir="ltr">The only &quot;Collusion&quot; is that the President was a nigga who try to run game on a nigga</p>&mdash; donald trump tweets mixed with wu tang lyrics (@wutrump) <a href="https://twitter.com/wutrump/status/1100873637958160385">February 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-This was a fun project to work on outside of my work at Night Kitchen. My friends, coworkers, and even professors really enjoyed it! The professor who teaches the class where I learned the Markov Chain asked me to share it with his students him as motivation for that assignment. I'm glad I could use what I learned in class to make something fun and cool with swear words and computer science.
+This was a fun project to work on outside of my work at Night Kitchen. My friends, coworkers, and even professors really enjoyed it! In fact, the professor who teaches the class where I learned this stuff asked to share it with his students as motivation for the Markov Chain assignment. I'm glad I could use what I've learned to make something fun and cool with swear words and computer science.
 
 <blockquote class="twitter-tweet tw-align-center" data-dnt="true">
 <p lang="en" dir="ltr">THANK YOU you Dallas, Texas - I love gats, if rap was a gun, you wouldn&#39;t bust back</p>&mdash; donald trump tweets mixed with wu tang lyrics (@wutrump) <a href="https://twitter.com/wutrump/status/1191577561186361344">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
