@@ -2,10 +2,13 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Home
-layout: games
+layout: default
 ---
 
+<!-- My Games -->
+{% include games.html %}
 
-<p style="font-size:20px; margin-top:40px;">
-I make the games I like to play.
-</p>
+<hr>
+
+<!-- My Posts -->
+{% include posts.html %}

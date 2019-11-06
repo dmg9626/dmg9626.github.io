@@ -1,8 +1,7 @@
 ---
-layout: posts
+layout: default
 title: "Blog"
 ---
 
-<p style="font-size:20px; margin-top:40px;">
-Sometimes I write things too!
-</p>
+<!-- My Posts -->
+{% include posts.html %}
