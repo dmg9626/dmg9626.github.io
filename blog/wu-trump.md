@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Dev Blog 1: Wu-Trump"
-subtitle: "Make America Swarm Again"
 # coverImage: "/assets/images/games/surface-tension/cover.png"
 category: blog
 post_id: wu-trump
