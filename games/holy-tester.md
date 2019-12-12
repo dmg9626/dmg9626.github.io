@@ -33,7 +33,7 @@ Working on this project led me to discover how much I love AI programming! I dov
 </p>
 
 <p>
-Through reading and experimentation, the biggest lesson I learned in AI programming is that complex behaviors are best designed as a combinationation of simpler behaviors. As with programming in general, break down the problem into trivial steps to find your solution.
+Through reading and experimentation, the biggest lesson I learned in AI programming is that complex behaviors are best designed by combining simpler behaviors. As with programming in general, break down the problem into trivial steps to find your solution.
 </p>
 
 
