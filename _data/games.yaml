@@ -2,11 +2,13 @@
 
 - name: "Holy Tester"
   id: holy-tester
+  date: "Summer 2019"
   shortDescription: "A procedurally-generated roguelike dungeon crawler"
   thumbnail: "/assets/images/games/holy-tester/thumbnail.png"
 
 - name: "It's Haunt Time!"
   id: its-haunt-time
+  date: "Spring 2019"
   shortDescription: "A cute spook-em-up puzzle game for mobile devices"
   images: 
     - imagePath: "/assets/images/games/its-haunt-time/gifs/unplug.gif"
@@ -17,6 +19,7 @@
 
 - name: "Surface Tension"
   id: surface-tension
+  date: "Spring 2018"
   shortDescription: "A puzzle-platformer centered around manipulating surfaces"
   coverImage: "/assets/images/games/surface-tension/cover.png"
   images: 
@@ -28,6 +31,7 @@
 
 - name: "Perceive n’ Deceive"
   id: perceive-n-deceive
+  date: "Spring 2018"
   shortDescription: "A tabletop game of imperfect information"
   coverImage: "/assets/images/games/perceive-n-deceive/example board.png"
   images: 
@@ -43,6 +47,7 @@
 
 - name: "This Is Trump"
   id: this-is-trump
+  date: "Fall 2016 - Spring 2017"
   shortDescription: "An interactive Donald Trump experience"
   coverImage: "/assets/images/games/this-is-trump/screenshots/MainMenu.png"
   images: 
