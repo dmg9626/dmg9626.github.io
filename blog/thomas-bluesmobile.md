@@ -27,4 +27,27 @@ My professor enjoyed the idea but said I had to make my changes more drastic. He
     Your browser does not support HTML5 video.
 </video>
 
-I went back to the drawing board and created a new storyboard animatic. My professor loved the idea and gave me the greenlight to start working in Maya.
+I went back to the drawing board and created another storyboard animatic, which set me behind schedule a bit. Fortunately my professor loved the idea and gave me the greenlight to start working in Maya!
+
+
+<video class="center" controls>
+    <source src="/assets/mp4/blog/thomas-bluesmobile/v1_greybox.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+
+Our first deliverable was a greybox pass of each shot in the scene. I didn't manage to block out all the scenes, but I did get a lot of the modeling work done on Thomas and Diesel. 
+
+<video class="center" controls>
+    <source src="/assets/mp4/blog/thomas-bluesmobile/v3_shot3-revision.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+
+Next was the full material pass. I focused my efforts here on fleshing out the models and materials for everything in the scene, so that I'd have time to set up and render all my shots the following week. At this point I was quickly aborting the traditional animation pipeline (properly setting up all shots, then taking the beauty pass with materials/lights/remodeling) - Drexel's 10-week quarters really don't accommodate that workflow.
+
+<video class="center" controls>
+    <source src="/assets/mp4/blog/thomas-bluesmobile/v5_DoF-pass.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+
+I had to make the most of my time, setting a batch of renders to process on my desktop overnight (the loud GPU fans made sleeping rough). During weeks 9 and 10 you could find me in the animation labs, hopping from computer-to-computer kicking off renders around the clock. Spreading the workload across multiple computers was the only way to meet the deadlines.
+
