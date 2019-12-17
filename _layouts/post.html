@@ -29,5 +29,15 @@ layout: default
     {% include cover_image.html %}
 {% endif %}
 
+<!-- Embed youtube video if provided -->
+{% if page.youtube %}
+<div class="row">
+    <div class="iframe-container">
+        <iframe width="560" height="315" src="{{page.youtube}}" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<br/>
+{% endif %}
+
 <!-- Post body goes here -->
 {{ content }}

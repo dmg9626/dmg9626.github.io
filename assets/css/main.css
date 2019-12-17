@@ -22,6 +22,19 @@ body {
   /* display: block;  */
 }
 
+/* Center element horizontally */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+
+video {
+  width: 720px;
+  margin: 50px 15px;
+}
+
 .jumbotron h1 {
   font-size: 48px;
   font-family: 'Cabin', sans-serif;
@@ -52,6 +65,7 @@ body {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; 
+  margin: 50px 15px;
   height: 0;
 }
 .iframe-container iframe{
