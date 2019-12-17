@@ -50,8 +50,11 @@ Next was the full material pass. I focused my efforts here on fleshing out the m
     <source src="/assets/mp4/blog/thomas-bluesmobile/v5_DoF-pass.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
+*(Fun Fact: You can see here is where I realized that I mixed up the positions of Thomas and Diesel. Glad I fixed that before the final cut!)*
 
-I had to make the most of my time, setting a batch of renders to process on my desktop overnight (the loud GPU fans made sleeping rough). During weeks 9 and 10 you could find me in the animation labs, hopping from computer-to-computer kicking off renders around the clock. Spreading the workload across multiple computers was the only way to meet the deadlines.
+I had to make the most of my time, setting batches of renders to process on my desktop overnight (the loud GPU fans made sleeping rough). During weeks 9 and 10 you could find me in the animation labs, hopping from computer-to-computer kicking off renders around the clock. Spreading the workload across multiple computers was the only way to meet the deadlines. The soundtrack for the week was Flying Lotus:
+
+<iframe style="padding: 10px 15px;" class="center" src="https://open.spotify.com/embed/album/5WfDyog8yO7ZF8JdJxeZfl" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 <div class="iframe-container">
     <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/loosCj2uZRc" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
