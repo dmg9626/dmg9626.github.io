@@ -4,7 +4,7 @@ title:  "Dev Blog 2: Thomas the Bluesmobile"
 coverImage: "/assets/images/blog/thomas-bluesmobile/thomas_diesel_edit.png"
 category: blog
 post_id: thomas-bluesmobile
-# youtube: "https://www.youtube-nocookie.com/embed/loosCj2uZRc"
+# youtube: "https://www.youtube-nocookie.com/embed/ibljyDF120Q"
 ---
 
 *(Artistic representation)*
@@ -57,7 +57,7 @@ I had to make the most of my time, setting batches of renders to process on my d
 <iframe style="padding: 10px 15px;" class="center" src="https://open.spotify.com/embed/album/5WfDyog8yO7ZF8JdJxeZfl" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 <div class="iframe-container">
-    <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/loosCj2uZRc" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/ibljyDF120Q" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 And this is the final cut! 
