@@ -1,9 +1,17 @@
 ---
   recently-enjoyed:
+    - name: 'Outer Wilds'
+      thumbnail: /assets/images/about/outer-wilds.jpg
+      caption: > 
+        This is, hands-down, the best narrative experience I've ever had in a game. 
+        Don't spoil it by reading reviews - just jump in blind and enjoy the ride.
+      link: "https://www.epicgames.com/store/en-US/product/outerwilds/home"
+
     - name: Metroid Prime
       thumbnail: /assets/images/about/metroid prime.jpg
       caption: >
         This game does a stellar job of delivering narrative through the environment.
+        Also the soundtrack is sublime, great for listening during work or study.
       link: "https://kotaku.com/metroid-prime-the-kotaku-review-1764050288"
 
     - name: Prey
@@ -20,12 +28,13 @@
         about sociopolitical manipulation through social media (an advanced subject
         considering its 2002 debut).
       link: "https://www.pcgamesn.com/ghost-in-the-shell-stand-alone-complex-first-assault-online/ghost-in-the-shell-stand-alone-complex-first-assault-online-shutting-down"
+    
 
 
   currently-enjoying:
     - name: 'South Park: The Stick of Truth'
       thumbnail: /assets/images/about/stick-of-truth.jpg
       caption: >
-        I just remembered my favorite show made a game. The humour is spot on
+        My favorite show made a game, and it's actually good! The humour is spot on
         with the show and I'm loving every second of it.
       link: "https://www.rockpapershotgun.com/2016/07/18/south-park-stick-of-truth-archer-rpg/"
