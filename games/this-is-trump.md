@@ -5,6 +5,9 @@ game_id: this-is-trump
 playable: true
 ---
 
+***Foreword:** This is not any sort of endorsement for President Trump. I know I have two Trump-related things on my site now (see: 
+[Wu-Trump](/blog/wu-trump)): he's an easy target and apparently a great source of inspiration for side projects.*
+
 ### Description
 
 In this game you play as the man in charge President Donald Trump. You are "running for president" but the Bad Hombres and Biased Liberal Media are trying to take you down! Build those walls and tweet like you've never tweeted before in this adrenaline-pumping side scrolling action game!
