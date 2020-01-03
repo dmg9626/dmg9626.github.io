@@ -1,4 +1,16 @@
 ﻿---
+- name: "Boids!"
+  id: boids
+  date: "Fall 2019"
+  shortDescription: "A highly-performant flocking simulation"
+  images:
+    - imagePath: "/assets/images/games/boids/thumbnail.gif"
+      caption: "Generates convincing flocking patterns"
+    - imagePath: "/assets/images/games/boids/boids_settings.gif"
+      caption: "Fine-tune flocking behavior in settings"
+    - imagePath: "/assets/images/games/boids/boids_debug.gif"
+      caption: "Further customization available in-engine"
+  thumbnail: "/assets/images/games/boids/thumbnail.gif"
 
 - name: "Holy Tester"
   id: holy-tester
