@@ -59,8 +59,8 @@ layout: default
     <!-- Grid of game screenshots -->
     <div class="row">
         {% for image in game.images %}
-            <div class="col-md-4">
-                <figure class="figure">
+            <div class="col-md-4 text-center" style="max-width: 350px;">
+                <figure class="figure text-center">
                     <a href="{{image.imagePath}}">
                         <img src="{{image.imagePath}}" class="figure-img img-fluid rounded">
                     </a>
