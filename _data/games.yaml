@@ -1,7 +1,7 @@
 ﻿---
 - name: "Boids!"
   id: boids
-  date: "Fall 2019"
+  date: "Winter 2019"
   shortDescription: "A highly-performant flocking simulation"
   images:
     - imagePath: "/assets/images/games/boids/thumbnail.gif"
