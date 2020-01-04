@@ -124,6 +124,6 @@ After this small change, the performance quadrupled to around 60 frames per seco
 
 ---
 
-Now that I was happy with perforamnce, I wanted to expand on the demo's functionality a bit by letting the user control the priority assigned to separation/alignment/cohesion during steering.
+Now that I was happy with performance, I wanted to expand on the demo's functionality a bit by letting the user control the priority assigned to separation/alignment/cohesion during steering.
 
 I referenced my new copy of [AI for Games](https://www.amazon.com/AI-Games-Third-Ian-Millington/dp/1138483974/ref=dp_ob_image_bk) (awesome book by the way) and used a Weighted Blending approach to incorporating each of the 3 behaviors into the boid's movement. This allowed me to expose those weights to the user, allowing them to fine-tune the boids' movement patterns to mimic a flock of birds, a school of fish, a herd of cows, or even a swarm of bees.
