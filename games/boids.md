@@ -28,7 +28,7 @@ Before implementing these 3 behaviors, I first had to get boids to detect each o
 
 <img src="/assets/images/games/boids/boids_debug.gif" class="blog text-center rounded" width="100%">
 
-Now boids could sense their neightbors. Time to start programming the flocking behaviors.
+Now boids could sense their neighbors. Time to start programming the flocking behaviors.
 
 ```c#
 void Update()
@@ -84,9 +84,9 @@ public List<Boid> NearbyBoids(Boid self)
 }
 ```
 
-On closer inspection, I realized it was allocating a new RaycasttHit[] array for every racyast performed! This could be the bottleneck.
+On closer inspection, I realized it was allocating a new RaycasttHit[] array for every raycast performed! This could be the bottleneck.
 
-While searching online, I saw someone suggest using a method called RaycastNonAlloc() instaed of RaycastAll(). It performs the same work, but without generating garbage; instead of generating a new array on each call, it fills a pre-allocated with the RaycastHit results.
+While searching online, I saw someone suggest using a method called RaycastNonAlloc() instead of RaycastAll(). It performs the same work, but without generating garbage; rather than generating a new array on each call, it fills a pre-allocated with the RaycastHit results.
 
 ```c#
 public List<Boid> NearbyBoids(Boid self)
