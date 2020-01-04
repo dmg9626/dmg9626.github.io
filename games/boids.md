@@ -26,7 +26,7 @@ This was a weekend side-project I worked on over my winter break. I was inspired
 
 Before implementing these 3 behaviors, I first had to get boids to detect each other when nearby. I implemented this as a cone-shaped field of vision made up of raycasts. As you can see below, this approach allowed me to optimize performance by tweaking the cone's width, range, and number of raycasts.
 
-<img src="/assets/images/games/boids/boids_debug.gif" class="blog text-center rounded" width="100%">
+<img src="/assets/images/games/boids/boids_debug.gif" class="blog rounded mx-auto d-block" width="100%">
 
 Now boids could sense their neighbors. Time to start programming the flocking behaviors.
 
@@ -55,7 +55,7 @@ void Update()
 }
 ```
 
-<img src="/assets/images/games/boids/boids_v1.gif" class="blog text-center rounded" width="100%">
+<img src="/assets/images/games/boids/boids_v1.gif" class="blog rounded mx-auto d-block" width="80%">
 
 I was now getting proper boid behavior! Unfortunately I was also getting about 15-25 frames per second on my laptop. Normally this is where I'd stop and move development to my desktop, but I knew there was still some optimizations I could make. Lowering the number of raycasts performed during detection helped a bit, but I was still getting lousy performance. I decided to look at the the code where I was performing the raycasts:
 
@@ -125,6 +125,8 @@ After this small change, the performance quadrupled to around 60 frames per seco
 ---
 
 Now that I was happy with performance, I wanted to expand on the demo's functionality a bit by letting the user control the priority assigned to separation/alignment/cohesion during steering.
+
+<img src="/assets/images/games/boids/boids_settings.gif" class="blog rounded mx-auto d-block" width="75%">
 
 I referenced my new copy of [AI for Games](https://www.amazon.com/AI-Games-Third-Ian-Millington/dp/1138483974/ref=dp_ob_image_bk) (awesome book by the way) and used a Weighted Blending approach to incorporating each of the 3 behaviors into the boid's movement. This allowed me to expose those weights to the user, allowing them to fine-tune the boids' movement patterns to mimic a flock of birds, a school of fish, a herd of cows, or even a swarm of bees.
 
