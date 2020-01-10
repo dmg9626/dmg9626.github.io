@@ -55,7 +55,7 @@ void Update()
 }
 ```
 
-<img src="/assets/images/games/boids/boids_v1.gif" class="blog rounded mx-auto d-block" width="80%">
+<img src="/assets/images/games/boids/boids_slow.gif" class="blog rounded mx-auto d-block" width="80%">
 
 I was now getting proper boid behavior! Unfortunately I was also getting about 15-25 frames per second on my laptop. Normally this is where I'd stop and move development to my desktop, but I knew there was still some optimizations I could make. Lowering the number of raycasts performed during detection helped a bit, but I was still getting lousy performance. I decided to look at the the code where I was performing the raycasts:
 
@@ -121,6 +121,8 @@ public List<Boid> NearbyBoids(Boid self)
 ```
 
 After this small change, the performance quadrupled to around 60 frames per second! I was overjoyed and immediately plunked another hundred boids into the simulation, with no noticeable performance dips.
+
+<img src="/assets/images/games/boids/boids.gif" class="blog rounded mx-auto d-block" width="80%">
 
 ---
 

@@ -4,7 +4,7 @@
   date: "Winter 2019"
   shortDescription: "A highly-performant flocking simulation"
   images:
-    - imagePath: "/assets/images/games/boids/thumbnail.gif"
+    - imagePath: "/assets/images/games/boids/boids.gif"
       caption: "Generates convincing flocking patterns"
     - imagePath: "/assets/images/games/boids/boids_settings.gif"
       caption: "Fine-tune flocking behavior in settings"
