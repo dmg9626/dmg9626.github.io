@@ -20,3 +20,9 @@
   subtitle: "A project for my Animation course"
   thumbnail: "/assets/images/blog/thomas-bluesmobile/thomas_diesel_edit.png"
   date: "12/12/19"
+
+- name:  "Dev Blog 3: Mario AI"
+  id: mario-ai
+  subtitle: "A behavior-tree agent that plays Super Mario Bros"
+  thumbnail: "/assets/images/blog/mario-ai/clip_2.gif"
+  date: "2/20/20"
