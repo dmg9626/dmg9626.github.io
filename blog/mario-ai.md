@@ -23,14 +23,22 @@ We were provided a Java implementation of the game (documentation found [here](h
 
 <img src="/assets/images/blog/mario-ai/clip_1.gif" class="blog rounded mx-auto d-block" width="75%">
 
-
-
-I spent about 3 days working on my agent, and I'm very proud of how it turned out. My behavior tree is very simple, but it gets the job done. The basic algorithm is something like this:
+My behavior tree is very simple, but it gets the job done. The basic algorithm is something like this:
 
 - jump over enemies/obstacles ahead
 - shoot fireballs at enemies ahead/below
 - jump over pits
 
-Mario runs through levels of increasing difficulty, and manages to complete the first few without issue. It begins to break down when jumping enemies and frequent pits enter the levels, as you can see here:
+The full behavior tree looks something like this:
+
+<img src="/assets/images/blog/mario-ai/behavior_tree.png" class="blog rounded mx-auto d-block" width="75%">
+
+Mario runs through levels of increasing difficulty, and manages to complete the first few without issue. The agent begins to break down in more vertical levels featuring jumping enemies and pits:
 
 <img src="/assets/images/blog/mario-ai/clip_3.gif" class="blog rounded mx-auto d-block" width="75%">
+
+Given that I spent about 3 days working on my agent, I'm very happy with how it turned out! Here's a longer video of the agent running through levels:
+
+<div class="iframe-container">
+    <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/KndMafaIazk" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+</div>
