@@ -27,7 +27,9 @@ My behavior tree is very simple, but it gets the job done. The basic algorithm i
 
 - jump over enemies/obstacles ahead
 - shoot fireballs at enemies ahead/below
-- jump over pits
+- jump over pits (gaps with a depth of 3 tiles or more)
+
+So basically a rough approximation of a human player's behavior.
 
 The full behavior tree looks something like this:
 
@@ -42,3 +44,5 @@ Given that I spent about 3 days working on my agent, I'm very happy with how it 
 <div class="iframe-container">
     <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/KndMafaIazk" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+If I were to revisit this with a different approach, I'd probably use a reinforcement-learning technique and reward the agent based on distance traveled without taking damage, enemies killed, coins collected, and time taken to complete level. I'm sure there's a lot of different directions I could take it!
