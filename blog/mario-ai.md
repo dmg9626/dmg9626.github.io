@@ -42,7 +42,7 @@ Mario runs through levels of increasing difficulty, and manages to complete the 
 Given that I spent about 3 days working on my agent, I'm very happy with how it turned out! Here's a longer video of the agent running through levels:
 
 <div class="iframe-container">
-    <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/KndMafaIazk" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/T-xuZN2Qcfw" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 If I were to revisit this with a different approach, I'd probably use a reinforcement-learning technique and reward the agent based on distance traveled without taking damage, enemies killed, coins collected, and time taken to complete level. I'm sure there's a lot of different directions I could take it!
