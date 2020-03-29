@@ -26,3 +26,9 @@
   subtitle: "A behavior-tree agent that plays Super Mario Bros"
   thumbnail: "/assets/images/blog/mario-ai/clip_2.gif"
   date: "2/20/20"
+
+- name:  "Dev Blog 4: Procedural Map Generation"
+  id: proc-gen
+  subtitle: "Generating 2D landscapes with numbers!"
+  thumbnail: "/assets/images/blog/mario-ai/clip_2.gif"
+  date: "3/9/20"
