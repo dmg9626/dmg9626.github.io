@@ -30,5 +30,5 @@
 - name:  "Dev Blog 4: Procedural Map Generation"
   id: proc-gen
   subtitle: "Generating 2D landscapes with numbers!"
-  thumbnail: "/assets/images/blog/mario-ai/clip_2.gif"
+  thumbnail: "/assets/images/blog/proc-gen/thumbnail.gif"
   date: "3/9/20"
