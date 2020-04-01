@@ -10,13 +10,13 @@ post_id: proc-gen
 
 This project was [another assignment](https://www.cs.drexel.edu/~santi/teaching/2017/CS387/PCG/projectA4PCGv2.3.html){:target="_blank"} from my Game AI course: 
 
-> Implement a procedural map generator that creates playable maps for the A4Engine. 
-> It can generate dungeons, outdoors maps (with grass, rivers, trees, rocks, paths, etc.), or interiors - it's up to you.
-> It must adhere to the [TMX map format](http://doc.mapeditor.org/en/stable/reference/tmx-map-format/){:target="_blank"}.
+> *Implement a procedural map generator that creates playable maps for the A4Engine.*
+> *It can generate dungeons, outdoors maps (with grass, rivers, trees, rocks, paths, etc.), or interiors - it's up to you.*
+> *It must adhere to the [TMX map format](http://doc.mapeditor.org/en/stable/reference/tmx-map-format/){:target="_blank"}.*
 
-Most of my friends generated dungeons with their solutions, using the Kruskal algorithm to generate maze-like environments (this approach was suggested by the professor). I wanted to try something different, so I went about generating a outdoor landscape environment.
+Most of my friends generated dungeons with their solutions, using the [Kruskal algorithm](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/){:target="_blank"} to generate maze-like environments (this approach was suggested by the professor). I wanted to try something different, so I went about generating a outdoor landscape environment.
 
-My plan was to generate a 2D heightmap - a grid of numbers between 0 and 1 that represent the height at each tile. Once I could generate that that, I'd determine some altitude to be the water level; every tile with a height above that level would be land, and everything below would be water. I wasn't sure what would come next, but I knew that'd be enough to start generating some very basic environments.
+My plan was to generate a 2D heightmap - a grid of numbers between 0 and 1 that represent the height at each tile. Once I could generate that that, I'd determine some altitude to be the water level; every tile with a height above that level would be land, and everything below would be water. I wasn't sure what would come next, but I knew that'd be enough to start generating some basic environments.
 
 ----
 ### Step 1: Generate the Heightmap
@@ -119,11 +119,38 @@ That's much better! But there's still a lot left to improve here.
 ----
 ### Step 3: Clean-up Pass
 
-From here on out, I'm going to pick one map seed for all my screenshots to give a better idea of the gradual improvements.
+From here on out, I'm going to pick one map seed to use in my screenshots. This should give a better idea of the gradual improvements.
 
 You've probably noticed all those single-tile patches of land/water on the maps generated. This is what happens when you apply a cut-off water level to the jagged landscapes we're generating. Now that I'm done generating the landscape, the rest of our work is going to be clean-up and decoration, so I created a `TerrainPass` class to handle those changes.
 
-I decided to remove any tiles that have no adjacent tiles of the same type. Here's a visualization of each stage of the cleanup process: before cleanup, cleanup land patches, and cleanup water patches:
+I decided to iterate over all tiles (inefficient, but performance isn't a priority), and remove any that have no adjacent tiles of the same type.
+
+```c++
+// Clean up any land/water patches around map
+terrainPass.CleanUpPatches(terrainLayer, LAND_TILE, WATER_TILE);
+terrainPass.CleanUpPatches(terrainLayer, WATER_TILE, LAND_TILE);
+
+void TerrainPass::CleanUpPatches(TileMap* tilemap, int find_tile, int replace_tile)
+{
+	// Iterate over each tile
+	for (int y = 0; y < tilemap->size; y++) {
+		for (int x = 0; x < tilemap->size; x++) {
+			int tile = tilemap->GetTileAt(x, y);
+
+			// Skip if tile isn't specified type
+			if (tile != find_tile)
+				continue;
+
+			// If tile has less than 2 neighbors of same type, replace with replace_tile
+			if (CountNeighborsOfType(x, y, tilemap, find_tile) < 1) {
+				tilemap->SetTileAt(x, y, replace_tile);
+			}
+		}
+	}
+}
+```
+
+ Here's a visualization of each stage of the cleanup process: before cleanup, cleanup land patches, and cleanup water patches:
 
 <div class="row">
     <img src="/assets/images/blog/proc-gen/cleanup-patches/v1/before-cleanup.png" class="blog text-center" width="350px">
@@ -131,7 +158,7 @@ I decided to remove any tiles that have no adjacent tiles of the same type. Here
     <img src="/assets/images/blog/proc-gen/cleanup-patches/v1/cleanup-water-patches.png" class="blog text-center" width="350px">
 </div>
 
-Hmm... it's a bit better, but we still have those narrow strips jutting in/out of the coast. Let's change it to replace tiles with less than 2 neighbors of the same type:
+Hmm... it's a bit better, but we still have those narrow strips jutting in/out of the coast. Let's change it to replace tiles with less than 2 neighbors of the same type, rather than just 1:
 
 <div class="row">
     <img src="/assets/images/blog/proc-gen/cleanup-patches/v2/before-cleanup.png" class="blog text-center" width="350px">
@@ -146,7 +173,7 @@ That looks a lot nicer!
 
 We're getting a good arrangement of land and water, but it's looking a bit boring. 
 
-It might look better with some sand along the coast. I'll iterate over all tiles (inefficient, but performance isn't a priority) to find land tiles touching water and change them to sand:
+It might look better with some sand along the coast. I'll find all land tiles touching water and change them to sand:
 
 ```c++
 void TerrainPass::AddSand(TileMap* tilemap)
