@@ -260,3 +260,7 @@ Looking better! But I don't really like the clumped distribution of trees. Maybe
 I would have gone further, but at this point I was running dangerously close to the midnight submission deadline, so I submitted it and called it finished.
 
 This was my favorite project to work on in my Game AI course. It was my first experience with procedural generation, and I know I've only scratched the surface of what's possible. At the time of writing I am quarantined at home due to the coronavirus, so I have a lot of free time. I'll likely return to this project in a future dev blog!
+
+----
+
+You can view the code at the [repository found here](https://github.com/dmg9626/proc_gen).
