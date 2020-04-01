@@ -42,7 +42,18 @@ This limited me to square-shaped maps, but I didn't have a problem with that.
 
 If none of that made sense to you, don't worry! It's a tough algorithm to grasp at first, and it took me a while to fully get it too. I'll explain it with an analogy:
 
-Imagine you're making a blanket fort. Cozy! You have 4 chairs, one to place in each corner of the fort so the blanket forms a nice roof over you. Once you throw the blanket over, you don't have a lot of control over how much the blanket droops down near the center, but you can raise/lower the chairs to indirectly change the shape of the blanket. Maybe you want one end of the fort to be taller than the other, so you put some books under the 2 chairs holding up that end. 
+Imagine you're making a blanket fort. Cozy!
+
+<div class="row">
+    <img src="/assets/images/blog/proc-gen/fort/fort-1.jpg" class="blog text-center" width="50%">
+    <img src="/assets/images/blog/proc-gen/fort/fort-2.jpg" class="blog text-center" width="50%">
+    <p><i>
+    I wasn't happy with the image search results, so I made my own!
+    </i></p>
+</div>
+
+
+You have 4 chairs, one to place in each corner of the fort so the blanket forms a nice roof over you. Once you throw the blanket over, you don't have a lot of control over how much the blanket droops down near the center, but you can raise/lower the chairs to indirectly change the shape of the blanket. Maybe you want one end of the fort to be taller than the other, so you put some books under the 2 chairs holding up that end. 
 
 The analogy is this: we set up the chairs in the corners, and throwing the blanket over top is what the Diamond Square algorithm does. The shape of the blanket (i.e. our landscape) is represented by the heightmap we get out of it.
 
