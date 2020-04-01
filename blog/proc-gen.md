@@ -23,13 +23,15 @@ My plan was to generate a 2D heightmap - a grid of numbers between 0 and 1 that 
 
 To be clear, I didn't plan on having any actual verticality in the maps generated! I was just combining a heightmap and a water level to create an insteresting arrangement of land and water.
 
-##### Take something like this...
-<img src="/assets/images/blog/proc-gen/heightmap_3d_reference.png" class="blog text-center" width="75%">
+##### Take something like this... and turn it into something like this:
+<div class="row">
+    <img src="/assets/images/blog/proc-gen/heightmap_3d_reference.png" class="blog text-center" width="50%">
+    <img src="/assets/images/blog/proc-gen/heightmap_2d_reference.png" class="blog text-center" width="50%">
+    <p><i>
+    Note: my maps are generated at a much lower resolution - think Final Fantasy or Pokemon
+    </i></p>
+</div>
 
-##### ...and turn it into something like this:
-<img src="/assets/images/blog/proc-gen/heightmap_2d_reference.png" class="blog text-center" width="75%">
-
-*Note: my maps are generated at a much lower resolution - think Final Fantasy or Pokemon*
 
 I used the [diamond-square algorithm](https://en.wikipedia.org/wiki/Diamond-square_algorithm){:target="_blank"} to generate the heightmaps. It starts with intial height values in the corners and iteratively performs "Diamond" and "Square" averaging operations, gradually calculating the height value for each position in the grid. Every Diamond and Square operation applies a bit of "noise" so we don't get boring, perfectly-smooth maps.
 
