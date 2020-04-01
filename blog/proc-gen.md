@@ -14,7 +14,7 @@ This project was [another assignment](https://www.cs.drexel.edu/~santi/teaching/
 > *It can generate dungeons, outdoors maps (with grass, rivers, trees, rocks, paths, etc.), or interiors - it's up to you.*
 > *It must adhere to the [TMX map format](http://doc.mapeditor.org/en/stable/reference/tmx-map-format/){:target="_blank"}.*
 
-Most of my friends generated dungeons with their solutions, using the [Kruskal algorithm](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/){:target="_blank"} to generate maze-like environments (this approach was suggested by the professor). I wanted to try something different, so I went about generating a outdoor landscape environment.
+Most of my friends generated dungeons with their solutions, using the [Kruskal algorithm](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/){:target="_blank"} to generate maze-like environments (this approach was suggested by the professor). I wanted to try something different, so I went about generating a outdoor landscape environment. We could also use whatever language we wanted; I chose C++, as I wanted to get more experience with it before I enter the industry.
 
 My plan was to generate a 2D heightmap - a grid of numbers between 0 and 1 that represent the height at each tile. Once I could generate that that, I'd determine some altitude to be the water level; every tile with a height above that level would be land, and everything below would be water. I wasn't sure what would come next, but I knew that'd be enough to start generating some basic environments.
 
@@ -31,13 +31,26 @@ To be clear, I didn't plan on having any actual verticality in the maps generate
 
 *Note: my maps are generated at a much lower resolution - think Final Fantasy or Pokemon*
 
-I used the [diamond-square algorithm](https://en.wikipedia.org/wiki/Diamond-square_algorithm){:target="_blank"} to generate the heightmaps. It starts with intial height values in the corners and iteratively performs "Diamond" and "Square" averaging operations, forming increasingly granular diamonds/squares from the populated grid points until all points have been filled in. Each Diamond and Square operation applies a bit of "noise" so we don't get boring, perfectly-smooth maps.
+I used the [diamond-square algorithm](https://en.wikipedia.org/wiki/Diamond-square_algorithm){:target="_blank"} to generate the heightmaps. It starts with intial height values in the corners and iteratively performs "Diamond" and "Square" averaging operations, gradually calculating the height value for each position in the grid. Every Diamond and Square operation applies a bit of "noise" so we don't get boring, perfectly-smooth maps.
 
 <img src="/assets/images/blog/proc-gen/diamond_square.png" class="blog text-center" width="100%">
 
 This limited me to square-shaped maps, but I didn't have a problem with that.
 
-I'd start with a heightmap with preset corner values:
+----
+#### Explained for normal humans
+
+If none of that made sense to you, don't worry! It's a tough algorithm to grasp at first, and it took me a while to fully get it too. I'll explain it with an analogy:
+
+Imagine you're making a blanket fort. Cozy! You have 4 chairs, one to place in each corner of the fort so the blanket forms a nice roof over you. Once you throw the blanket over, you don't have a lot of control over how much the blanket droops down near the center, but you can raise/lower the chairs to indirectly change the shape of the blanket. Maybe you want one end of the fort to be taller than the other, so you put some books under the 2 chairs holding up that end. 
+
+The analogy is this: we set up the chairs in the corners, and throwing the blanket over top is what the Diamond Square algorithm does. The shape of the blanket (i.e. our landscape) is represented by the heightmap we get out of it.
+
+----
+
+Anyway, back to the technical stuff.
+
+So before running the algorithm, I'd start with a heightmap with preset corner values:
 
 ```
 0.22    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.09
