@@ -263,4 +263,4 @@ This was my favorite project to work on in my Game AI course. It was my first ex
 
 ----
 
-You can view the code at the [repository found here](https://github.com/dmg9626/proc_gen).
+You can view the code at the [repository found here](https://github.com/dmg9626/proc_gen){:target="_blank"}.
