@@ -46,3 +46,7 @@ Given that I spent about 3 days working on my agent, I'm very happy with how it 
 </div>
 
 If I were to revisit this with a different approach, I'd probably use a reinforcement-learning technique and reward the agent based on distance traveled without taking damage, enemies killed, coins collected, and time taken to complete level. I'm sure there's a lot of different directions I could take it!
+
+----
+    
+You can view the code [here in my course repository](https://github.com/dmg9626/CS387/tree/master/Assignments/HW3){:target="_blank"}.
