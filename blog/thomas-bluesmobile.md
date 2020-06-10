@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Dev Blog 2: Thomas the Bluesmobile"
-coverImage: "/assets/images/blog/thomas-bluesmobile/thomas_diesel_edit.png"
+# coverImage: "/assets/images/blog/thomas-bluesmobile/thomas_diesel_edit.png"
 category: blog
 post_id: thomas-bluesmobile
-# youtube: "https://www.youtube-nocookie.com/embed/ibljyDF120Q"
+youtube: "https://www.youtube-nocookie.com/embed/ibljyDF120Q"
 ---
-
-*(Artistic representation)*
 
 Thomas the Bluesmobile is a project I worked on for ANIM 211 (Animation I). The assignment was to take a 30-second scene from a movie and recreate it shot-for-shot, mimicking the cinematography, environment, and actors; the catch is I had to replace the actors/environment with inanimate objects, in a way that the scene still made some coherent sense.
 
@@ -20,11 +18,11 @@ but instead of the Blues Brothers in their Bluesmobile, it'd be OJ Simpson escap
     Your browser does not support HTML5 video.
 </video>
 
-My professor enjoyed the idea but said I had to make my changes more drastic. He suggested I replace OJ with a box of orange juice, have it set in a kitchen or something, and brainstorm from there, but I wasn't really into that. I'm not sure why I struggled with the concept for this assignment at first; I guess animating an in-animate thing to represent something animate doesn't really make sense to me, but limitations give way to creative solutions.
+My professor enjoyed the idea but said I had to make my changes more drastic. He suggested I replace OJ with a box of orange juice, have it set in a kitchen or something, and brainstorm from there, but I wasn't really into that. I'm not sure why I struggled with the concept for this assignment at first; I guess animating an inanimate thing to represent something animate didn't *really* make sense to me, but limitations give way to creative solutions.
 
 Eventually I settled on my final concept: the [bridge jump scene](https://youtu.be/QTOg4aYGtdY?t=7){:target="_blank"} from the same movie, but recreated in a kid's bedroom with Thomas the Train and Devious Diesel on toy train tracks. I was picturing a kid that watched the movie with his dad or something, and now he's playing with his toy trains to recreate the scene in his imagination.
 
-I went back to the (literal) drawing board and created another storyboard animatic for this revised concept, which set me behind schedule a bit.
+I went back to the (literal) drawing board and created another storyboard animatic for this revised concept. This set me behind schedule a bit, but you can't skip the storyboard!
 
 <video class="center" controls>
     <source src="/assets/mp4/blog/thomas-bluesmobile/thomas-storyboard.mp4" type="video/mp4">
@@ -71,6 +69,6 @@ Compared to the original scene:
     <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/QTOg4aYGtdY?start=7" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-I'm very proud of what I came out with! This was an interesting look into the aniamtion pipeline, and it's always nice to understand a new facet of how things are made. I have a newfound appreciation for the work done by my 3D colleagues going forward!
+I'm very proud of what I came out with! This was an interesting look into the 3D animation pipeline, and it's always nice to have a further understanding of how things are made. I now have a much stronger appreciation of the work done by my 3D colleagues!
 
-*closing note: I am tempted to re-render this whole project with sunglasses on each train so they match the source material*
+*closing note: I am tempted to re-render the animation with sunglasses and hats on each train*
