@@ -7,6 +7,8 @@ playable: true
 
 *Note: Performance is dependent on your machine's processing power. I managed to simulate 200 boids at a stable 60fps on my 2015 Macbook Pro, so it should run well on most modern computers.*
 
+*The GIFs shown have lower framerates due to the recording software using CPU resources.*
+
 ### Description
 
 This is a flocking simulation I've created in Unity. It models the movement patterns of a flock of birds, or a school of fish. The agents themselves are called "boids," originally defined in [Craig Reynolds' 1987 paper on flocking patterns](http://www.cs.toronto.edu/~dt/siggraph97-course/cwr87/){:target="_blank"}.
@@ -57,7 +59,7 @@ void Update()
 
 <img src="/assets/images/games/boids/boids_slow.gif" class="blog rounded mx-auto d-block" width="80%">
 
-I was now getting proper boid behavior! Unfortunately I was also getting about 15-25 frames per second on my laptop. Normally this is where I'd stop and move development to my desktop, but I knew there was still some optimizations I could make. Lowering the number of raycasts performed during detection helped a bit, but I was still getting lousy performance. I decided to look at the the code where I was performing the raycasts:
+I was now getting proper boid behavior! Unfortunately I was also getting about 15-25 frames per second on my laptop. Normally this is where I'd stop and move development to my desktop, but I knew there were still some optimizations to be made. Lowering the number of raycasts performed helped a bit, but I was still getting lousy performance. I decided to look at the the code where I was performing the raycasts:
 
 ```c#
 public List<Boid> NearbyBoids(Boid self)
@@ -66,11 +68,9 @@ public List<Boid> NearbyBoids(Boid self)
             
     // Perform each raycast around the vision cone
     for(int i = 0; i < raycastCount; i++) {
-        /// Create ray with current angle... (some code omitted)
-        Ray ray = new Ray(self.transform.position, direction);
 
         /// Perform raycast, store results in hits (some code omitted)
-        RaycastHit[] hits = Physics.RaycastAll(ray, range);
+        RaycastHit[] hits = Physics.RaycastAll(new Ray(self.transform.position, direction), range);
 
         // Add any hits returned to list
         foreach(RaycastHit hit in hits) {
@@ -84,9 +84,9 @@ public List<Boid> NearbyBoids(Boid self)
 }
 ```
 
-On closer inspection, I realized it was allocating a new RaycasttHit[] array for every raycast performed! This could be the bottleneck.
+On closer inspection, I realized it was allocating a new `RaycasttHit[]` array for every raycast performed! This could be the bottleneck.
 
-While searching online, I saw someone suggest using a method called RaycastNonAlloc() instead of RaycastAll(). It performs the same work, but without generating garbage; rather than generating a new array on each call, it fills a pre-allocated with the RaycastHit results.
+While searching online, I saw someone suggest using a method called `RaycastNonAlloc()` instead of `RaycastAll()`. It performs the same work, but without generating garbage; rather than generating a new array on each call, you pass it a pre-allocated one and it fills it with the `RaycastHit` results.
 
 ```c#
 public List<Boid> NearbyBoids(Boid self)
@@ -101,11 +101,9 @@ public List<Boid> NearbyBoids(Boid self)
 
     // Perform each raycast around the vision cone
     for(int i = 0; i < raycastCount; i++) {
-        /// Create ray with current angle... (some code omitted)
-        Ray ray = new Ray(self.transform.position, direction);
 
         /// Perform raycast, store results in hits (some code omitted)
-        int numHits = Physics.RaycastNonAlloc(ray, hits, range);
+        int numHits = Physics.RaycastNonAlloc(new Ray(self.transform.position, direction), hits, range);
 
         // Add any hits returned to list
         for(int j = 0; j < numHits; j++) {
@@ -124,9 +122,11 @@ After this small change, the performance quadrupled to around 60 frames per seco
 
 <img src="/assets/images/games/boids/boids.gif" class="blog rounded mx-auto d-block" width="80%">
 
+I also spruced up the colors a bit, so each boid picks a random color from a nice blue gradient.
+
 ---
 
-Now that I was happy with performance, I wanted to expand on the demo's functionality a bit by letting the user control the priority assigned to separation/alignment/cohesion during steering.
+Now that I was happy with performance, I wanted to expand on the demo's functionality by letting the user control the priority assigned to steering behaviors (separation/alignment/cohesion), as well as how fast boids move and steer.
 
 <img src="/assets/images/games/boids/boids_settings.gif" class="blog rounded mx-auto d-block" width="75%">
 
