@@ -10,9 +10,9 @@ post_id: proc-gen
 
 This project was [another assignment](https://www.cs.drexel.edu/~santi/teaching/2017/CS387/PCG/projectA4PCGv2.3.html){:target="_blank"} from my Game AI course: 
 
-> *Implement a procedural map generator that creates playable maps for the A4Engine.*
-> *It can generate dungeons, outdoors maps (with grass, rivers, trees, rocks, paths, etc.), or interiors - it's up to you.*
-> *It must adhere to the [TMX map format](http://doc.mapeditor.org/en/stable/reference/tmx-map-format/){:target="_blank"}.*
+> Implement a procedural map generator that creates playable maps for the A4Engine.
+> It can generate dungeons, outdoors maps (with grass, rivers, trees, rocks, paths, etc.), or interiors - it's up to you.
+> It must adhere to the [TMX map format](http://doc.mapeditor.org/en/stable/reference/tmx-map-format/){:target="_blank"}.
 
 Most of my friends generated dungeons with their solutions, using the [Kruskal algorithm](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/){:target="_blank"} to generate maze-like environments (this approach was suggested by the professor). I wanted to try something different, so I went about generating a outdoor landscape environment. We could also use whatever language we wanted; I chose C++, as I wanted to get more experience with it before I enter the industry.
 
