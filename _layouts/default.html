@@ -33,6 +33,16 @@
         <!-- Navbar -->
         {% include navbar.html %}
 
+        <!-- Link back to parent section if provided (ex. Dev Blogs <== Dev Blog 1: Wu Trump ) -->
+        {% assign parent = layout.parent %}
+        {% if parent %} 
+            <div style="padding-left: 50px;">
+                <a href="{{parent.link}}" style="color:inherit; text-decoration: inherit;">
+                    <h5>&lt; {{parent.label}}</h5>
+                </a>
+            </div>
+        {% endif %}
+        
         <div class="container">
             <!-- Page Content  -->
             <div style="padding-bottom: 50px">
