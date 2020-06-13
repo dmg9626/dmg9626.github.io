@@ -3,6 +3,7 @@ title: Holy Tester
 layout: game
 game_id: holy-tester
 youtube: "https://www.youtube-nocookie.com/embed/Q0JVphhA64c"
+download_link: "https://makhodash.wixsite.com/holytester/play-the-game"
 ---
 ### Description
 

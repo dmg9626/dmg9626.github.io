@@ -1,5 +1,8 @@
 ---
 layout: default
+breadcrumbs: 
+    - link: "/"
+      label: "Home"
 ---
 
 <!-- Select first game with matching ID -->
@@ -50,6 +53,16 @@ layout: default
         <br>
     {% endif %}
 
+    {% if page.download_link %}
+        <div class="row text-center">
+            <div class="col-md-12">
+                <a href="{{page.download_link}}" target="_blank">
+                    <button type="button" class="btn btn-primary btn-lg">Download game here!</button>
+                </a>
+            </div>
+        </div>
+        <br>
+    {% endif %}
     
     <div class="row">
         <div class="col-md-12">
