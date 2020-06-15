@@ -12,6 +12,10 @@ DOOM is the seminal, genre-defining first-person shooter developed by iD Softwar
 
 Today I'm happy to join that community by releasing my own maps for DOOM II.
 
+-----
+
+### Map 1: Consumers
+
 My start in Doom mapping came from an interesting assignment prompt in my Experimental Games course:
 
 > Using an existing game as a base, create "game art" that makes a statement about the games industry.<br>
@@ -21,12 +25,24 @@ At first I was stumped. We'd learned in class about the concept of "game art", a
 
 That week I'd been reading about the [binary-space-partitioning](https://pdfs.semanticscholar.org/c496/61c65c1780053dcc1ccd71abec5f244af2c9.pdf) method used by John Carmack to render 3D environments in DOOM. I was interested in the architectural limitations imposed by the game engine, and how level designers overcame them with creative solutions. This seemed like a wonderful opportunity to ~~shoehorn my personal interests into another assignment~~ make something interesting in an obscure medium!
 
------
-
-### Map 1: Consumers
+Here's a gameplay video. Make sure to watch in 1080p; YouTube is currently throttling video quality (because COVID-19), so you have to set it manually.
 
 <div class="iframe-container">
     <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/iqGvDaWMp94" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-It took quite some time to figure out what I was doing here.
+Short and sweet.
+
+In case it isn't clear, the statement made here is that gamers can be a toxic bunch with little respect for the people making the games they love. Finding a successful career in game development is a herculean task, and you face strong opposition from your consumers. While it may (or may not) be a small vocal minority that net the reputation, it's tough to keep a clear head when you're being [harrassed with death threats and antisemitism for choosing one store over another](https://medium.com/@perplamps/regarding-whats-been-happening-3af0f27d863c).
+
+As for the development process, it took quite some time to figure out what I was doing here. I started working in SLADE, a DOOM editor with support for macOS and Windows, and followed [this wonderful tutorial](https://eev.ee/blog/2015/12/19/you-should-make-a-doom-level-part-1/) written by a blogger named Eevee. It took several days to get comfortable with the tools, but I'm very proud of what I put together!
+
+The level architecture in DOOM is constructed as a collection of "sectors", which are made up of "linedefs", which are connected by vertices. You can 
+
+Most of the assets used in my maps are borrowed from the DOOM II WAD itself (WADs are what you store the game data on); because of that, you'll need a copy of `DOOM2.WAD` to play my maps, as they need to be loaded together. However, I did make a few custom textures for this level:
+
+<img src="/assets/images/blog/doom-maps/consumers/banner-screenshot.png" class="blog rounded mx-auto d-block" width="75%">
+
+The grungy banner messages shown in the hallway were created as simple 128x64 textures (actual size shown below). Every pixel counts here!
+
+<img src="/assets/images/blog/doom-maps/consumers/banner.png" class="blog rounded mx-auto d-block">
