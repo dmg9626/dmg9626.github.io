@@ -17,14 +17,13 @@ breadcrumbs:
     <h5>{{ post.subtitle }}</h5>
 {% endif %}
 
-{% if page.link %}
-    Link: <a href={{page.link}}>{{page.link}}</a>
-{% endif %}
-
 {% if post.date %}
-    <h6><i>{{ post.date }}</i></h6>
+<h6><i>{{ post.date }}</i></h6>
 {% endif %}
 
+{% for link in page.links %}
+    <a href={{link.URL}}>{{link.label}}</a>
+{% endfor %}
 
 <hr>
 

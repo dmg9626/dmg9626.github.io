@@ -7,6 +7,10 @@ post_id: doom-maps
 breadcrumbs: 
     - link: "/blog/doom-maps"
       label: "Dev Blog 5: Doom Mapping"
+
+links:
+    - label: "Download (requires DOOM II to play)"
+      URL: "/assets/files/wads/consumers.wad"
 ---
 
 My start in Doom mapping came from an interesting assignment prompt in my Experimental Games course:
@@ -66,4 +70,4 @@ This was a simple level for me to experiment with, and I had fun learning to wor
 
 <img src="/assets/images/blog/doom-maps/consumers/consumers_map.png" class="blog rounded mx-auto d-block" width="75%">
 
-#### [> Map 2: Reactor](map-2)
+#### > Map 2: Reactor (coming soon!)
