@@ -14,5 +14,5 @@ Today I'm happy to join that community by releasing my own maps for DOOM II.
 
 -----
 
-#### [> Map 1: Consumers](map-1)
+#### [> Map 1: Consumers](/blog/doom-maps/map-1)
 #### > Map 2: Reactor (coming soon!)
