@@ -37,9 +37,17 @@
         {% if layout.breadcrumbs %} 
                 <div style="padding-left: 50px;">
                         <h5>
+                            <!-- Breadcrumbs specified in layout -->
                             {% for breadcrumb in layout.breadcrumbs %}
                                 &lt; <a href="{{breadcrumb.link}}" style="color:inherit; text-decoration: inherit;">{{breadcrumb.label}}</a>
                             {% endfor %}
+                            
+                            <!-- Breadcrumbs specified in page -->
+                            {% if page.breadcrumbs %}
+                                {% for breadcrumb in page.breadcrumbs %}
+                                    &lt; <a href="{{breadcrumb.link}}" style="color:inherit; text-decoration: inherit;">{{breadcrumb.label}}</a>
+                                {% endfor %}
+                            {% endif %}
                         </h5>
                 </div>
         {% endif %}
