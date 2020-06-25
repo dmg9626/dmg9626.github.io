@@ -11,23 +11,35 @@ breadcrumbs:
 {% assign post_match = site.data.posts | where: "id", page.post_id | limit: 1 %}
 {% assign post = post_match.first %}
 
+
+<!-- Title -->
 <h1 class="post-title">{{ page.title }}</h1>
 
+
+<!-- Subtitle -->
 {% if post.subtitle %}
     <h5>{{ post.subtitle }}</h5>
+{% elsif page.subtitle %}
+    <!-- Subtitle defined in page frontmatter -->
+    <h5> {{ page.subtitle}} </h5>
 {% endif %}
 
+
+<!-- Publication Date -->
 {% if post.date %}
-<h6><i>{{ post.date }}</i></h6>
+    <h6><i>{{ post.date }}</i></h6>
+{% elsif page.date %}
+    <h6><i>{{ page.date }}</i></h6>
 {% endif %}
 
+<!-- Links (optional) -->
 {% for link in page.links %}
     <a href={{link.URL}}>{{link.label}}</a>
 {% endfor %}
 
 <hr>
 
-<!-- Add cover image if given -->
+<!-- Cover Image (optional) -->
 {% if page.coverImage %}
     <div class="row">
         <img src="{{page.coverImage}}" class="fit-horizontal rounded mx-auto"
@@ -35,7 +47,7 @@ breadcrumbs:
     </div>
 {% endif %}
 
-<!-- Embed youtube video if provided -->
+<!-- Youtube Embed (optional) -->
 {% if page.youtube %}
 <div class="row">
     <div class="iframe-container">
