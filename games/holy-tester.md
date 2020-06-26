@@ -32,4 +32,4 @@ Through reading and experimentation, the biggest lesson I learned in AI programm
 --- 
 
 #### [Gitlab Repo](https://gitlab.com/yunatatski/holy-tester-backup){:target="_blank"}
-#### [Development Blog](https://makhodash.wixsite.com/holytester/blog/search/graham){:target="_blank"}
+#### [Development Blog](/blog/holy-tester)
