@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Dev Blog: Holy Tester"
-subtitle: "Week 1: Code Design"
-date: "8/27/19"
+title:  "Week 1: Code Design"
+date: "7/1/19"
 category: blog
 post_id: none
+
+breadcrumbs: 
+    - link: "/blog/holy-tester"
+      label: "Dev Blog 6: Holy Tester"
 ---
 
 Wow I did way too much work this week but here we go:
@@ -29,6 +32,6 @@ The system I've drafted should allow for high-level tactics to be created (ex. C
 
 Here's the high-level UML I've come up with so far - the circles are abstract classes, while boxes are concrete:
 
-<img src="/assets/images/blog/holy-tester/code/combat-manager-UML.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+<img src="/assets/images/blog/holy-tester/log-1/combat-manager-UML.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
 
 Hopefully I'm not in way over my head.
