@@ -31,7 +31,7 @@ Shown below are a collection of spawn locations in a room:
     </i></p>
 </div>
 
-These spawn locations are referenced in the Enemy Spawn Settings, along with the min/max number and types of enemies that can spawn in this room.
+These spawn locations are referenced in the Enemy Spawn Settings, along with the amount/types of enemies that can spawn in this room.
 
 <div class="text-center">
     <img src="/assets/images/blog/holy-tester/log-2/spawn-settings.png" class="blog rounded mx-auto d-block" >
@@ -44,4 +44,4 @@ This should help our designers craft rooms with interesting encounters for the p
 
 Next week I'm going all in on enemy AI. I'll be implementing a proof-of-concept enemy based on the design I drafted up last week.
 
-#### [> Week 3: TITLE_HERE](/blog/holy-tester/log-3)
+#### [> Week 3: Enemy Prototyping](/blog/holy-tester/log-3)
