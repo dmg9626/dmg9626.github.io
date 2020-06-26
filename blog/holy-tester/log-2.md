@@ -43,3 +43,5 @@ These spawn locations are referenced in the Enemy Spawn Settings, along with the
 This should help our designers craft rooms with interesting encounters for the player. They can even reuse the same room layout and make different enemies spawn!
 
 Next week I'm going all in on enemy AI. I'll be implementing a proof-of-concept enemy based on the design I drafted up last week.
+
+#### [> Week 3: TITLE_HERE](/blog/holy-tester/log-3)

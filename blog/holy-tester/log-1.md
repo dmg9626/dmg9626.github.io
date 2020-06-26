@@ -35,3 +35,5 @@ Here's the high-level UML I've come up with so far - the circles are abstract cl
 <img src="/assets/images/blog/holy-tester/log-1/combat-manager-UML.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
 
 Hopefully I'm not in way over my head.
+
+#### [> Week 2: Enemy Spawning](/blog/holy-tester/log-2)
