@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dev Blog: Holy Tester"
+title:  "Dev Blog 6: Holy Tester"
 subtitle: "A peek behind the scenes"
 date: "8/27/19"
 coverImage: "/assets/images/blog/doom-maps/consumers/consumers-2.png"
@@ -23,7 +23,7 @@ I learned a lot throughout development, mainly that I love game AI programming! 
 ## Development Logs
 
 1. [Code Design](/blog/holy-tester/log-1)
-2. [TITLE_HERE](/blog/holy-tester/log-2)
+2. [Enemy Spawning](/blog/holy-tester/log-2)
 3. [TITLE_HERE](/blog/holy-tester/log-3)
 4. [TITLE_HERE](/blog/holy-tester/log-4)
 5. [TITLE_HERE](/blog/holy-tester/log-5)
