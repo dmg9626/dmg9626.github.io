@@ -36,4 +36,4 @@ Originally I had intended to write a Steamon tactic that has them surround and a
 
 Next up will be implementing attacks and integrating enemy animations.
 
-#### [> Week 4: TITLE_HERE](/blog/holy-tester/log-4)
+#### [> Week 4: Fleshing out the Enemies](/blog/holy-tester/log-4)
