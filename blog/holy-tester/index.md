@@ -20,14 +20,14 @@ I learned a lot throughout development, mainly that I love game AI programming! 
 
 ----
 
-## Development Logs
+## Weekly Development Logs
 
 1. [Code Design](/blog/holy-tester/log-1)
 2. [Enemy Spawning](/blog/holy-tester/log-2)
-3. [TITLE_HERE](/blog/holy-tester/log-3)
-4. [TITLE_HERE](/blog/holy-tester/log-4)
-5. [TITLE_HERE](/blog/holy-tester/log-5)
-6. [TITLE_HERE](/blog/holy-tester/log-6)
-7. [TITLE_HERE](/blog/holy-tester/log-7)
-8. [TITLE_HERE](/blog/holy-tester/log-8)
-9. [TITLE_HERE](/blog/holy-tester/log-9)
+3. [Enemy Prototyping](/blog/holy-tester/log-3)
+4. [Fleshing out the Enemies](/blog/holy-tester/log-4)
+5. [Enemy Polish & Tactic Systems](/blog/holy-tester/log-5)
+6. [Pathfinding & Enemy Spawning](/blog/holy-tester/log-6)
+7. [Designing the Taurush](/blog/holy-tester/log-7)
+8. [Implementing the Taurush](/blog/holy-tester/log-8)
+9. [Balancing Enemy Spawning](/blog/holy-tester/log-9)
