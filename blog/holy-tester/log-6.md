@@ -52,4 +52,4 @@ I ended up applying a *very* small amount of path correction to the Steamon and 
 
 Next week would ideally be spent implementing a new boss, but it may be too late for that. I know we've reached beta, but Mike's boss enemies aren't in the game and it'd be a shame if I couldn't get in just one more of them. The leads are planning on having a meeting to decide what goes in the beta, so I'll see what they say.
 
-#### [> Week 7: Designing the Speedon](/blog/holy-tester/log-7)
+#### [> Week 7: Designing the Taurush](/blog/holy-tester/log-7)
