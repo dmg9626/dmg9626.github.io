@@ -58,4 +58,4 @@ So I went and created a new SimpleEnemyMoveComponent that just moves in a straig
 
 Next week me and my teammate Kat will be working together to implement the Speedon, so I sat with her to walk her through the enemy codebase in depth. Doing this helped me realize that I forgot how some parts work, and found some others to be obsolete. I wish I had more time to clean up my work, but we're nearing the 10 week deadline so I'll have to work with what we have.
 
-#### [> Week 8: TITLE_HERE](/blog/holy-tester/log-8)
+#### [> Week 8: Teamwork makes the Speedon work](/blog/holy-tester/log-8)
