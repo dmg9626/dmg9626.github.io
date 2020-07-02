@@ -13,14 +13,14 @@ breadcrumbs:
 ##### Hourly Breakdown:
 
 - Reviewing design of Enemy AI systems with teammates: 2 hours
-- Implementing attacking systems for enemies: 12 hours
+- Implementing attacking/animation systems for enemies: 12 hours
 - Dev meeting: 1 hour 
 
 Total: 15 hours
 
 ------
 
-Wow I actually managed to implement enemy attacks/animations within a week! It was a sprint to get it in by the Saturday deadline, but I've implemented the Steamon/Hellbat enemies in my new combat system. Steamons surround you up close and attack, while Hellbats dart around you and fire projectiles from a distance.
+Wow I actually managed to implement enemy attacks and animations within a week! It was a sprint to get it in by the Saturday deadline, but I've implemented the Steamon/Hellbat enemies in my new combat system. Steamons surround you up close and attack, while Hellbats dart around you and fire projectiles from a distance.
 
 <div class="text-center">
     <img src="/assets/images/blog/holy-tester/log-4/enemy-components.png" class="blog rounded mx-auto d-block" >
@@ -31,4 +31,4 @@ Wow I actually managed to implement enemy attacks/animations within a week! It w
 
 There's still some polish to be done; hellbats don't check to see if they can hit the player before firing projectiles, and they fire them entirely too much. Steamons wait too long before attacking you, and their attack hitboxes are too small. I'm just glad I got this implemented in time. Next week I'll focus on polishing our current enemies, and maybe implementing the boss in our new system.
 
-#### [> Week 5: TITLE_HERE](/blog/holy-tester/log-5)
+#### [> Week 5: Enemy Polish & Tactic Systems](/blog/holy-tester/log-5)
