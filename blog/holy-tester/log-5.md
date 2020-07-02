@@ -58,4 +58,4 @@ Next week I'll be working more on Asmodeus and maybe implementing a new enemy? G
 
 I'd like to tidy up the Enemy code too, as a lack of communication on how to use the various sub-components has led to people dumping functions into the base class to quickly get stuff working. That's partially my fault for not giving them that direction, and partially their fault for not asking, but that's all part of learning to work as a team.
 
-#### [> Week 6: TITLE_HERE](/blog/holy-tester/log-6)
+#### [> Week 6: Pathfinding & Enemy Spawning](/blog/holy-tester/log-6)
