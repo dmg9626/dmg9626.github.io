@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dev Blog 5: Doom Mapping"
-coverImage: "/assets/images/blog/doom-maps/consumers/consumers-2.png"
+coverImage: "/assets/images/blog/doom-maps/cover.jpg"
 category: blog
 post_id: doom-maps
 ---
@@ -15,4 +15,4 @@ Today I'm happy to join that community by releasing my own maps for DOOM II.
 -----
 
 #### [> Map 1: Consumers](/blog/doom-maps/map-1)
-#### > Map 2: Reactor (coming soon!)
+#### [> Map 2: Complex](/blog/doom-maps/map-2)

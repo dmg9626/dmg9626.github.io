@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Map 1: Consumers"
-coverImage: "/assets/images/blog/doom-maps/consumers/consumers-1.png"
+coverImage: "/assets/images/blog/doom-maps/consumers/consumers-3.png"
 category: blog
 post_id: doom-maps
 breadcrumbs: 
