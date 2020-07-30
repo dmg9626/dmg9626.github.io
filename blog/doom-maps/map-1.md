@@ -39,6 +39,7 @@ That week I'd been reading about the [binary-space-partitioning](https://pdfs.se
 
 Here's a gameplay video. Make sure to watch in 1080p; YouTube is currently throttling video quality (because COVID-19), so you have to set it manually.
 
+<!-- Gameplay video -->
 <div class="iframe-container">
     <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/iqGvDaWMp94" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -51,23 +52,34 @@ As for the development process, it took quite some time to figure out what I was
 
 The level architecture in DOOM is constructed as a collection of "sectors", which are made up of "linedefs", which are connected by vertices. Basically, you can draw these flat sectors and mess with their heights to form whatever you want.
 
+<!-- Editor screenshots/gifs -->
 <div class="row">
-    <img src="/assets/images/blog/doom-maps/consumers/editor_window-sector_topdown.png" class="blog rounded mx-auto d-block" width="50%" height="auto">
-    <img src="/assets/images/blog/doom-maps/consumers/editor_sector_heights.gif" class="blog rounded mx-auto d-block" width="50%" height="auto">
+    <div class="col-md-6">
+        <img src="/assets/images/blog/doom-maps/consumers/editor_window-sector_topdown.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
+    <div class="col-md-6">
+        <img src="/assets/images/blog/doom-maps/consumers/editor_sector_heights.gif" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
 </div>
 
 The keyword here is **flat**: everything in (vanilla) DOOM is flat! The engine doesn't support slopes, so you'll have to settle for stairs or an elevator instead.
 
 Most of the assets used in my maps are borrowed from the DOOM II WAD itself (WADs are what you store the game data on); because of that, you'll need a copy of `DOOM2.WAD` to play my maps, as they need to be loaded together. However, I did make a few custom textures for this level:
 
-<img src="/assets/images/blog/doom-maps/consumers/banner-screenshot.png" class="blog rounded mx-auto d-block" width="75%">
+<!-- Banner texture (in-game) -->
+<div class="row">
+    <img src="/assets/images/blog/doom-maps/consumers/banner-screenshot.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+</div>
 
 The grungy banner messages in the hallway were created as simple 128x64 textures (actual size below). Every pixel counts here!
 
+<!-- Raw banner texture (keep it actual-size) -->
 <img src="/assets/images/blog/doom-maps/consumers/banner.png" class="blog rounded mx-auto d-block">
 
 This was a simple level for me to experiment with, and I had fun learning to work with the engine. Also, by sheer coincidence the map layout ended up looking like a sweet guitar!
 
-<img src="/assets/images/blog/doom-maps/consumers/consumers_map.png" class="blog rounded mx-auto d-block" width="75%">
+<div class="row">
+    <img src="/assets/images/blog/doom-maps/consumers/consumers_map.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+</div>
 
 #### > Map 2: Reactor (coming soon!)
