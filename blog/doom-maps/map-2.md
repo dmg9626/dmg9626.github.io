@@ -7,18 +7,29 @@ post_id: doom-maps
 breadcrumbs: 
     - link: "/blog/doom-maps"
       label: "Dev Blog 5: Doom Mapping"
+
+links:
+    - label: "Download (requires DOOM II to play)"
+      URL: "/assets/files/wads/complex.wad"
 ---
 
 For my next map, I wanted to make something more expansive and intricate, a traditional map rather than an artistic statement. 
 
 I ended up spending much, much more time on this map than I anticipated. I started working on the map in early February, and 6 months (and a global catastrophe) later I'm finally calling it complete! This is just one of several attempts to write this development blog: after weeks of polish, I'd write about the process and take screenshots of the map before finding something I could improve upon, and the cycle would continue.
 
+Here's a playthrough of the level:
+
+<!-- Gameplay Video -->
+<div class="iframe-container">
+    <iframe width="720" height="auto" src="https://www.youtube-nocookie.com/embed/vKtTLYod6_k" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### The Mentality
 -----
 
 As COVID-19 wreaked Hell on Earth, I found comfort creating my own Hell in DOOM. I spent hours and hours, and my parents grew concerned about my caffiene-fueled level design benders.
 
-The obsession stemmed in part from my interest in the archaic game engine and the experimental alchemy of level design. But above all, I was hooked by the brooding nature of DOOM's atmostphere. Watching the world burn made me grow angry. America shit the bed in its response to the pandemic, and obscene police brutality grew vanilla, forming yet another parallel to Nazi Germany. Our social consciousness has, in a nationalist fever dream, forgotten that we are operating concentration camps on American soil. 
+The obsession stemmed in part from my interest in the archaic game engine and the experimental alchemy of level design. But above all, I found an escape in DOOM's chaotic atmostphere. Watching the world burn made me grow angry. America shit the bed in its response to the pandemic, and obscene police brutality grows vanilla as the economy takes another historic downturn, forming yet another parallel to Nazi Germany. Our social consciousness has, in a nationalist fever dream, forgotten that we are operating concentration camps on American soil.
 
 Anyway, happy good thoughts. Let's talk about the map!
 
@@ -29,11 +40,11 @@ Before doing anything, I had to learn from the best. So I spent some time replay
 
 After blasting through DOOM I and II, I took [John Romero's rules of level design](https://doomwiki.org/wiki/John_Romero#Design_rules) to heart, most notably the following:
 
-> - Conscious use of contrast everywhere in a level between light and dark areas, cramped and open areas
-> - Making sure that if a player could see outside that they should be able to somehow get there
-> - Being strict about designing several secret areas on every level
-> - Making my levels flow so the player will revisit areas several times so they will better understand the 3D space of the level
-> - Creating easily recognizable landmarks in several places for easier navigation
+> - Conscious **use of contrast** everywhere in a level between light and dark areas, cramped and open areas
+> - Making sure that **if a player could see outside** that **they should be able to somehow get there**
+> - Being strict about **designing several secret areas** on every level
+> - Making my levels flow so the **player will revisit areas several times** so they will better understand the 3D space of the level
+> - Creating **easily recognizable landmarks** in several places for easier navigation
 
 The rule that resonated most for me was **contrast**: I wanted to create a more varied map, combining large open spaces with claustrophobic, dark corridors. And, of course, I had to take advantage of DOOM's technical feat: vertical architecture.
 
