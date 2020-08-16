@@ -11,36 +11,39 @@ breadcrumbs:
 {% assign post_match = site.data.posts | where: "id", page.post_id | limit: 1 %}
 {% assign post = post_match.first %}
 
-<h1 class="post-title">{{ page.title }}</h1>
+<!-- Applies mobile-friendly styling defined in blog_post.css  -->
+<div class="blog">
+    <h1 class="post-title">{{ page.title }}</h1>
 
-{% if post.subtitle %}
-    <h5>{{ post.subtitle }}</h5>
-{% endif %}
+    {% if post.subtitle %}
+        <h5>{{ post.subtitle }}</h5>
+    {% endif %}
 
-{% if post.date %}
-<h6><i>{{ post.date }}</i></h6>
-{% endif %}
+    {% if post.date %}
+    <h6><i>{{ post.date }}</i></h6>
+    {% endif %}
 
-{% for link in page.links %}
-    <a href={{link.URL}}>{{link.label}}</a>
-{% endfor %}
+    {% for link in page.links %}
+        <a href={{link.URL}}>{{link.label}}</a>
+    {% endfor %}
 
-<hr>
+    <hr>
 
-<!-- Add cover image if given -->
-{% if page.coverImage %}
-    <img src="{{page.coverImage}}" class="rounded mx-auto d-block" style="padding: 20px 0px" width="100%">
-{% endif %}
+    <!-- Add cover image if given -->
+    {% if page.coverImage %}
+        <img src="{{page.coverImage}}" class="rounded mx-auto d-block" style="padding: 20px 0px" width="100%">
+    {% endif %}
 
-<!-- Embed youtube video if provided -->
-{% if page.youtube %}
-<div class="row">
-    <div class="iframe-container">
-        <iframe width="560" height="315" src="{{page.youtube}}" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    <!-- Embed youtube video if provided -->
+    {% if page.youtube %}
+    <div class="row">
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="{{page.youtube}}" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
-</div>
-<br/>
-{% endif %}
+    <br/>
+    {% endif %}
 
-<!-- Post body goes here -->
-{{ content }}
+    <!-- Post body goes here -->
+    {{ content }}
+</div>

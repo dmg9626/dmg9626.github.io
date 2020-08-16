@@ -52,7 +52,7 @@ As for the development process, it took quite some time to figure out what I was
 
 The level architecture in DOOM is constructed as a collection of "sectors", which are made up of "linedefs", which are connected by vertices. Basically, you can draw these flat sectors and mess with their heights to form whatever you want.
 
-<!-- Editor screenshots/gifs -->
+<!-- Editor screenshots/gifs (stack vertically in mobile, horizontally on desktop) -->
 <div class="row">
     <div class="col-lg-6">
         <img src="/assets/images/blog/doom-maps/consumers/editor_window-sector_topdown.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
@@ -67,7 +67,7 @@ The keyword here is **flat**: everything in (vanilla) DOOM is flat! The engine d
 Most of the assets used in my maps are borrowed from the DOOM II WAD itself (WADs are what you store the game data on); because of that, you'll need a copy of `DOOM2.WAD` to play my maps, as they need to be loaded together. However, I did make a few custom textures for this level:
 
 <!-- Banner texture (in-game) -->
-<img src="/assets/images/blog/doom-maps/consumers/banner-screenshot.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+<img src="/assets/images/blog/doom-maps/consumers/banner-screenshot.png" class="blog rounded mx-auto d-block" width="100%">
 
 The grungy banner messages in the hallway were created as simple 128x64 textures (actual size below). Every pixel counts here!
 
