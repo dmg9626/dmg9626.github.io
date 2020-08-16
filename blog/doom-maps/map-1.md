@@ -54,10 +54,10 @@ The level architecture in DOOM is constructed as a collection of "sectors", whic
 
 <!-- Editor screenshots/gifs -->
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-lg-6">
         <img src="/assets/images/blog/doom-maps/consumers/editor_window-sector_topdown.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </div>
-    <div class="col-md-6">
+    <div class="col-lg-6">
         <img src="/assets/images/blog/doom-maps/consumers/editor_sector_heights.gif" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </div>
 </div>
@@ -67,9 +67,7 @@ The keyword here is **flat**: everything in (vanilla) DOOM is flat! The engine d
 Most of the assets used in my maps are borrowed from the DOOM II WAD itself (WADs are what you store the game data on); because of that, you'll need a copy of `DOOM2.WAD` to play my maps, as they need to be loaded together. However, I did make a few custom textures for this level:
 
 <!-- Banner texture (in-game) -->
-<div class="row">
-    <img src="/assets/images/blog/doom-maps/consumers/banner-screenshot.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
-</div>
+<img src="/assets/images/blog/doom-maps/consumers/banner-screenshot.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
 
 The grungy banner messages in the hallway were created as simple 128x64 textures (actual size below). Every pixel counts here!
 
@@ -78,9 +76,7 @@ The grungy banner messages in the hallway were created as simple 128x64 textures
 
 This was a simple level for me to experiment with, and I had fun learning to work with the engine. Also, by sheer coincidence the map layout ended up looking like a sweet guitar!
 
-<div class="row">
-    <img src="/assets/images/blog/doom-maps/consumers/consumers_map.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
-</div>
+<img src="/assets/images/blog/doom-maps/consumers/consumers_map.png" class="blog rounded mx-auto d-block" width="100%">
 
 For my next map, I built upon what I'd learned here to create a more intricate, complex map. Click below to check it out!
 
