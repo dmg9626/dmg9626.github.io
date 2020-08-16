@@ -36,27 +36,28 @@
         <!-- Link to breadcrumbs if provided (ex. Home < Dev Blogs < Dev Blog 1: Wu Trump ) -->
         {% if layout.breadcrumbs or page.breadcrumbs %} 
                 <div style="padding-left: 50px;">
-                        <h5>
+                        <h6>
                             <!-- Breadcrumbs specified in layout -->
                             {% for breadcrumb in layout.breadcrumbs %}
-                                &lt; <a href="{{breadcrumb.link}}" style="color:inherit; text-decoration: inherit;">{{breadcrumb.label}}</a>
+                                <a href="{{breadcrumb.link}}" style="color:inherit; text-decoration: inherit;">{{breadcrumb.label}}</a> &lt; 
                             {% endfor %}
                             
                             <!-- Breadcrumbs specified in page -->
                             {% if page.breadcrumbs %}
                                 {% for breadcrumb in page.breadcrumbs %}
-                                    &lt; <a href="{{breadcrumb.link}}" style="color:inherit; text-decoration: inherit;">{{breadcrumb.label}}</a>
+                                    <a href="{{breadcrumb.link}}" style="color:inherit; text-decoration: inherit;">{{breadcrumb.label}}</a> &lt; 
                                 {% endfor %}
                             {% endif %}
-                        </h5>
+
+                            <!-- Current page -->
+                            {{page.title}}
+                        </h6>
                 </div>
         {% endif %}
         
-        <div class="container">
+        <div class="container" style="padding-bottom: 50px">
             <!-- Page Content  -->
-            <div style="padding-bottom: 50px">
-                {{ content }}
-            </div>
+            {{ content }}
         </div>
     </body>
 
