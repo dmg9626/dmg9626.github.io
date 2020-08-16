@@ -82,4 +82,6 @@ This was a simple level for me to experiment with, and I had fun learning to wor
     <img src="/assets/images/blog/doom-maps/consumers/consumers_map.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
 </div>
 
-#### > Map 2: Reactor (coming soon!)
+For my next map, I built upon what I'd learned here to create a more intricate, complex map. Click below to check it out!
+
+#### [> Map 2: Complex](/blog/doom-maps/map-2)
