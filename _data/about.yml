@@ -10,7 +10,7 @@
 
     - name: 'Outer Wilds'
       thumbnail: /about/images/outer-wilds.jpg
-      caption: > 
+      caption: >
         This is, hands-down, the best narrative experience I've ever had in a game. 
         Don't spoil it by reading reviews - just jump in blind and enjoy the ride.
       link: "https://www.epicgames.com/store/en-US/product/outerwilds/home"
@@ -29,20 +29,25 @@
         and I'm excited to dive into the Mooncrash expansion.
       link: "https://www.rockpapershotgun.com/2017/05/09/prey-review/"
 
+    - name: 'South Park: The Stick of Truth'
+      thumbnail: /about/images/stick-of-truth.jpg
+      caption: >
+        My favorite show made a game, and it's actually good! The humour is spot on
+        with the show, and it's helped tide me over until the next season premieres.
+      link: "https://www.rockpapershotgun.com/2016/07/18/south-park-stick-of-truth-archer-rpg/"
+
     - name: 'Ghost in the Shell: Stand Alone Complex'
       thumbnail: /about/images/ghost-in-the-shell.jpg
-      caption: > 
+      caption: >
         Don't be misled by the "tactical lingerie" - it's a fantastic sci-fi
         about sociopolitical manipulation through social media (an advanced subject
         considering its 2002 debut).
       link: "https://www.pcgamesn.com/ghost-in-the-shell-stand-alone-complex-first-assault-online/ghost-in-the-shell-stand-alone-complex-first-assault-online-shutting-down"
     
-
-
   currently-enjoying:
-    - name: 'South Park: The Stick of Truth'
-      thumbnail: /about/images/stick-of-truth.jpg
+    - name: 'DOOM'
+      thumbnail: /about/images/doom.jpg
       caption: >
-        My favorite show made a game, and it's actually good! The humour is spot on
-        with the show and I'm loving every second of it.
-      link: "https://www.rockpapershotgun.com/2016/07/18/south-park-stick-of-truth-archer-rpg/"
+        This game has helped me survive the Hell on Earth that is 2020. It's one of very few games I'll call a 10/10,
+        and it spawned an undying map making community that I'm proud to be a part of.
+      link: "https://5years.doomworld.com/interviews/johnromero/"
