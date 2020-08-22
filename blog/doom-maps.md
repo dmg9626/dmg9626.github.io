@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dev Blog 5: Doom Mapping"
-coverImage: "/assets/images/blog/doom-maps/cover.jpg"
+coverImage: "/blog/doom-maps/images/cover.jpg"
 category: blog
 post_id: doom-maps
 ---

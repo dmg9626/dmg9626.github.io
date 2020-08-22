@@ -12,7 +12,7 @@
 - name:  "Dev Blog 5: Doom Mapping"
   id: doom-maps
   subtitle: "Making levels for a game older than me!"
-  thumbnail: "/assets/images/blog/doom-maps/thumbnail.jpg"
+  thumbnail: "/blog/doom-maps/images/thumbnail.jpg"
   date: "6/10/20"
 
 - name:  "Dev Blog 4: Procedural Map Generation"
