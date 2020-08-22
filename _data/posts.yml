@@ -24,7 +24,7 @@
 - name:  "Dev Blog 3: Mario AI"
   id: mario-ai
   subtitle: "A behavior-tree agent that plays Super Mario Bros"
-  thumbnail: "/assets/images/blog/mario-ai/clip_2.gif"
+  thumbnail: "/blog/mario-ai/images/clip_2.gif"
   date: "2/20/20"
 
 - name:  "Dev Blog 2: Thomas the Bluesmobile"

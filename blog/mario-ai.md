@@ -10,7 +10,7 @@ post_id: mario-ai
 
 This was a fun assignment from my Game AI course. I was tasked with implementing a behavior-tree Mario agent that runs through randomly-generated levels, killing enemies and collecting coins along the way.
 
-<img src="/assets/images/blog/mario-ai/clip_2.gif" class="blog rounded mx-auto d-block" width="75%">
+<img src="/blog/mario-ai/images/clip_2.gif" class="blog rounded mx-auto d-block" width="75%">
 *(Ignore the enemies stuck in the ground, I didn't write the proc-gen code)*
 
 As you can see, it does a pretty decent job of it too! While it could surely be improved upon (collecting powerups from blocks, getting coins above platforms), the assignmenet was meant to show us the strengths and limits of using behavior trees. Eventually it becomes too complex to easily extend the behavior tree without restructuring the tree to accommodate.
@@ -21,7 +21,7 @@ We were provided a Java implementation of the game (documentation found [here](h
 
 ----
 
-<img src="/assets/images/blog/mario-ai/clip_1.gif" class="blog rounded mx-auto d-block" width="75%">
+<img src="/blog/mario-ai/images/clip_1.gif" class="blog rounded mx-auto d-block" width="75%">
 
 My behavior tree is very simple, but it gets the job done. The basic algorithm is something like this:
 
@@ -33,11 +33,11 @@ So basically a rough approximation of a human player's behavior.
 
 The full behavior tree looks something like this:
 
-<img src="/assets/images/blog/mario-ai/behavior_tree.png" class="blog rounded mx-auto d-block" width="75%">
+<img src="/blog/mario-ai/images/behavior_tree.png" class="blog rounded mx-auto d-block" width="75%">
 
 Mario runs through levels of increasing difficulty, and manages to complete the first few without issue. The agent begins to break down in more vertical levels featuring jumping enemies and pits:
 
-<img src="/assets/images/blog/mario-ai/clip_3.gif" class="blog rounded mx-auto d-block" width="75%">
+<img src="/blog/mario-ai/images/clip_3.gif" class="blog rounded mx-auto d-block" width="75%">
 
 Given that I spent about 3 days working on my agent, I'm very happy with how it turned out! Here's a longer video of the agent running through levels:
 
