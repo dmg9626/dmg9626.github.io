@@ -36,5 +36,5 @@
 - name: "Dev Blog 1: Wu-Trump"
   id: wu-trump
   subtitle: "Make America Swarm Again"
-  thumbnail: "/assets/images/blog/wu-trump/thumbnail.png"
+  thumbnail: "/blog/wu-trump/images/thumbnail.png"
   date: "11/4/19"

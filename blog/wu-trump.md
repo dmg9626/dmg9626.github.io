@@ -28,15 +28,15 @@ I tested it out by feeding it some Wu-Tang; the lyrics from each song on Enter T
 
 <!-- Lyrics before/after cleaning up -->
 <div class="row text-center">
-    <img src="/assets/images/blog/wu-trump/raw_lyrics.png" class="blog text-center" width="50%">
-    <img src="/assets/images/blog/wu-trump/cleaned_up_lyrics.png" class="blog text-center" width="50%">
+    <img src="/blog/wu-trump/images/raw_lyrics.png" class="blog text-center" width="50%">
+    <img src="/blog/wu-trump/images/cleaned_up_lyrics.png" class="blog text-center" width="50%">
 </div>
 
 
 After cleaning up the input, I was able to start generating some Wu-Tang lyrics:
 
 <!-- Image of generated Wu-Tang tweets -->
-<img src="/assets/images/blog/wu-trump/generated_lyrics.png" class="blog text-center" width="75%">
+<img src="/blog/wu-trump/images/generated_lyrics.png" class="blog text-center" width="75%">
 
 Not my goal, but an enjoyable milestone.
 
@@ -76,7 +76,7 @@ f.close()
 ```
 
 <!-- Image of fetching tweets -->
-<img src="/assets/images/blog/wu-trump/fetching_tweets.png" class="blog text-center" width="75%">
+<img src="/blog/wu-trump/images/fetching_tweets.png" class="blog text-center" width="75%">
 
 
 Then all I had to do was write a simple script that fed all the Wu-Tang lyrics and Trump tweets into Markovify and generated sentences for tweets:
@@ -104,10 +104,10 @@ for i in range(10):
 Running this spits out a handful of sentences generated from both text sources.
 
 <!-- Image of generated tweets -->
-<img src="/assets/images/blog/wu-trump/generated_tweets.png" class="blog text-center" width="100%">
+<img src="/blog/wu-trump/images/generated_tweets.png" class="blog text-center" width="100%">
 
 
-You can see that all of them are essentially gibberish sentences, and some clearly draw more from the Wu-Tang text from the Trump tweets (and visa versa for others). There's also a very neat unintended side-effect of this program though: some sentences include hashtags and even quote-tweets used in Donald's tweets. Twitter seems to handle these elements of tweets as raw text in the tweet body, which get represented as embedded conetent when viewed on Twitter. I didn't expect this to happen at all, but it was really entertaining to see some of these tweets be targeted at random accounts from Donald's tweets.
+You can see that all of them are essentially gibberish sentences, and some clearly draw more from the Wu-Tang text from the Trump tweets (and visa versa for others). There's also a very neat unintended side-effect of this program though: some sentences include hashtags and even quote-tweets used in Donald's tweets. Twitter seems to handle these elements of tweets as raw text in the tweet body, which get represented as embedded content when viewed on Twitter. I didn't expect this to happen at all, but it was really entertaining to see some of these tweets be targeted at random accounts from Donald's tweets.
 
 <blockquote class="twitter-tweet tw-align-center" data-dnt="true">
 <p lang="en" dir="ltr">And I&#39;m about to blow up a negotiation. The Taliban has never had such support! <a href="https://t.co/t7hWZ555sy">https://t.co/t7hWZ555sy</a></p>&mdash; donald trump tweets mixed with wu tang lyrics (@wutrump) <a href="https://twitter.com/wutrump/status/1182818363405299715">October 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
