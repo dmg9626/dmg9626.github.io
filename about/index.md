@@ -10,3 +10,13 @@ Hello! I'm a game programmer from Orlando, Florida. I recently graduated from Dr
 Games were a big part of my life growing up, and I'm lucky enough to enjoy a career making them. Nothing thrills me more than watching someone else enjoy a game I worked on!
 
 When I'm not working on/playing games, I can be found skateboarding, enjoying the weather, yelling about internet privacy, or tinkering with my Raspberry Pi.
+
+----
+
+## I've recently enjoyed:
+{% include about/recently_enjoyed.html %}
+
+----
+
+## I'm currently enjoying:
+{% include about/currently_enjoying.html %}

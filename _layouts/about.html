@@ -10,49 +10,9 @@ layout: default
 
             <div class="game-description-text">
                 
-                <!-- About Me text -->
+                <!-- About Me -->
                 {{ content }}
-
-                <hr>
-
-                <!-- Recently enjoyed -->
-                <h2>I've recently enjoyed:</h2> <br>
-                <div class="row">
-                    <!-- generate cards from about.yml -->
-                    {% for item in site.data.about.recently-enjoyed %}
-                        <div class="col-md-4">
-                            <div class="card" style="width:100%">
-                                <img class="card-img-top" src="{{item.thumbnail}}" alt="Card image">
-                                <div class="card-body">
-                                    <h4 class="card-title">{{item.name}}</h4>
-                                    <small>{{item.caption}}</small><br><br>
-                                    <a href="{{item.link}}" target="_blank" class="btn btn-secondary">See More</a>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
                 
-                <hr>
-                
-                <!-- Currently enjoying -->
-                <h2>I'm currently enjoying:</h2> <br>
-                <div class="row">
-                    <!-- generate cards from about.yml -->
-                    {% for item in site.data.about.currently-enjoying %}
-                        <div class="col-md-4">
-                            <div class="card" style="width:100%">
-                                <img class="card-img-top" src="{{item.thumbnail}}" alt="Card image">
-                                <div class="card-body">
-                                    <h4 class="card-title">{{item.name}}</h4>
-                                    <small>{{item.caption}}</small><br><br>
-                                    <a href="{{item.link}}" target="_blank" class="btn btn-secondary">See More</a>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-
             </div>
         </div>
     </div>
