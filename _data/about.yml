@@ -1,7 +1,7 @@
 ---
   recently-enjoyed:
     - name: Red Dead Redemption
-      thumbnail: /assets/images/about/red-dead-redemption.jpg
+      thumbnail: /about/images/red-dead-redemption.jpg
       caption: >
         This game had a surprisingly compelling narrative (even for Rockstar's standards).
         John Marston's actions (and those around him) paint a futile struggle to
@@ -9,28 +9,28 @@
       link: "https://www.youtube.com/watch?v=yBLdQ1a4-JI"
 
     - name: 'Outer Wilds'
-      thumbnail: /assets/images/about/outer-wilds.jpg
+      thumbnail: /about/images/outer-wilds.jpg
       caption: > 
         This is, hands-down, the best narrative experience I've ever had in a game. 
         Don't spoil it by reading reviews - just jump in blind and enjoy the ride.
       link: "https://www.epicgames.com/store/en-US/product/outerwilds/home"
 
     - name: Metroid Prime
-      thumbnail: /assets/images/about/metroid-prime.jpg
+      thumbnail: /about/images/metroid-prime.jpg
       caption: >
         This game does a stellar job of delivering narrative through the environment.
         Also the soundtrack is sublime, great for listening during work or study.
       link: "https://kotaku.com/metroid-prime-the-kotaku-review-1764050288"
 
     - name: Prey
-      thumbnail: /assets/images/about/prey.jpg
+      thumbnail: /about/images/prey.jpg
       caption: >
         A fantastic homage to System Shock. I've just finished the main game
         and I'm excited to dive into the Mooncrash expansion.
       link: "https://www.rockpapershotgun.com/2017/05/09/prey-review/"
 
     - name: 'Ghost in the Shell: Stand Alone Complex'
-      thumbnail: /assets/images/about/ghost-in-the-shell.jpg
+      thumbnail: /about/images/ghost-in-the-shell.jpg
       caption: > 
         Don't be misled by the "tactical lingerie" - it's a fantastic sci-fi
         about sociopolitical manipulation through social media (an advanced subject
@@ -41,7 +41,7 @@
 
   currently-enjoying:
     - name: 'South Park: The Stick of Truth'
-      thumbnail: /assets/images/about/stick-of-truth.jpg
+      thumbnail: /about/images/stick-of-truth.jpg
       caption: >
         My favorite show made a game, and it's actually good! The humour is spot on
         with the show and I'm loving every second of it.
