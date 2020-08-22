@@ -14,7 +14,7 @@ Initially I struggled to wrap my head around this assignment. I started with a d
 but instead of the Blues Brothers in their Bluesmobile, it'd be OJ Simpson escaping in the white Bronco. I drafted up a rough storyboard of that idea, which you can see here:
 
 <video class="center" controls>
-    <source src="/assets/mp4/blog/thomas-bluesmobile/OJ-storyboard.mp4" type="video/mp4">
+    <source src="/blog/thomas-bluesmobile/mp4/OJ-storyboard.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 
@@ -25,21 +25,21 @@ Eventually I settled on my final concept: the [bridge jump scene](https://youtu.
 I went back to the (literal) drawing board and created another storyboard animatic for this revised concept. This set me behind schedule a bit, but you can't skip the storyboard!
 
 <video class="center" controls>
-    <source src="/assets/mp4/blog/thomas-bluesmobile/thomas-storyboard.mp4" type="video/mp4">
+    <source src="/blog/thomas-bluesmobile/mp4/thomas-storyboard.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 
 Our first deliverable was a greybox pass of each shot in the scene. I didn't manage to block out all the scenes, but I did get a lot of the modeling work done on Thomas and Diesel. 
 
 <video class="center" controls>
-    <source src="/assets/mp4/blog/thomas-bluesmobile/v1_greybox.mp4" type="video/mp4">
+    <source src="/blog/thomas-bluesmobile/mp4/v1_greybox.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 
 Next was the full material pass. I focused my efforts here on fleshing out the models and materials for everything in the scene. Once again I didn't have all the shots set up, but this way all I had left was to set up the cameras and render all my shots the following week. At this point I was quickly aborting the traditional animation pipeline (doing a greybox pass on every shot, then taking the beauty pass with materials/lights/remodeling). Drexel's 10-week quarters really don't accommodate that workflow.
 
 <video class="center" controls>
-    <source src="/assets/mp4/blog/thomas-bluesmobile/v3_shot3-revision.mp4" type="video/mp4">
+    <source src="/blog/thomas-bluesmobile/mp4/v3_shot3-revision.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 
@@ -48,7 +48,7 @@ This was the final stretch: my last week to work on the project. I had to make t
 In this next benchmark I re-rendered some of the shots with a depth-of-field effect to drive the viewer's eyes to the subject. I also started testing out the faces on Thomas/Diesel, which you can see for a split-second in one shot (the frames weren't finished rendering when I made this clip).
 
 <video class="center" controls>
-    <source src="/assets/mp4/blog/thomas-bluesmobile/v5_DoF-pass.mp4" type="video/mp4">
+    <source src="/blog/thomas-bluesmobile/mp4/v5_DoF-pass.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
 </video>
 *(Fun Fact: You can see here is where I realized that I mixed up the positions of Thomas and Diesel. Glad I fixed that before the final cut!)*

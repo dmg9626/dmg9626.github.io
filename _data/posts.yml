@@ -30,7 +30,7 @@
 - name:  "Dev Blog 2: Thomas the Bluesmobile"
   id: thomas-bluesmobile
   subtitle: "A project for my Animation course"
-  thumbnail: "/assets/images/blog/thomas-bluesmobile/thomas_diesel_edit.png"
+  thumbnail: "/blog/thomas-bluesmobile/images/thomas_diesel_edit.png"
   date: "12/12/19"
 
 - name: "Dev Blog 1: Wu-Trump"
