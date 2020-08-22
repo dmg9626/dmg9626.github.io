@@ -3,7 +3,10 @@ layout: about
 title: About Me
 permalink: /about/
 ---
+## About Me
 
-<p>I'm a game developer from Orlando, currently enrolled at Drexel University in Computer Science with a Game Development concentration.</p>
+Hello! I'm a game programmer from Orlando, Florida. I recently graduated from Drexel University in the Class of 2020, with a Bachelor's in Computer Science and a concentration in Game Development and AI.
 
-<p>When I'm not talking about games, I can be found enjoying the weather, yelling about internet privacy, or tinkering with my Raspberry Pi.</p>
+Games were a big part of my life growing up, and I'm lucky enough to enjoy a career making them. Nothing thrills me more than watching someone else enjoy a game I worked on!
+
+When I'm not working on/playing games, I can be found skateboarding, enjoying the weather, yelling about internet privacy, or tinkering with my Raspberry Pi.
