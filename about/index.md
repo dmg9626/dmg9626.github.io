@@ -13,22 +13,22 @@ When I'm not working on/playing games, I can be found skateboarding, enjoying th
 
 ----
 
-## I've recently enjoyed:
+## I'm currently enjoying:
 
 <div class="row">
     <!-- generate cards from about.yml -->
-    {% for item in site.data.about.recently-enjoyed %}
+    {% for item in site.data.about.currently-enjoying %}
         {% include enjoying_card.html %}
     {% endfor %}
 </div>
 
 ----
 
-## I'm currently enjoying:
+## I've recently enjoyed:
 
 <div class="row">
     <!-- generate cards from about.yml -->
-    {% for item in site.data.about.currently-enjoying %}
+    {% for item in site.data.about.recently-enjoyed %}
         {% include enjoying_card.html %}
     {% endfor %}
 </div>
