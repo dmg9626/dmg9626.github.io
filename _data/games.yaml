@@ -4,58 +4,58 @@
   date: "Winter 2019"
   shortDescription: "A highly-performant flocking simulation"
   images:
-    - imagePath: "/assets/images/games/boids/boids.gif"
+    - imagePath: "/games/boids/images/boids.gif"
       caption: "Generates convincing flocking patterns"
-    - imagePath: "/assets/images/games/boids/boids_settings.gif"
+    - imagePath: "/games/boids/images/boids_settings.gif"
       caption: "Fine-tune flocking behavior in settings"
-    - imagePath: "/assets/images/games/boids/boids_debug.gif"
+    - imagePath: "/games/boids/images/boids_debug.gif"
       caption: "Further customization available in-engine"
-  thumbnail: "/assets/images/games/boids/thumbnail.gif"
+  thumbnail: "/games/boids/images/thumbnail.gif"
 
 - name: "Holy Tester"
   id: holy-tester
   date: "Summer 2019"
   shortDescription: "A procedurally-generated roguelike dungeon crawler"
-  thumbnail: "/assets/images/games/holy-tester/thumbnail.png"
+  thumbnail: "/games/holy-tester/images/thumbnail.png"
 
 - name: "It's Haunt Time!"
   id: its-haunt-time
   date: "Spring 2019"
   shortDescription: "A cute spook-em-up puzzle game for mobile devices"
   images: 
-    - imagePath: "/assets/images/games/its-haunt-time/gifs/unplug.gif"
+    - imagePath: "/games/its-haunt-time/images/gifs/unplug.gif"
       caption: "Solve puzzles!"
-    - imagePath: "/assets/images/games/its-haunt-time/gifs/cat.gif"
+    - imagePath: "/games/its-haunt-time/images/gifs/cat.gif"
       caption: "Interact with the environment!"
-  thumbnail: "/assets/images/games/its-haunt-time/thumbnail.png"
+  thumbnail: "/games/its-haunt-time/images/thumbnail.png"
 
 - name: "Surface Tension"
   id: surface-tension
   date: "Spring 2018"
   shortDescription: "A puzzle-platformer centered around manipulating surfaces"
-  coverImage: "/assets/images/games/surface-tension/cover.png"
+  coverImage: "/games/surface-tension/images/cover.png"
   images: 
-    - imagePath: "/assets/images/games/surface-tension/screenshots/bounce.png"
+    - imagePath: "/games/surface-tension/images/screenshots/bounce.png"
       caption: "Use the Bouncy surface to reach high places"
-    - imagePath: "/assets/images/games/surface-tension/screenshots/slick.png"
+    - imagePath: "/games/surface-tension/images/screenshots/slick.png"
       caption: "Slide across the Icy surface to gain extra speed"
-  thumbnail: "/assets/images/games/surface-tension/thumbnail.png"
+  thumbnail: "/games/surface-tension/images/thumbnail.png"
 
 - name: "Perceive n’ Deceive"
   id: perceive-n-deceive
   date: "Spring 2018"
   shortDescription: "A tabletop game of imperfect information"
-  coverImage: "/assets/images/games/perceive-n-deceive/example board.png"
+  coverImage: "/games/perceive-n-deceive/images/example board.png"
   images: 
-    - imagePath: "/assets/images/games/perceive-n-deceive/set.png"
+    - imagePath: "/games/perceive-n-deceive/images/set.png"
       caption: "The goal is to identify and claim a set of 3 matching cards"
-    - imagePath: "/assets/images/games/perceive-n-deceive/example hand.png"
+    - imagePath: "/games/perceive-n-deceive/images/example hand.png"
       caption: "Players can choose to bluff on actions, or when claiming a set. If the opponent calls a bluff, they win the game"
-    - imagePath: "/assets/images/games/perceive-n-deceive/stalemate.png"
+    - imagePath: "/games/perceive-n-deceive/images/stalemate.png"
       caption: "Sometimes stalemates arise where each player has a card of the same set, and both know where the 3rd card is. A player must then claim to identify a different set on the board, and the opponent can choose to call their bluff"
-    - imagePath: "/assets/images/games/perceive-n-deceive/cards.png"
+    - imagePath: "/games/perceive-n-deceive/images/cards.png"
       caption: "There are 3 blue, green, and red cards that can form a set or perform actions to gain board knowledge. The wildcard can perform any action, but cannot be used to form a set"
-  thumbnail: "/assets/images/games/perceive-n-deceive/thumbnail.png"
+  thumbnail: "/games/perceive-n-deceive/images/thumbnail.png"
 
 - name: "This Is Trump"
   id: this-is-trump

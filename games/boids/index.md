@@ -28,7 +28,7 @@ This was a weekend side-project I worked on over my winter break. I was inspired
 
 Before implementing these 3 behaviors, I first had to get boids to detect each other when nearby. I implemented this as a cone-shaped field of vision made up of raycasts. As you can see below, this approach allowed me to optimize performance by tweaking the cone's width, range, and number of raycasts.
 
-<img src="/assets/images/games/boids/boids_debug.gif" class="blog rounded mx-auto d-block" width="100%">
+<img src="/games/boids/images/boids_debug.gif" class="blog rounded mx-auto d-block" width="100%">
 
 Now boids could sense their neighbors. Time to start programming the flocking behaviors.
 
@@ -57,7 +57,7 @@ void Update()
 }
 ```
 
-<img src="/assets/images/games/boids/boids_slow.gif" class="blog rounded mx-auto d-block" width="80%">
+<img src="/games/boids/images/boids_slow.gif" class="blog rounded mx-auto d-block" width="80%">
 
 I was now getting proper boid behavior! Unfortunately I was also getting about 15-25 frames per second on my laptop. Normally this is where I'd stop and move development to my desktop, but I knew there were still some optimizations to be made. Lowering the number of raycasts performed helped a bit, but I was still getting lousy performance. I decided to look at the the code where I was performing the raycasts:
 
@@ -120,7 +120,7 @@ public List<Boid> NearbyBoids(Boid self)
 
 After this small change, the performance quadrupled to around 60 frames per second! I was overjoyed and immediately plunked another hundred boids into the simulation, with no noticeable performance dips.
 
-<img src="/assets/images/games/boids/boids.gif" class="blog rounded mx-auto d-block" width="80%">
+<img src="/games/boids/images/boids.gif" class="blog rounded mx-auto d-block" width="80%">
 
 I also spruced up the colors a bit, so each boid picks a random color from a nice blue gradient.
 
@@ -128,7 +128,7 @@ I also spruced up the colors a bit, so each boid picks a random color from a nic
 
 Now that I was happy with performance, I wanted to expand on the demo's functionality by letting the user control the priority assigned to steering behaviors (separation/alignment/cohesion), as well as how fast boids move and steer.
 
-<img src="/assets/images/games/boids/boids_settings.gif" class="blog rounded mx-auto d-block" width="75%">
+<img src="/games/boids/images/boids_settings.gif" class="blog rounded mx-auto d-block" width="75%">
 
 I referenced my new copy of [AI for Games](https://www.amazon.com/AI-Games-Third-Ian-Millington/dp/1138483974/ref=dp_ob_image_bk) (awesome book by the way) and used a Weighted Blending approach to incorporating each of the 3 behaviors into the boid's movement. This allowed me to expose those weights to the user, allowing them to fine-tune the boids' movement patterns to mimic a flock of birds, a school of fish, a herd of cows, or even a swarm of bees.
 
