@@ -1,4 +1,16 @@
 ﻿---
+- name: "Flashback"
+  id: flashback
+  date: "Summer 2020"
+  shortDescription: "A time-travel puzzle game"
+  coverImage: "/games/flashback/images/level_9.jpg"
+  images:
+    - imagePath: "/games/flashback/images/level_3.gif"
+      caption: "Rewind time, and your echo repeats your history"
+    - imagePath: "/games/flashback/images/echo_push.png"
+      caption: "Utilize time loops strategically to solve puzzles"
+  thumbnail: "/games/flashback/images/thumbnail.png"
+
 - name: "Boids!"
   id: boids
   date: "Winter 2019"
