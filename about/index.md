@@ -14,9 +14,21 @@ When I'm not working on/playing games, I can be found skateboarding, enjoying th
 ----
 
 ## I've recently enjoyed:
-{% include about/recently_enjoyed.html %}
+
+<div class="row">
+    <!-- generate cards from about.yml -->
+    {% for item in site.data.about.recently-enjoyed %}
+        {% include enjoying_card.html %}
+    {% endfor %}
+</div>
 
 ----
 
 ## I'm currently enjoying:
-{% include about/currently_enjoying.html %}
+
+<div class="row">
+    <!-- generate cards from about.yml -->
+    {% for item in site.data.about.currently-enjoying %}
+        {% include enjoying_card.html %}
+    {% endfor %}
+</div>
