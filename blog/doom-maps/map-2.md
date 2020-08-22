@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Map 2: Complex"
-coverImage: "/assets/images/blog/doom-maps/map2/temple/temple_interior_2.png"
+coverImage: "/blog/doom-maps/images/complex/temple/temple_interior_2.png"
 category: blog
 post_id: doom-maps
 breadcrumbs: 
@@ -51,15 +51,15 @@ The rule that resonated most for me was **contrast**: I wanted to create a more 
 <div class="row">
   <!-- Plaza -->
   <div class="col-md-6">
-    <a href="/assets/images/blog/doom-maps/map2/plaza/plaza.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/plaza/plaza.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/plaza/plaza.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/plaza/plaza.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 
   <!-- Cacodemon ambush -->
   <div class="col-md-6">
-    <a href="/assets/images/blog/doom-maps/map2/etc/cacodemon_ambush.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/etc/cacodemon_ambush.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/etc/cacodemon_ambush.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/etc/cacodemon_ambush.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 </div>
@@ -75,15 +75,15 @@ Through frequent iteration, I gained a better understanding of the engine's limi
 <div class="row">
   <!-- Acid Pit -->
   <div class="col-md-6">
-    <a href="/assets/images/blog/doom-maps/map2/acid_pit/acid_pit.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/acid_pit/acid_pit.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/acid_pit/acid_pit.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/acid_pit/acid_pit.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 
   <!-- Temple Exterior -->
   <div class="col-md-6">
-    <a href="/assets/images/blog/doom-maps/map2/temple/temple_exterior.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/temple/temple_exterior.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/temple/temple_exterior.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/temple/temple_exterior.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 </div>
@@ -94,12 +94,12 @@ Through frequent iteration, I gained a better understanding of the engine's limi
 
 Looking back on my progress, I can see a trail of gradual improvement from room to room. I tried to remedy this by making frequent polish passes on older sections of the map, but at some point you have to be happy with your work and move on. The nice thing about using source control for level design projects is you can walk back in time to see how much has changed. So let's see some level design glow-ups!
 
-<img src="/assets/images/blog/doom-maps/pimp-my-ride.jpg" class="blog rounded mx-auto d-block" width="30%" height="auto">
+<img src="/blog/doom-maps/images/pimp-my-ride.jpg" class="blog rounded mx-auto d-block" width="30%" height="auto">
 
 I wasn't happy with this hallway, so I added some dramatic flickering lights to make it more interesting.
 
-<a href="/assets/images/blog/doom-maps/map2/plaza/flicker_hallway.gif" target="_blank">
-  <img src="/assets/images/blog/doom-maps/map2/plaza/flicker_hallway.gif" class="blog rounded mx-auto d-block" width="80%" height="auto">
+<a href="/blog/doom-maps/images/complex/plaza/flicker_hallway.gif" target="_blank">
+  <img src="/blog/doom-maps/images/complex/plaza/flicker_hallway.gif" class="blog rounded mx-auto d-block" width="80%" height="auto">
 </a>
 
 If I learned anything from Hideo Kojima's approach to games, it's that hiding information can make gameplay more exciting.
@@ -114,8 +114,8 @@ This prison area was looking a bit boring, so I carved out a concrete beveling a
     <h5 class="text-center">
         Before
     </h5>
-    <a href="/assets/images/blog/doom-maps/map2/prison/prison_original.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/prison/prison_original.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/prison/prison_original.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/prison/prison_original.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 
@@ -124,8 +124,8 @@ This prison area was looking a bit boring, so I carved out a concrete beveling a
     <h5 class="text-center">
         After
     </h5>
-    <a href="/assets/images/blog/doom-maps/map2/prison/prison.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/prison/prison.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/prison/prison.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/prison/prison.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 </div>
@@ -142,8 +142,8 @@ Remember that acid chamber from earlier? I got a lot of feedback from playtester
     <h5 class="text-center">
         Before
     </h5>
-    <a href="/assets/images/blog/doom-maps/map2/acid_pit/acid_pit_original.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/acid_pit/acid_pit_original.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/acid_pit/acid_pit_original.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/acid_pit/acid_pit_original.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 
@@ -152,8 +152,8 @@ Remember that acid chamber from earlier? I got a lot of feedback from playtester
     <h5 class="text-center">
         After
     </h5>
-    <a href="/assets/images/blog/doom-maps/map2/acid_pit/acid_pit.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/acid_pit/acid_pit.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/acid_pit/acid_pit.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/acid_pit/acid_pit.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 </div>
@@ -168,8 +168,8 @@ This temple arena looks like a whole new place! I wanted this room to really fee
     <h5 class="text-center">
         Before
     </h5>
-    <a href="/assets/images/blog/doom-maps/map2/temple/temple_interior_original.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/temple/temple_interior_original.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/temple/temple_interior_original.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/temple/temple_interior_original.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 
@@ -178,8 +178,8 @@ This temple arena looks like a whole new place! I wanted this room to really fee
     <h5 class="text-center">
         After
     </h5>
-    <a href="/assets/images/blog/doom-maps/map2/temple/temple_interior.png" target="_blank">
-      <img src="/assets/images/blog/doom-maps/map2/temple/temple_interior.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    <a href="/blog/doom-maps/images/complex/temple/temple_interior.png" target="_blank">
+      <img src="/blog/doom-maps/images/complex/temple/temple_interior.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
     </a>
   </div>
 </div>
