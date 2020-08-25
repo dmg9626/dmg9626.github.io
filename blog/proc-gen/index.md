@@ -27,11 +27,17 @@ To be clear, I didn't plan on having any actual verticality in the maps generate
 
 ##### Take something like this... and turn it into something like this:
 <div class="row">
-    <img src="/blog/proc-gen/images/heightmap_3d_reference.png" class="blog text-center" width="50%" height="auto">
-    <img src="/blog/proc-gen/images/heightmap_2d_reference.png" class="blog text-center" width="50%" height="auto">
-    <p><i>
-    Note: my maps are generated at a much lower resolution - think Final Fantasy or Pokemon
-    </i></p>
+    <div class="col-lg-6">
+    	<img src="/blog/proc-gen/images/heightmap_3d_reference.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
+    <div class="col-lg-6">
+    	<img src="/blog/proc-gen/images/heightmap_2d_reference.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
+	<div class="text-center">
+		<p><i>
+		Note: my maps are generated at a much lower resolution - think Final Fantasy or Pokemon
+		</i></p>
+	</div>
 </div>
 
 
@@ -49,11 +55,17 @@ If none of that made sense to you, don't worry! It's a tough algorithm to grasp 
 Imagine you're making a blanket fort. Cozy!
 
 <div class="row">
-    <img src="/blog/proc-gen/images/fort/fort-1.jpg" class="blog text-center" width="50%" height="auto">
-    <img src="/blog/proc-gen/images/fort/fort-2.jpg" class="blog text-center" width="50%" height="auto">
-    <p><i>
-    I wasn't happy with the image search results, so I made my own!
-    </i></p>
+    <div class="col-lg-6">
+    	<img src="/blog/proc-gen/images/fort/fort-1.jpg" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
+    <div class="col-lg-6">
+    	<img src="/blog/proc-gen/images/fort/fort-2.jpg" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
+	<div class="text-center">
+		<p><i>
+		I wasn't happy with the image search results, so I made my own!
+		</i></p>
+	</div>
 </div>
 
 You have 4 chairs, one to place in each corner of the fort so the blanket forms a nice roof over you. Once you throw the blanket over, you don't have a lot of control over how much the blanket droops down near the center, but you can raise/lower the chairs to indirectly change the shape of the blanket. Maybe you want one end of the fort to be taller than the other, so you put some books under the 2 chairs holding up that end. 

@@ -27,16 +27,20 @@ For this project I used a simple open-source Markov Chain implementation in Pyth
 I tested it out by feeding it some Wu-Tang; the lyrics from each song on Enter The 36 Chambers were easy to find on Genius.com. I had to clean up/cut a bit of the text in the lyrics text files, as RZA threw in lots of random conversational bits and Genius added a bunch of annotations.
 
 <!-- Lyrics before/after cleaning up -->
-<div class="row text-center">
-    <img src="/blog/wu-trump/images/raw_lyrics.png" class="blog text-center" width="50%">
-    <img src="/blog/wu-trump/images/cleaned_up_lyrics.png" class="blog text-center" width="50%">
+<div class="row">
+    <div class="col-lg-6">
+        <img src="/blog/wu-trump/images/raw_lyrics.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
+    <div class="col-lg-6">
+        <img src="/blog/wu-trump/images/cleaned_up_lyrics.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
 </div>
 
 
 After cleaning up the input, I was able to start generating some Wu-Tang lyrics:
 
 <!-- Image of generated Wu-Tang tweets -->
-<img src="/blog/wu-trump/images/generated_lyrics.png" class="blog text-center" width="75%">
+<img src="/blog/wu-trump/images/generated_lyrics.png" class="blog rounded mx-auto d-block fit-horizontal">
 
 Not my goal, but an enjoyable milestone.
 
@@ -76,7 +80,7 @@ f.close()
 ```
 
 <!-- Image of fetching tweets -->
-<img src="/blog/wu-trump/images/fetching_tweets.png" class="blog text-center" width="75%">
+<img src="/blog/wu-trump/images/fetching_tweets.png" class="blog rounded mx-auto d-block fit-horizontal">
 
 
 Then all I had to do was write a simple script that fed all the Wu-Tang lyrics and Trump tweets into Markovify and generated sentences for tweets:
@@ -104,8 +108,7 @@ for i in range(10):
 Running this spits out a handful of sentences generated from both text sources.
 
 <!-- Image of generated tweets -->
-<img src="/blog/wu-trump/images/generated_tweets.png" class="blog text-center" width="100%">
-
+<img src="/blog/wu-trump/images/generated_tweets.png" class="blog rounded mx-auto d-block fit-horizontal">
 
 You can see that all of them are essentially gibberish sentences, and some clearly draw more from the Wu-Tang text from the Trump tweets (and visa versa for others). There's also a very neat unintended side-effect of this program though: some sentences include hashtags and even quote-tweets used in Donald's tweets. Twitter seems to handle these elements of tweets as raw text in the tweet body, which get represented as embedded content when viewed on Twitter. I didn't expect this to happen at all, but it was really entertaining to see some of these tweets be targeted at random accounts from Donald's tweets.
 
