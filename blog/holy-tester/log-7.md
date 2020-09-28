@@ -26,7 +26,7 @@ This week was light on development, as we had to prepare our Sell Presentation (
 While it's nowhere near worthy of showing in a GIF yet, I started laying the groundwork for its unique movement-based behavior. The Taurush will charge at the player in a line, forcing the player to dodge out of the way. Two things are important here: the player must be able to evade its attacks, and it should continue past the player until it hits a wall/obstacle. The impact will leave it dazed momentarily, giving the player a chance to attack.
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-7/speedon-drawing.jpg" class="blog rounded mx-auto d-block" width="50%">
+    <img src="speedon-drawing.jpg" class="blog rounded mx-auto d-block" width="50%">
     <p><i>
     a crude artistic representation
     </i></p>
@@ -39,8 +39,8 @@ This means we can't use our previous player-following pathfinding approach! Rath
 Additionally, it means we can't use an approach using NavMesh-based collision avoidance, as colliding with obstacles in the level is exactly what we want!
 
 <div class="row">
-    <img src="/assets/images/blog/holy-tester/log-7/speedon-drawing-2.jpg" class="blog rounded mx-auto d-block" width="50%" height="auto">
-    <img src="/assets/images/blog/holy-tester/log-7/speedon-drawing-3.jpg" class="blog rounded mx-auto d-block" width="50%" height="auto">
+    <img src="speedon-drawing-2.jpg" class="blog rounded mx-auto d-block" width="50%" height="auto">
+    <img src="speedon-drawing-3.jpg" class="blog rounded mx-auto d-block" width="50%" height="auto">
 </div>
 <div class="text-center">
     <p><i>
@@ -51,7 +51,7 @@ Additionally, it means we can't use an approach using NavMesh-based collision av
 So I went and created a new SimpleEnemyMoveComponent that just moves in a straight line towards its destination.
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-7/simple-move-component.png" class="blog rounded mx-auto d-block" width="75%">
+    <img src="simple-move-component.png" class="blog rounded mx-auto d-block" width="75%">
 </div>
 
 -----

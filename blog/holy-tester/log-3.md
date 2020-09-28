@@ -24,7 +24,7 @@ I finally got down to implementing some proof-of-concept enemy behaviors for a m
 Below is an interesting result: I was prototyping a Surround Tactic that makes the enemy pick a random position around the player and (once implemented) use attacks. While testing, I made it pick a new position around the player, stop for a second, then do it again. This resulted in a more interesting, erratic movement pattern.
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-3/enemy-prototype.gif" class="blog rounded mx-auto d-block" >
+    <img src="enemy-prototype.gif" class="blog rounded mx-auto d-block" >
     <p><i>
     In this movement pattern, the enemy moves towards a random position near the player, pauses for a second, and repeats.
     </i></p>

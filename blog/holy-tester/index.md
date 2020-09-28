@@ -36,7 +36,7 @@ I learned a lot throughout development, mainly that I love game AI programming! 
 
 ## Post-Mortem
 
-<img src="/assets/images/blog/holy-tester/postmortem.jpg" class="blog rounded mx-auto d-block" width="60%">
+<img src="postmortem.jpg" class="blog rounded mx-auto d-block" width="60%">
 
 Looking back on my work...
 

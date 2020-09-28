@@ -32,7 +32,7 @@ The system I've drafted should allow for high-level tactics to be created (ex. C
 
 Here's the high-level UML I've come up with so far - the circles are abstract classes, while boxes are concrete:
 
-<img src="/assets/images/blog/holy-tester/log-1/combat-manager-UML.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
+<img src="combat-manager-UML.png" class="blog rounded mx-auto d-block" width="100%" height="auto">
 
 Hopefully I'm not in way over my head.
 

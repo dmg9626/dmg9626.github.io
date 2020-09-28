@@ -29,7 +29,7 @@ I fixed the pathfinding issues with Asmodeus and made him faster; the result is 
 -----
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-6/spawn-vfx.gif" class="blog rounded mx-auto d-block" width="75%">
+    <img src="spawn-vfx.gif" class="blog rounded mx-auto d-block" width="75%">
 </div>
 
 When the player enters the room, enemies now spawn in with Harrison's fancy particle effect. It looks nice and should improve performance significantly, as now enemies are only active in the player's room (rather than all around the level).
@@ -40,7 +40,7 @@ I also implemented the ability for enemies to adjust their path towards the play
 
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-6/apply-path-correction.jpg" class="blog rounded mx-auto d-block" width="100%">
+    <img src="apply-path-correction.jpg" class="blog rounded mx-auto d-block" width="100%">
     <p><i>
     This method allows enemies to update their current path if the player moves beyond some threshold (configurable on a per-tactic/enemy basis)
     </i></p>

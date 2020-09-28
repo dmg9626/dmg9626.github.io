@@ -25,7 +25,7 @@ This week I worked on a system that spawns (pseudo) random enemies in each room,
 Shown below are a collection of spawn locations in a room:
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-2/spawn-locations.png" class="blog rounded mx-auto d-block" width="85%" height="auto">
+    <img src="spawn-locations.png" class="blog rounded mx-auto d-block" width="85%" height="auto">
     <p><i>
     Imagine a bunch of spawn positions shown in the room on the right (Unity makes visualizing this a pain)
     </i></p>
@@ -34,7 +34,7 @@ Shown below are a collection of spawn locations in a room:
 These spawn locations are referenced in the Enemy Spawn Settings, along with the amount/types of enemies that can spawn in this room.
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-2/spawn-settings.png" class="blog rounded mx-auto d-block" >
+    <img src="spawn-settings.png" class="blog rounded mx-auto d-block" >
     <p><i>
     Lots of stuff for the designers to play with here. Empower the designers!
     </i></p>

@@ -24,7 +24,7 @@ Total: 8.5 hours
 I wish I had more time to dedicate this week, but 2 midterms fell on Tuesday so I didn't get as much done as I'd planned. I still made some good progress though! Enemy tactic switching is now (technically) implemented; I've created public methods on the Enemy class that replace the current tactic with a new one. Tactics operate by looping over a set of instructions, so the caller can specify whether to immediately halt and switch to the new tactic, or wait for the current tactic to finish execution. 
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-5/enemy-tactic-switch.png" class="blog rounded mx-auto d-block" width="70%">
+    <img src="enemy-tactic-switch.png" class="blog rounded mx-auto d-block" width="70%">
     <p><i>
     I like to write my code like an API, making it as easy as possible for coders to work with my systems.
     </i></p>
@@ -41,7 +41,7 @@ Playtesters responded really well to the enemy behavior overall! They perceived 
 -----
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-5/death-smoke-vfx.gif" class="blog rounded mx-auto d-block" width="70%">
+    <img src="death-smoke-vfx.gif" class="blog rounded mx-auto d-block" width="70%">
 </div>
 
 I hooked up a teammate's smoke poof effect to play on enemy deaths. It helps give feedback during gameplay, but it could use a sound to amplify that effect. In fact, we need to put in a lot more sound effect calls in enemy interactions; I've been hyperfocused on the enemy behavior and let that fall to the wayside.
@@ -49,7 +49,7 @@ I hooked up a teammate's smoke poof effect to play on enemy deaths. It helps giv
 Since there's likely to be lots of little visual effects like this applied to enemies, I created an EnemyVFXComponent class to handle them.
 
 <div class="text-center">
-    <img src="/assets/images/blog/holy-tester/log-5/enemy-vfx-component.png" class="blog rounded mx-auto d-block" width="70%">
+    <img src="enemy-vfx-component.png" class="blog rounded mx-auto d-block" width="70%">
 </div>
 
 -----
