@@ -5,7 +5,11 @@ subtitle: "A peek behind the scenes"
 date: "8/27/19"
 coverImage: "cover_image.png"
 category: blog
-post_id: none
+post_id: holy-tester
+
+links:
+    - label: "Holy Tester"
+      URL: "/games/holy-tester"
 ---
 
 *Note: the following blogs were originally written throughout development (June - August 2019). I have edited them here for clarity and preservation, but you can view the original posts [here on Wix](https://makhodash.wixsite.com/holytester/blog/search/graham) if you wish.*
