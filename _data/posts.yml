@@ -12,29 +12,29 @@
 - name:  "Dev Blog 5: Doom Mapping"
   id: doom-maps
   subtitle: "Making levels for a game older than me!"
-  thumbnail: "/assets/images/blog/doom-maps/thumbnail.jpg"
+  thumbnail: "/blog/doom-maps/images/thumbnail.jpg"
   date: "6/10/20"
 
 - name:  "Dev Blog 4: Procedural Map Generation"
   id: proc-gen
   subtitle: "Generating 2D landscapes with numbers!"
-  thumbnail: "/assets/images/blog/proc-gen/thumbnail.gif"
+  thumbnail: "/blog/proc-gen/images/thumbnail.gif"
   date: "3/9/20"
 
 - name:  "Dev Blog 3: Mario AI"
   id: mario-ai
   subtitle: "A behavior-tree agent that plays Super Mario Bros"
-  thumbnail: "/assets/images/blog/mario-ai/clip_2.gif"
+  thumbnail: "/blog/mario-ai/images/clip_2.gif"
   date: "2/20/20"
 
 - name:  "Dev Blog 2: Thomas the Bluesmobile"
   id: thomas-bluesmobile
   subtitle: "A project for my Animation course"
-  thumbnail: "/assets/images/blog/thomas-bluesmobile/thomas_diesel_edit.png"
+  thumbnail: "/blog/thomas-bluesmobile/images/thomas_diesel_edit.png"
   date: "12/12/19"
 
 - name: "Dev Blog 1: Wu-Trump"
   id: wu-trump
   subtitle: "Make America Swarm Again"
-  thumbnail: "/assets/images/blog/wu-trump/thumbnail.png"
+  thumbnail: "/blog/wu-trump/images/thumbnail.png"
   date: "11/4/19"

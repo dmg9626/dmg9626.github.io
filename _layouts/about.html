@@ -6,53 +6,13 @@ layout: default
     <div class="row">
         <div class="col-md-12">
             <!-- Profile image aligned left -->
-            <img class="rounded" style='float:left;width:225px;height:225px; margin-right:40px;' src="/assets/images/about/profile.jpg" title="That's me!"/>
+            <img class="rounded" style='float:left;width:225px;height:225px; margin-right:25px; padding:5px;' src="/about/images/profile.jpg" title="That's me!"/>
 
             <div class="game-description-text">
-                <!-- Text body -->
-                <h2>About Me</h2>
-                    {{ content }}
-                <br><br>
-
-                <hr>
-
-
-                <!-- Recently enjoyed -->
-                <h2>I've recently enjoyed:</h2> <br>
-                <div class="row">
-                    <!-- generate cards from about.yml -->
-                    {% for item in site.data.about.recently-enjoyed %}
-                        <div class="col-md-4">
-                            <div class="card" style="width:100%">
-                                <img class="card-img-top" src="{{item.thumbnail}}" alt="Card image">
-                                <div class="card-body">
-                                    <h4 class="card-title">{{item.name}}</h4>
-                                    <small>{{item.caption}}</small><br><br>
-                                    <a href="{{item.link}}" target="_blank" class="btn btn-secondary">See More</a>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-                <hr>
                 
-                <!-- Currently enjoying -->
-                <h2>I'm currently enjoying:</h2> <br>
-                <div class="row">
-                    <!-- generate cards from about.yml -->
-                    {% for item in site.data.about.currently-enjoying %}
-                        <div class="col-md-4">
-                            <div class="card" style="width:100%">
-                                <img class="card-img-top" src="{{item.thumbnail}}" alt="Card image">
-                                <div class="card-body">
-                                    <h4 class="card-title">{{item.name}}</h4>
-                                    <small>{{item.caption}}</small><br><br>
-                                    <a href="{{item.link}}" target="_blank" class="btn btn-secondary">See More</a>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
+                <!-- About Me -->
+                {{ content }}
+                
             </div>
         </div>
     </div>
