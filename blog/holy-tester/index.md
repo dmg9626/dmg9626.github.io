@@ -3,12 +3,12 @@ layout: post
 title:  "Dev Blog 6: Holy Tester"
 subtitle: "A peek behind the scenes"
 date: "8/27/19"
-coverImage: "/assets/images/blog/doom-maps/consumers/consumers-2.png"
+coverImage: "cover_image.png"
 category: blog
 post_id: none
 ---
 
-*Note: the following blogs were originally written throughout development from June to August 2019. I have edited them for clarity (and to preserve them before Wix shuts the project site down), but you can view the original posts [here](https://makhodash.wixsite.com/holytester/blog/search/graham) if you wish.*
+*Note: the following blogs were originally written throughout development (June - August 2019). I have edited them here for clarity and preservation, but you can view the original posts [here on Wix](https://makhodash.wixsite.com/holytester/blog/search/graham) if you wish.*
 
 -----
 
@@ -40,21 +40,25 @@ I learned a lot throughout development, mainly that I love game AI programming! 
 
 Looking back on my work...
 
+> 
 ###### Things that went well:
 - I wrote very robust code (much better than previous projects)
 - My Enemy AI systems held up pretty well (despite not having a Combat Manager, they were designed to function without one)
 - I learned to depend on my teammates when needed; you can't make everything on your own
 
+>
 ###### Things that didn't go so well:
 - I worked myself to death
 - I spent too much time refactoring/rewriting sections of our codebase
 - I didn't have time to implement a proper Combat Manager as planned
 
 
-I'm proud of the work I did on this game, but we struggled with maintaining a coherent vision throughout development. Our team had frequent issues with communication; oftentimes leads would fail to communicate tasks clearly to the team, leading to unnecessary feature iterations or situations where 2 people worked on the same task.
+I'm proud of the work I did on this game, but we struggled with maintaining a coherent vision throughout development. Our team had frequent issues with communication. People would lose track of progress outside their domain. Leads failed to clearly delegate tasks, leading to unnecessary feature iterations or conflicting work.
 
-Some of our design team was hesitant to work in the game engine, instead choosing to isolate themselves with asset creation. I made great efforts to create simple tools for designers to fine tune and balance enemies, but they really didn't seem interested in touching a game engine. This slowed down the balancing process, but other members who stepped up to use my tools said they were very intuitive.
+Some of our design team was hesitant to work in the game engine, instead choosing to isolate themselves with asset creation. I made great efforts to create simple tools for designers to fine tune and balance enemies, but they really didn't seem interested in touching a game engine. This slowed down the balancing process, but other members who stepped in to use my tools said they were very intuitive. 
 
-My main focus, programming enemy behaviors, required me to rewrite all enemy code from scratch. This limited my ability to put in new enemies; after re-implementing the existing enemies, we were only able to create 1 of the 3-4 new ones we had planned. As a result, our artists saw their assets canned after spending hours making them, which is always a shame.
+In hindsight, I should have taken a more hands-on role with teaching designers to use my tools. I thought it would be enough to write up instructions via text/screenshots, but not everyone can learn that way.
 
-In hindsight, I think this game could have become something much greater if not for 3 things: our lack of a clear vision for the game, our codebase being a mess, and our failure to communicate. However, making a fully-featured game in 10 weeks is a large endeavor, and every project is a learning experience. I'm proud of what I managed to create!
+My main focus, programming enemy behaviors, required me to rewrite all enemy code from scratch. This limited my ability to put in new enemies; after re-implementing the existing enemies, we were only able to create 1 of the 3-4 new ones we had planned. As a result, our artists saw their assets canned after hours spent making them, which is devastating.
+
+I think this game could have become something much greater if not for 3 things: our **lack of a clear vision** for the game, our **codebase being a mess**, and our **failure to communicate**. However, making a fully-featured game in 10 weeks is quite an endeavor, and every project is a learning experience. I'm proud of what I managed to create!
