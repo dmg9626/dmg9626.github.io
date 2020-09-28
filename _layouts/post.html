@@ -13,14 +13,24 @@ breadcrumbs:
 
 <!-- Applies mobile-friendly styling defined in blog_post.css  -->
 <div class="blog">
+    <!-- Title -->
     <h1 class="post-title">{{ page.title }}</h1>
 
+
+    <!-- Subtitle -->
     {% if post.subtitle %}
         <h5>{{ post.subtitle }}</h5>
+    {% elsif page.subtitle %}
+        <!-- Subtitle defined in page frontmatter -->
+        <h5> {{ page.subtitle}} </h5>
     {% endif %}
 
+
+    <!-- Publication Date -->
     {% if post.date %}
-    <h6><i>{{ post.date }}</i></h6>
+        <h6><i>{{ post.date }}</i></h6>
+    {% elsif page.date %}
+        <h6><i>{{ page.date }}</i></h6>
     {% endif %}
 
     {% for link in page.links %}

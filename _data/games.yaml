@@ -27,6 +27,11 @@
   id: holy-tester
   date: "Summer 2019"
   shortDescription: "A procedurally-generated roguelike dungeon crawler"
+  images: 
+    - imagePath: "/games/holy-tester/images/lightning-grail.gif"
+      caption: "Electrify enemies with the Lightning Grail!"
+    - imagePath: "/games/holy-tester/images/ice-grail.gif"
+      caption: "Hurl ice spears and unleash a blizzard of pain with the Ice Grail!"
   thumbnail: "/games/holy-tester/images/thumbnail.png"
 
 - name: "It's Haunt Time!"

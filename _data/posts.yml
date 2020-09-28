@@ -9,6 +9,13 @@
 #   id: post2
 #   subtitle: "This is text that would be the 2nd subtitle."
 
+
+- name:  "Dev Blog 6: Holy Tester"
+  id: holy-tester
+  subtitle: "A peek behind the scenes"
+  thumbnail: "/blog/holy-tester/cover_image.png"
+  date: "8/27/19"
+
 - name:  "Dev Blog 5: Doom Mapping"
   id: doom-maps
   subtitle: "Making levels for a game older than me!"
