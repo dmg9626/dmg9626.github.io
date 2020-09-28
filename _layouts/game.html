@@ -10,16 +10,8 @@ breadcrumbs:
 {% assign game = game_match.first %}
 
 <!-- page header -->
-<div class="container">
-    <div class="jumbotron horizontal-center bg-transparent">
-        <div class="row">
-            <div class="col-xs-12">
-                <h1>{{game.name}}</h1>
-                <h3>{{game.shortDescription}}</h3>
-            </div>
-        </div>
-    </div>
-</div>
+<h1 class="post-title">{{game.name}}</h1>
+<h5>{{game.shortDescription}}</h5>
 
 <!-- page body -->
 <div class="container">
