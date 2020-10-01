@@ -4,6 +4,9 @@ layout: game
 game_id: holy-tester
 youtube: "https://www.youtube-nocookie.com/embed/Q0JVphhA64c"
 download_link: "https://makhodash.wixsite.com/holytester/play-the-game"
+links:
+    - label: "Development Blog"
+      URL: "/blog/holy-tester/"
 ---
 ### Description
 

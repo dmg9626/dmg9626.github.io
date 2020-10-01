@@ -13,6 +13,13 @@ breadcrumbs:
 <h1 class="post-title">{{game.name}}</h1>
 <h4>{{game.shortDescription}}</h4>
 
+<!-- Links -->
+{% for link in page.links %}
+    <a href={{link.URL}}>{{link.label}}</a>
+{% endfor %}
+
+<hr>
+
 <!-- page body -->
 <div class="container">
 
