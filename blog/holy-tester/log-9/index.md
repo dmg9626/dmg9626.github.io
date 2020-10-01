@@ -40,3 +40,4 @@ I also went and converted these spawn settings into ScriptableObjects! They used
 
 This was my first opportunity to make my own ScriptableObjects, and I wish I'd tried them out earlier (they'd work great for each Tactic instance).
 
+#### [> Post-Mortem](http://localhost:4000/blog/holy-tester/#post-mortem)
