@@ -9,6 +9,11 @@
 #   id: post2
 #   subtitle: "This is text that would be the 2nd subtitle."
 
+- name:  "Dev Blog 7: Passing the AAA Game Programming Interview"
+  id: passing-the-interview
+  subtitle: "How to get your foot in the door (even if the door is really heavy)"
+  thumbnail: "/blog/passing-the-interview/images/pepe-silvia-2.jpeg"
+  date: "12/25/23"
 
 - name:  "Dev Blog 6: Holy Tester"
   id: holy-tester
