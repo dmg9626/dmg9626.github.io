@@ -13,8 +13,8 @@ This is a guide written for a post-undergrad game developer who's struggling to 
 ## 1: Getting your foot in the door
 What you need is a solid portfolio to demonstrate your experience and prove you can hit the ground running. Different studios look for different things, but this is what I learned from the studios I targeted and interviewed with.
 
-### Experience making games in C++
-This is important. The mistake I made in my job hunt was to assume that, if I just make sufficiently cool stuff in Unity and pass their C++ tests, they'll see I'm a good fit right? In practice this often ends up with your resume tossed in the trash, robbing you of the chance to prove your C++ capabilities.
+### Get experience making games in C++
+This is important. The mistake I made in my job hunt was to assume that, if I just make sufficiently cool stuff in Unity and pass their C++ tests, they'll see I'm a good fit, right? In practice, this often ends up with your resume tossed in the trash, robbing you of the chance to prove your C++ capabilities.
 
 There is a sentiment among industry game programmers that Unity is a walled garden, a bowling lane with bumpers allowing you to ignore your runtime exceptions until it's time to ship your game. In some respects this is true, but I'd argue that it's unfair to assume incompetency from the tool of choice. Unfortunately, these are the stubborn lot you have to appease to earn the privilege of arguing about this at happy hour after work.
 
@@ -25,12 +25,17 @@ If you don't have much experience in C++, I'd start by solving problems on [Leet
 
 I would suggest making something simple in Unreal or Godot, for the sake of both proving you can operate in C++ land and developing skill in an engine you may end up using in your role. For that latter reason, I would recommend Unreal over Godot, along with the fact that it's a more finely honed tool from decades of development. Feel free to ignore me and pick whichever one you prefer to get a project on your portfolio.
 
-### Appealing projects
+### Work on appealing projects
 While there isn't really a "wrong" type of project for a portfolio, it can be smart to gear your work towards a specific type of role or skillset. Maybe you want to learn more about graphics programming (make a walking sim with fancy shaders/post proc), or you're feeling sour after getting burned in an interview with Insomniac Games (make your own Spider Man-like platformer)*.
 
 It can be overwhelming to start any project, but what helped me was to find a game jam and scope my work around the time constraints. Some jams provide a vague prompt around which you can brainstorm your idea. In the best case scenario, you can find a friend or two in a similar situation that are willing to work together. And don't be afraid to use asset store artwork for your game! That's what my group did for [Flashback](/games/flashback), which placed #11 in the Brackeys Game Jam.
 
 _\* This project helped me get hired at Disbelief, actually. I'll have to make a blog post about that too sometime._
+
+### Present them in a fancy way
+Remember, the recruiter looking at your application is going through hundreds of these a day. You want to make it as seamless and simple as possible for them to see what makes you stand out. That's the whole reason I made this personal website! Most of the project entries on [my resume](/assets/pdf/resume.pdf) link back to pages here that describe what I did in more detail, accompanied by pictures and even a playable verison in the browser. 
+
+It's easy to put together a simple little portfolio page on [Wordpress](wordpress.com) or [itch.io](itch.io), but I'm a cheap bastard and cobbled this site together with blood sweat and [Bootstrap](https://getbootstrap.com/) + [Github Pages](https://pages.github.com/) so I only have to pay $2 a month in AWS upkeep.
 
 ### Tuning your applications
 Now you've got your portfolio of projects and your C++ experience, and it's time to apply for those jobs. My application process was honed for over a year, and went as follows:
@@ -61,9 +66,11 @@ Hooray! You've been selected by a recruiter as prospective candidate #17 and you
 3. A call with an engineer who asks you various questions on your experience, how you'd go about solving hypothetical problems, maybe a whiteboard problem
 4. Final boss battle: the 5 hour panel where you prove your skills once and for all
 
-Getting this far is very valuable, even if the steps ahead feel like a marathon. The concept of the take home test is, in my opinion, criminal (spend 10+ hours doing uncompensated work!), but if you can prove your mettle here you'll be in a good spot for the remaining legs of the race. Worst case scenario, you fail and now have a better idea of the caliber of problem to expect. In that case, you can (and should) reach out to ask for any feedback on your work, so you can better learn from your mistakes.
+Getting this far is very valuable, even if the steps ahead feel like a marathon. The concept of the take home test is, in my opinion, criminal (spend 10+ hours doing uncompensated work!), but if you can prove your mettle here, you'll be in a good spot for the remaining legs of the race. Worst case scenario, you fail and now have a better idea of the caliber of problem to expect. In that case, you can (and should) reach out to ask for any feedback on your work, so you can better learn from your mistakes.
 
 Sadly, I don't really have any secret advice or tricks for succeeding in the actual interview. Like your favorite roguelikes, it's a gauntlet that you find yourself in again and again, pushing a little further than the last attempt, crawling through miles of glass on your hands and knees to that elusive finish line. Between 2020 and 2021 I found myself reaching various stages of this process about 5-6 times before finally getting my first offer. It was agonizing to get past the final interview, only to be punted all the way back to the start because I'm *just* not good enough. 
+
+<img src="images/jobland.gif" class="blog rounded mx-auto d-block">
 
 It's tough, but you have to persevere with the knowledge that making games isn't some god-given talent; it's a skill you develop with years of hard work. All the people you're interviewing have been in your shoes (except the Ivy Leagues, theirs were comfier), and once you managed to climb over this barbed wire fence you're in the club! Once you've got job experience, you'll have an easier time passing interviews and getting offers, due to both gained experience and perceived competency.
 
