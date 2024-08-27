@@ -5,21 +5,23 @@
     <div class="row">
 
         {% for post in site.data.posts %}
-            <div class="col-md-4" style="margin:10px 0px;">
-                <a href="/blog/{{post.id}}" style="text-decoration: none; color: black">
-                    <div class="card">
-                        {% if post.thumbnail %}
-                            <img src="{{post.thumbnail}}" class="img-rounded" style="width:100%">
-                        {% endif %}
-                        
-                        <div class="card-body">
-                            <h4 class="card-title">{{post.name}}</h4>
-                            <p class="card-text">{{post.subtitle}}</p>
-                            <h6>{{ post.date }}</h6>
+            {% if post.category != "hidden" %}
+                <div class="col-md-4" style="margin:10px 0px;">
+                    <a href="/blog/{{post.id}}" style="text-decoration: none; color: black">
+                        <div class="card">
+                            {% if post.thumbnail %}
+                                <img src="{{post.thumbnail}}" class="img-rounded" style="width:100%">
+                            {% endif %}
+                            
+                            <div class="card-body">
+                                <h4 class="card-title">{{post.name}}</h4>
+                                <p class="card-text">{{post.subtitle}}</p>
+                                <h6>{{ post.date }}</h6>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
+            {% endif %}
         {% endfor %}
 
     </div>
