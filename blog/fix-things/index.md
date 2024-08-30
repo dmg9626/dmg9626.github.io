@@ -6,19 +6,31 @@ category: blog
 post_id: fix-things
 ---
 
-Recently I built a living room PC for gaming and general use. I decided to get a wireless mouse on Facebook Marketplace for $50, a Razer Basilisk Ultimate. It's a nice mouse with a handy magnetic charging cradle, and worked very nicely save for one dealbreaking issue: the scroll wheel would occasionally scroll an extra increment when scrolling downward. This makes web browsing annoying and playing certain games a non-starter, though thankfully the seller gave me a refund and let me keep the mouse. Rather than toss it out like I'd done in the past, I decided to take a stab at fixing it. What's the worst that could happen? It's already broken and the warranty expires after a year (roughly when you'd imagine this issue would occue, a very late-stage-capitalistic choice).
+Recently I built a living room PC for gaming and general use. I decided to get a wireless mouse on Facebook Marketplace for $50, a Razer Basilisk Ultimate. It's a nice mouse with a handy magnetic charging cradle, and worked very nicely save for one dealbreaking issue: the scroll wheel would occasionally scroll an extra increment when scrolling downward. This makes web browsing annoying and playing certain games a non-starter, though the seller gave me a refund and let me keep the mouse. It always feels awful to throw out mostly-working hardware, so I decided to take a stab at fixing it. What's the worst that could happen? It's already broken and the warranty had already expired a year after sale (roughly when you'd imagine this issue would occue, very late-stage-capitalism).
 
-I've never opened up a mouse before, but I've installed some ODE modchips in my various retro gaming consoles: 
-- the GCLoader in my Gamecube
-- an XStation in my PS1 (first stab at soldering)
-- a similar thing in my Dreamcast that I can't remember the name of
+I've never opened up a mouse before, but I've installed various SD-card slots replacing disk drives in my gaming consoles: 
+- the [GCLoader](https://www.youtube.com/watch?v=G0Vqi_wXApg) in my Gamecube
+- a [GDEmu](https://www.youtube.com/watch?v=Sran6frc0gY) in my Dreamcast
+- an [XStation](https://www.youtube.com/watch?v=Y8N6Eosllmw) in my PS1 (first stab at soldering)
 
 Maybe I'll do a blog about that as an excuse to show off my collection... but the point being I had a general idea about the little things you'd see inside an electronic device. Ribbon cables, little plugs, stuff like that.
 
- I followed a disassembly video and peeled off the back sticker to get at some hidden screws, jimmying (great verb) the frame open to access the scroll wheel mechanism. The resistance for each scroll "bump" is provided by a spring-bound lever, like I'd seen in the triggers of a game controller. I made sure to take careful pictures of before fully dismantling each pert of the scroll wheel, realizing I have no idea what to do next, and reassembling the whole mouse.
+<img src="/blog/fix-things/images/mouse_disassembly_1.png" class="blog rounded mx-auto d-block" width="60%">
 
- At this point, I figured I'd see if it still works, and the issue was completely fixed! I must have reseated something tha was misaligned, I guess? This was the best possible ending, and I saved myself the $90 I'd otherwise have spent buying a new one.
+ I followed a [disassembly video](https://www.youtube.com/watch?v=h5EOe6bqv5A) and peeled off the back sticker to get at some hidden screws, jimmying the frame open to access the scroll wheel mechanism. The resistance for each scroll "bump" is provided by a spring-bound lever, like in the triggers of a game controller. I made sure to take careful pictures of before fully dismantling each pert of the scroll wheel, at which piont I realized I had no idea what to do next and reassembled the whole mouse.
 
- E-waste sucks, especially when the companies ultimately responsible for the phenomenon exacerbate the issue by incorpoating failure into their product's design. There's a good term for this eluding me, but I'm sure Ed Zitron's(?) piece on Enshittification uses it somewhere. The fact that this is only an option when, for example, the company doesn't forcibly issue an update disable the product 2 years after release is a damn shame. It's an inherent symptom of the handshake between impotent senators and C-suit ghouls we call capitalism, which we're all resigned to whether we like it or not. But, in cases like these, you can just try fixing your broken thing and see what happens! Opening things is fun and provides plenty of "ohh so that's how they do that" moments.
 
-While there's definitely times you might want to find an alternative (opening up CRTs is dangerous, and you shouldn't be fixing your landlord's appliances), it's an option worth considering especially as the average American's purchasing power steadily decreases. Sorry for being a bummer, but well, man shit sucks sometimes! I figured I'd write this to encourage others to try a new thing before tossing out hardware.
+I figured I'd see if it still works, and the issue was completely fixed! I must have reseated something that was misaligned? This was the best possible ending, and I saved myself the $90 I'd otherwise have spent buying a new one.
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="/blog/fix-things/images/ewaste-1.jpg" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
+    <div class="col-md-6">
+        <img src="/blog/fix-things/images/ewaste-2.jpg" class="blog rounded mx-auto d-block" width="100%" height="auto">
+    </div>
+</div>
+
+E-waste sucks, especially when it comes down to [planned obsolescence](https://en.wikipedia.org/wiki/Planned_obsolescence) or other forms of [enshittification](https://www.ft.com/content/6fb1602d-a08b-4a8c-bac0-047b7d64aba5). The fact that this is only an option when, for example, the company doesn't [forcibly issue an update disable the product](https://www.theverge.com/2024/5/23/24163383/spotify-car-thing-discontinued-december-2024) is a damn shame. It's an inherent symptom of the handshake between impotent senators and C-suit ghouls we're all resigned to. But that's what makes it so rewarding to try fixing your broken thing and see what happens! Repairing things is fun and you should sieze any opportunity to deprive Jeff Bezos of his rent.
+
+While there's definitely times you might want to find an alternative ([opening up CRTs](https://aftermath.site/fixing-a-crt-is-fun-enriching-and-possibly-very-dangerous) is dangerous, and you shouldn't be fixing your landlord's appliances unless [you personally benefit from it](https://www.404media.co/hacker-shows-how-to-get-free-laundry-for-life/)), it's an option worth considering for the sake of saving money and/or developing a new hobby. I figured I'd write this to encourage others to try a new thing before tossing out perfectly good hardware.
