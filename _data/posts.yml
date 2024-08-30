@@ -9,44 +9,59 @@
 #   id: post2
 #   subtitle: "This is text that would be the 2nd subtitle."
 
+- name:  "You can just fix things"
+  id: fix-things
+  subtitle: "Nobody is stopping you"
+  thumbnail: "/blog/fix-things/cover_image.png"
+  category: personal
+  date: "8/27/24"
+
 - name:  "Dev Blog 7: Passing the AAA Game Programming Interview"
   id: passing-the-interview
   subtitle: "How to get your foot in the door (even if the door is really heavy)"
   thumbnail: "/blog/passing-the-interview/images/pepe-silvia-2.jpeg"
+  category: personal
   date: "12/25/23"
 
 - name:  "Dev Blog 6: Holy Tester"
   id: holy-tester
   subtitle: "A peek behind the scenes"
   thumbnail: "/blog/holy-tester/cover_image.png"
+  category: personal
   date: "8/27/19"
 
 - name:  "Dev Blog 5: Doom Mapping"
   id: doom-maps
   subtitle: "Making levels for a game older than me!"
   thumbnail: "/blog/doom-maps/images/thumbnail.jpg"
+  category: personal
   date: "6/10/20"
 
 - name:  "Dev Blog 4: Procedural Map Generation"
   id: proc-gen
   subtitle: "Generating 2D landscapes with numbers!"
   thumbnail: "/blog/proc-gen/images/thumbnail.gif"
+  category: personal
   date: "3/9/20"
 
 - name:  "Dev Blog 3: Mario AI"
   id: mario-ai
   subtitle: "A behavior-tree agent that plays Super Mario Bros"
   thumbnail: "/blog/mario-ai/images/clip_2.gif"
+  category: personal
   date: "2/20/20"
 
 - name:  "Dev Blog 2: Thomas the Bluesmobile"
   id: thomas-bluesmobile
   subtitle: "A project for my Animation course"
   thumbnail: "/blog/thomas-bluesmobile/images/thomas_diesel_edit.png"
+  category: personal
   date: "12/12/19"
 
 - name: "Dev Blog 1: Wu-Trump"
   id: wu-trump
   subtitle: "Make America Swarm Again"
   thumbnail: "/blog/wu-trump/images/thumbnail.png"
+  # remove to unhide
+  category: hidden
   date: "11/4/19"
