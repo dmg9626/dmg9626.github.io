@@ -76,3 +76,19 @@ footer {
   background: rgb(232, 233, 235);
   color: rgb(121, 122, 126);
 }
+
+/* 
+caption support:
+https://jsfiddle.net/heera/LLmqb/3/ 
+*/
+#images{
+  text-align:center;
+  margin:50px auto;
+}
+#images a{
+  margin:0px 20px;
+  display:inline-block;
+  text-decoration:none;
+  color:black;
+}
+
