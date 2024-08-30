@@ -8,7 +8,7 @@ post_id: fix-things
 
 Recently I built a living room PC for gaming and general use. I decided to get a wireless mouse on Facebook Marketplace for $50, a Razer Basilisk Ultimate. It's a nice mouse with a handy magnetic charging cradle, and worked very nicely save for one dealbreaking issue: the scroll wheel would occasionally scroll an extra increment when scrolling downward. This makes web browsing annoying and playing certain games a non-starter, though the seller gave me a refund and let me keep the mouse. It always feels awful to throw out mostly-working hardware, so I decided to take a stab at fixing it. What's the worst that could happen? It's already broken and the warranty had already expired a year after sale (roughly when you'd imagine this issue would occue, very late-stage-capitalism).
 
-I've never opened up a mouse before, but I've installed various SD-card slots replacing disk drives in my gaming consoles: 
+I've never opened up a mouse before, but I've installed various SD card slots replacing disk drives in my gaming consoles: 
 - the [GCLoader](https://www.youtube.com/watch?v=G0Vqi_wXApg) in my Gamecube
 - a [GDEmu](https://www.youtube.com/watch?v=Sran6frc0gY) in my Dreamcast
 - an [XStation](https://www.youtube.com/watch?v=Y8N6Eosllmw) in my PS1 (first stab at soldering)
