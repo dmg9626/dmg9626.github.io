@@ -6,21 +6,23 @@
     <div class="row">
 
             {% for game in site.data.games %}
-                <div class="col-md-4" style="margin:10px 0px;">
-                    <a href="/games/{{game.id}}" style="text-decoration: none; color: black">
-                        <div class="card">
-                            {% if game.thumbnail %}
-                                <img src="{{game.thumbnail}}" class="img-rounded" style="width:100%">
-                            {% endif %}
-                            
-                            <div class="card-body">
-                                <h4 class="card-title">{{game.name}}</h4>
-                                <p class="card-text">{{game.shortDescription}}</p>
-                                <h6>{{ game.date }}</h6>
+                {% unless game.hidden %}
+                    <div class="col-md-4" style="margin:10px 0px;">
+                        <a href="/games/{{game.id}}" style="text-decoration: none; color: black">
+                            <div class="card">
+                                {% if game.thumbnail %}
+                                    <img src="{{game.thumbnail}}" class="img-rounded" style="width:100%">
+                                {% endif %}
+                                
+                                <div class="card-body">
+                                    <h4 class="card-title">{{game.name}}</h4>
+                                    <p class="card-text">{{game.shortDescription}}</p>
+                                    <h6>{{ game.date }}</h6>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
+                {% endunless %}
             {% endfor %}
     
         </div>
