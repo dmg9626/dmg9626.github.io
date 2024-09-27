@@ -6,8 +6,7 @@ category: blog
 post_id: wu-trump
 ---
 
-***Foreword:** This is not any sort of endorsement for President Trump. I know I have two Trump-related things on my site now (see: 
-[This Is Trump](/games/this-is-trump)): he's an easy target and apparently a great source of inspiration for side projects.*
+*This is not any sort of endorsement for Trump. He's just an easy target*
 
 I was sitting on the couch one day listening to Wu-Tang Clan and it hit me: I should write a Twitter bot that reads in Wu-Tang lyrics and Donald Trump's tweets and generates its own tweets based off the two!
 
