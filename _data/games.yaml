@@ -75,6 +75,7 @@
 
 - name: "This Is Trump"
   id: this-is-trump
+  hidden: True
   date: "Fall 2016 - Spring 2017"
   shortDescription: "An interactive Donald Trump experience"
   coverImage: "/games/this-is-trump/images/screenshots/MainMenu.png"
