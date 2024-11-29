@@ -1,12 +1,17 @@
 ---
+  looking-forward-to:
+    - name: Mouthwashing
+      thumbnail: /about/images/mouthwashing.webp
+      link: "https://store.steampowered.com/app/2475490/Mouthwashing/"
+    
+
   recently-enjoyed:
-    - name: Red Dead Redemption
-      thumbnail: /about/images/red-dead-redemption.jpg
+
+    - name: Webfishing
+      thumbnail: /about/images/webfishing.png
       caption: >
-        This game had a surprisingly compelling narrative (even for Rockstar's standards).
-        John Marston's actions (and those around him) paint a futile struggle to
-        "do the right thing."
-      link: "https://www.youtube.com/watch?v=yBLdQ1a4-JI"
+        More of a chatroom than a fishing game, but I loved it! A nice little space.
+      link: "https://store.steampowered.com/app/3146520/WEBFISHING/"
 
     - name: 'Outer Wilds'
       thumbnail: /about/images/outer-wilds.jpg
@@ -28,13 +33,6 @@
         A fantastic homage to System Shock. I've just finished the main game
         and I'm excited to dive into the Mooncrash expansion.
       link: "https://www.rockpapershotgun.com/2017/05/09/prey-review/"
-
-    - name: 'South Park: The Stick of Truth'
-      thumbnail: /about/images/stick-of-truth.jpg
-      caption: >
-        My favorite show made a game, and it's actually good! The humour is spot on
-        with the show, and it's helped tide me over until the next season premieres.
-      link: "https://www.rockpapershotgun.com/2016/07/18/south-park-stick-of-truth-archer-rpg/"
 
     - name: 'Ghost in the Shell: Stand Alone Complex'
       thumbnail: /about/images/ghost-in-the-shell.jpg
