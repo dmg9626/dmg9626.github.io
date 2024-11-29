@@ -1,0 +1,15 @@
+---
+
+# - name: "Category display name"
+#   id: category-identifier
+#   subtitle: "This is a subtitle that describes the category."
+
+
+- name: "Dev Blogs"
+  id: blogs-dev
+  subtitle: "In-depth explanations of how I make things"
+
+
+- name: "Personal Blogs"
+  id: blogs-personal
+  subtitle: "What I think about things"
