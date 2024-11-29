@@ -13,55 +13,55 @@
   id: fix-things
   subtitle: "Nobody is stopping you"
   thumbnail: "/blog/fix-things/cover_image.png"
-  category: personal
+  category: blogs-personal
   date: "8/27/24"
 
-- name:  "Dev Blog 7: Passing the AAA Game Programming Interview"
+- name:  "Passing the AAA Game Programming Interview"
   id: passing-the-interview
   subtitle: "How to get your foot in the door (even if the door is really heavy)"
   thumbnail: "/blog/passing-the-interview/images/pepe-silvia-2.jpeg"
-  category: devblog
+  category: blogs-dev
   date: "12/25/23"
 
-- name:  "Dev Blog 6: Holy Tester"
+- name:  "Holy Tester"
   id: holy-tester
   subtitle: "A peek behind the scenes"
   thumbnail: "/blog/holy-tester/cover_image.png"
-  category: devblog
+  category: blogs-dev
   date: "8/27/19"
 
-- name:  "Dev Blog 5: Doom Mapping"
+- name:  "Doom Mapping"
   id: doom-maps
   subtitle: "Making levels for a game older than me!"
   thumbnail: "/blog/doom-maps/images/thumbnail.jpg"
-  category: devblog
+  category: blogs-dev
   date: "6/10/20"
 
-- name:  "Dev Blog 4: Procedural Map Generation"
+- name:  "Procedural Map Generation"
   id: proc-gen
   subtitle: "Generating 2D landscapes with numbers!"
   thumbnail: "/blog/proc-gen/images/thumbnail.gif"
-  category: devblog
+  category: blogs-dev
   date: "3/9/20"
 
-- name:  "Dev Blog 3: Mario AI"
+- name:  "Mario AI"
   id: mario-ai
   subtitle: "A behavior-tree agent that plays Super Mario Bros"
   thumbnail: "/blog/mario-ai/images/clip_2.gif"
-  category: devblog
+  category: blogs-dev
   date: "2/20/20"
 
-- name:  "Dev Blog 2: Thomas the Bluesmobile"
+- name:  "Thomas the Bluesmobile"
   id: thomas-bluesmobile
   subtitle: "A project for my Animation course"
   thumbnail: "/blog/thomas-bluesmobile/images/thomas_diesel_edit.png"
-  category: devblog
+  category: blogs-dev
   date: "12/12/19"
 
-- name: "Dev Blog 1: Wu-Trump"
+- name: "Wu-Trump"
   id: wu-trump
   subtitle: "Make America Swarm Again"
   thumbnail: "/blog/wu-trump/images/thumbnail.png"
   # remove to unhide
-  category: hidden
+  hidden: true
   date: "11/4/19"

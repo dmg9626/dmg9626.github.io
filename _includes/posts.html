@@ -1,41 +1,50 @@
-<h3 style="margin-top:40px; margin-bottom: 20px;">Dev Blogs</h3>
-<h5 >In-depth explanations of how I make things</h5>
+<!-- <h3 style="margin-top:40px; margin-bottom: 20px;">Dev Blogs</h3>
+<h5 ></h5> -->
 
 <div>
-    <div class="row">
-        <!-- Filter by category -->
-        {% assign categories = site.data.posts | map: "category" | uniq %}
-        {% for category in categories %}
-            {% unless category == "hidden" %}
-                <script>
-                    console.log("{{category}}")
-                </script>
-                
+    <!-- {% assign categories = site.data.post_categories | map: "id" | uniq %} -->
+
+    
+    
+    <!-- Filter by category -->
+        {% assign categories = site.data.post_categories %}
+        <!-- {% assign categories = site.data.posts | map: "category" | uniq %} -->
+        {% for category in categories %} {% unless category.hidden %}
+        <div class="container">
+
                 {% assign matching_posts = site.data.posts | where: "category", category %}
-
+    
                 <!-- TODO: get sections working -->
-                <h2>{{category}}</h2>
-                {% for post in matching_posts %}
-                        <div class="col-md-4" style="margin:10px 0px;">
-                            <a href="/blog/{{post.id}}" style="text-decoration: none; color: black">
-                                <div class="card">
-                                    {% if post.thumbnail %}
-                                        <img src="{{post.thumbnail}}" class="img-rounded" style="width:100%">
-                                    {% endif %}
-                                    
-                                    <div class="card-body">
-                                        <h4 class="card-title">{{post.name}}</h4>
-                                        <p class="card-text">{{post.subtitle}}</p>
-                                        <h6>{{ post.date }}</h6>
-                                    </div>
+                <h3>{{category}}</h3>
+                {% for post in matching_posts %} {% unless post.hidden  %}
+                <div class="row">
+    
+                    <div class="col-md-4" style="margin:10px 0px;">
+                        <a href="/blog/{{post.id}}" style="text-decoration: none; color: black">
+                            <div class="card">
+                                {% if post.thumbnail %}
+                                    <img src="{{post.thumbnail}}" class="img-rounded" style="width:100%">
+                                {% endif %}
+                                
+                                <div class="card-body">
+                                    <h4 class="card-title">{{post.name}}</h4>
+                                    <p class="card-text">{{post.subtitle}}</p>
+                                    <h6>{{ post.date }}</h6>
                                 </div>
-                            </a>
-                        </div>
+                            </div>
+                        </a>
+                    </div>
+    
+    
+                </div>
+                {% endunless %}
                 {% endfor %}
-
+    
             {% endunless %}
         {% endfor %}
+
+        </div>
+
         
 
-    </div>
 </div>
