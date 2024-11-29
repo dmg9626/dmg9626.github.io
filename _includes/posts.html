@@ -3,26 +3,39 @@
 
 <div>
     <div class="row">
+        <!-- Filter by category -->
+        {% assign categories = site.data.posts | map: "category" | uniq %}
+        {% for category in categories %}
+            {% unless category == "hidden" %}
+                <script>
+                    console.log("{{category}}")
+                </script>
+                
+                {% assign matching_posts = site.data.posts | where: "category", category %}
 
-        {% for post in site.data.posts %}
-            {% if post.category != "hidden" %}
-                <div class="col-md-4" style="margin:10px 0px;">
-                    <a href="/blog/{{post.id}}" style="text-decoration: none; color: black">
-                        <div class="card">
-                            {% if post.thumbnail %}
-                                <img src="{{post.thumbnail}}" class="img-rounded" style="width:100%">
-                            {% endif %}
-                            
-                            <div class="card-body">
-                                <h4 class="card-title">{{post.name}}</h4>
-                                <p class="card-text">{{post.subtitle}}</p>
-                                <h6>{{ post.date }}</h6>
-                            </div>
+                <!-- TODO: get sections working -->
+                <h2>{{category}}</h2>
+                {% for post in matching_posts %}
+                        <div class="col-md-4" style="margin:10px 0px;">
+                            <a href="/blog/{{post.id}}" style="text-decoration: none; color: black">
+                                <div class="card">
+                                    {% if post.thumbnail %}
+                                        <img src="{{post.thumbnail}}" class="img-rounded" style="width:100%">
+                                    {% endif %}
+                                    
+                                    <div class="card-body">
+                                        <h4 class="card-title">{{post.name}}</h4>
+                                        <p class="card-text">{{post.subtitle}}</p>
+                                        <h6>{{ post.date }}</h6>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-            {% endif %}
+                {% endfor %}
+
+            {% endunless %}
         {% endfor %}
+        
 
     </div>
 </div>

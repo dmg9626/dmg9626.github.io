@@ -20,42 +20,42 @@
   id: passing-the-interview
   subtitle: "How to get your foot in the door (even if the door is really heavy)"
   thumbnail: "/blog/passing-the-interview/images/pepe-silvia-2.jpeg"
-  category: personal
+  category: devblog
   date: "12/25/23"
 
 - name:  "Dev Blog 6: Holy Tester"
   id: holy-tester
   subtitle: "A peek behind the scenes"
   thumbnail: "/blog/holy-tester/cover_image.png"
-  category: personal
+  category: devblog
   date: "8/27/19"
 
 - name:  "Dev Blog 5: Doom Mapping"
   id: doom-maps
   subtitle: "Making levels for a game older than me!"
   thumbnail: "/blog/doom-maps/images/thumbnail.jpg"
-  category: personal
+  category: devblog
   date: "6/10/20"
 
 - name:  "Dev Blog 4: Procedural Map Generation"
   id: proc-gen
   subtitle: "Generating 2D landscapes with numbers!"
   thumbnail: "/blog/proc-gen/images/thumbnail.gif"
-  category: personal
+  category: devblog
   date: "3/9/20"
 
 - name:  "Dev Blog 3: Mario AI"
   id: mario-ai
   subtitle: "A behavior-tree agent that plays Super Mario Bros"
   thumbnail: "/blog/mario-ai/images/clip_2.gif"
-  category: personal
+  category: devblog
   date: "2/20/20"
 
 - name:  "Dev Blog 2: Thomas the Bluesmobile"
   id: thomas-bluesmobile
   subtitle: "A project for my Animation course"
   thumbnail: "/blog/thomas-bluesmobile/images/thomas_diesel_edit.png"
-  category: personal
+  category: devblog
   date: "12/12/19"
 
 - name: "Dev Blog 1: Wu-Trump"
