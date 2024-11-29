@@ -3,7 +3,6 @@
 # - name: "Category display name"
 #   id: category-identifier
 #   subtitle: "This is a subtitle that describes the category."
-#   hidden: false
 
 
 - name: "Dev Blogs"
@@ -14,4 +13,3 @@
 - name: "Personal Blogs"
   id: blogs-personal
   subtitle: "What I think about things"
-  hidden: false
