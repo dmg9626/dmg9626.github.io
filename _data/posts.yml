@@ -9,6 +9,14 @@
 #   id: post2
 #   subtitle: "This is text that would be the 2nd subtitle."
 
+
+- name:  "The GameCube controller's button layout is kinda sick"
+  id: gamecube-controller-layout
+  subtitle: "Just hear me out!"
+  thumbnail: "/blog/gamecube-controller-layout/cover_image.png"
+  category: blogs-personal
+  date: "12/4/24"
+
 - name:  "You can just fix things"
   id: fix-things
   subtitle: "Nobody is stopping you"
