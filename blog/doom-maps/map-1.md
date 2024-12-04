@@ -46,7 +46,7 @@ Here's a gameplay video. Make sure to watch in 1080p; YouTube is currently throt
 
 Short and sweet.
 
-In case it isn't clear, the statement made here is that gamers can be a toxic bunch with little respect for the people making the games they love. Finding a successful career in game development is already a herculean task, so it doesn't help when you face strong opposition from your consumers. While it may (or may not) be a small vocal minority that nets the reputation, it's tough to keep that in mind when you're [being called a kike and sent death threats because you chose one store over another](https://medium.com/@perplamps/regarding-whats-been-happening-3af0f27d863c).
+In case it isn't clear, the statement made here is that gamers can be a toxic bunch with little respect for the people making the games they love. Finding a successful career in game development is already a herculean task, so it doesn't help when you face strong opposition from your consumers. While it may (or may not) be a small vocal minority that nets the reputation, it's tough to keep that in mind when you're [being sent slur-laden death threats because you chose one store over another](https://medium.com/@perplamps/regarding-whats-been-happening-3af0f27d863c).
 
 As for the development process, it took quite some time to figure out what I was doing here. I started working in SLADE, a DOOM editor with support for macOS and Windows, and followed [this wonderful tutorial](https://eev.ee/blog/2015/12/19/you-should-make-a-doom-level-part-1/) written by a blogger named Eevee. It took several days to get comfortable with the tools, but I'm very proud of what I put together! Thanks Eevee!
 
