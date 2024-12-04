@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "The Gamecube controller button layout is kinda sick"
+title:  "The GameCube controller's button layout is kinda sick"
 # doesn't really need a cover image
 # coverImage: "/blog/gamecube-controller-layout/images/youtube-thumbnail.png"
 category: blog
 post_id: gamecube-controller-layout
 ---
 
-I was up late at night (12:14 AM), looking in the not-very-targeted Recommended sidebar of Youtube after watching [a video](https://www.youtube.com/watch?v=DILdviilVKs), and I saw this video thumbnail:
+I was up late at night (12:14 AM), looking in the not-very-targeted Recommended sidebar of Youtube after watching [a video](https://www.youtube.com/watch?v=DILdviilVKs), and I saw this thumbnail:
 
 <div id="images">
     <img src="/blog/gamecube-controller-layout/images/youtube-thumbnail.png" 
@@ -15,7 +15,7 @@ I was up late at night (12:14 AM), looking in the not-very-targeted Recommended 
     class="blog rounded mx-auto d-block" width="60%">
 </div>
 
-I didn't click the video, but I stopped to think about it myself... The layout is distinctly different from the now-standard + layout in which we find our face buttons on modern controllers:
+I didn't click the video, but I did stop to think about it myself... The layout is distinctly different from the standard + shaped layout in which we find our face buttons on modern controllers:
 
 <div class="row" id="images">
     <div class="col-md-4">
