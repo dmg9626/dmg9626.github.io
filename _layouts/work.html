@@ -1,0 +1,109 @@
+---
+layout: default
+breadcrumbs: 
+    - link: "/"
+      label: "Home"
+---
+
+<!-- Select first game with matching ID -->
+{% assign game_match = site.data.work | where: "id", page.game_id | limit: 1 %}
+{% assign game = game_match.first %}
+
+
+<!-- page header -->
+<h1 class="post-title">{{game.name}}</h1>
+<h4>{{game.shortDescription}}</h4>
+
+<!-- Links -->
+{% for link in page.links %}
+    <a href={{link.URL}}>{{link.label}}</a>
+{% endfor %}
+
+<hr>
+
+<!-- page body -->
+<div class="container">
+
+    <!-- cover image -->
+    {% if game.coverImage %}
+        <div class="row">
+            <img src="{{game.coverImage}}" class="fit-horizontal rounded mx-auto"
+            style="padding: 20px 0px">
+        </div>\
+    {% endif %}
+
+    <!-- cover video -->
+    {% if page.cover_video %}
+        <div class="row">   <!-- settings: "autoplay", "controls", "loop" (combinations supported) -->
+            <video class="fit-horizontal mx-auto" max-width="100%" {{page.cover_video.settings}}> 
+                <source src="{{page.cover_video.path}}.mp4" type="video/mp4">
+                <source src="{{page.cover_video.path}}.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    {% endif %}
+
+    <!-- youtube video embed -->
+    {% if page.youtube %}
+        <div class="row">
+            <div class="iframe-container">
+                <iframe width="560" height="315" src="{{page.youtube}}" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    {% endif %}
+    
+    <!-- link to playable game -->
+    {% if page.playable %}
+        <div class="row text-center">
+            <div class="col-md-12">
+                <a href="/games/play/{{game.id}}/">
+                    <button type="button" class="btn btn-primary btn-lg">Play game here!</button>
+                </a>
+            </div>
+        </div>
+        <br>
+    {% endif %}
+
+    {% if page.download_link %}
+        <div class="row text-center">
+            <div class="col-md-12">
+                <a href="{{page.download_link}}" target="_blank">
+                    <button type="button" class="btn btn-primary btn-lg">Download game here!</button>
+                </a>
+            </div>
+        </div>
+        <br>
+    {% endif %}
+    
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Screenshots</h3>
+        </div>
+    </div>
+    <!-- Grid of game screenshots -->
+    <div class="row">
+        {% for image in game.images %}
+            <div class="col-md-4 text-center" style="max-width: 350px;">
+                <figure class="figure text-center">
+                    <a href="{{image.imagePath}}">
+                        <img src="{{image.imagePath}}" class="figure-img img-fluid rounded">
+                    </a>
+                    <figcaption class="figure-caption">{{image.caption}}</figcaption>
+                </figure>  
+            </div>
+        {% endfor %}
+    </div>
+    
+
+    <!-- game description-->
+    <div class="game-description">
+        <br>
+        <div class="jumbotron">
+            <div>
+                <!-- Page content goes here -->
+                {{ content }}
+            </div>
+            <br>
+        </div>
+    </div>
+</div>

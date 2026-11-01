@@ -1,0 +1,28 @@
+---
+- name: "Thick as Thieves"
+  id: thick-as-thieves
+  date: "2021-2025"
+  shortDescription: "A co-operative immersive sim stealth game"
+  coverImage: "/work/thick-as-thieves/cover.jpg"
+  images:
+    - imagePath: "/work/thick-as-thieves/screenshot1.jpg"
+      caption: "Explore an early 20th century city with an exotic loadout of tools and magic"
+    - imagePath: "/work/thick-as-thieves/screenshot2.jpg"
+      caption: "Play alone, or go in with a friend"
+    - imagePath: "/work/thick-as-thieves/screenshot3.jpg"
+      caption: "Take the rich bastards for all they're worth"
+  thumbnail: "/work/thick-as-thieves/thumbnail.jpg"
+
+- name: "PUBG: DED:NET"
+  id: pubg
+  date: "2025-2026"
+  shortDescription: "Multiplayer Battle Royale FPS with rogulite elements"
+  coverImage: "/work/pubg/cover.jpg"
+  images:
+    - imagePath: "/work/pubg/screenshot1.jpg"
+      caption: "It's a kill-or-be-killed world"
+    - imagePath: "/work/pubg/screenshot2.jpg"
+      caption: "Arm your squad with an assortment of weapons and vehicles"
+    - imagePath: "/work/pubg/screenshot3.jpg"
+      caption: "Explore a 1990s appalachian landscape hand-crafted with procedural-generation tools"
+  thumbnail: "/work/pubg/cover.jpg"
