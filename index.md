@@ -5,6 +5,9 @@ title: Home
 layout: default
 ---
 
+<!-- Credited Work -->
+{% include work.html %}
+
 <!-- My Games -->
 {% include games.html %}
 
