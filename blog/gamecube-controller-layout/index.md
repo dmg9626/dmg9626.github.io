@@ -44,7 +44,7 @@ Notice how the big circular A and B buttons are bound to consistent active-verbs
 A designer can easily assign input bindings based on their priority:
 1. (A: Go Forward)
 2. (B: Stop)
-3. (X: Go Forward) (Y: Reverse)
+3. (X: Use item) (Y: Reverse)
 
 Acceleration and braking make up much of your movement kit, the backbone of a racing game. You wanna go forward real fast in a racing game so that gets the top priority (A). When you're rounding a turn or on a collision course you might want to brake, so that gets the next priority down (B). X and Y are handed the less common actions, and hey look at that you have an intuitive input scheme!
 
