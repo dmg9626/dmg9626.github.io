@@ -6,8 +6,6 @@ category: blog
 post_id: mario-ai
 ---
 
-***Foreword:** I don't claim any ownership to the Super Mario Bros sprites, game, idea, etc. Please don't sue me I am a very small boy and I'm doing my best.*
-
 This was a fun assignment from my Game AI course. I was tasked with implementing a behavior-tree Mario agent that runs through randomly-generated levels, killing enemies and collecting coins along the way.
 
 <img src="/blog/mario-ai/images/clip_2.gif" class="blog rounded mx-auto d-block" width="75%">
