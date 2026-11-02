@@ -13,9 +13,11 @@ This was a fun assignment from my Game AI course. I was tasked with implementing
 
 As you can see, it does a pretty decent job of it too! While it could surely be improved upon (collecting powerups from blocks, getting coins above platforms), the assignmenet was meant to show us the strengths and limits of using behavior trees. Eventually it becomes too complex to easily extend the behavior tree without restructuring the tree to accommodate.
 
-We were provided a Java implementation of the game (documentation found [here](https://sites.google.com/a/marioai.com/www/marioai-benchmark/overview){:target="_blank"}), which included the level generation and an abstract Agent class to extend. 
+We were provided a Java implementation of the game (~~documentation found [here](https://sites.google.com/a/marioai.com/www/marioai-benchmark/overview){:target="_blank"}~~), which included the level generation and an abstract Agent class to extend. 
 
-***Note:** course materials have not been updated for some time now, and it appears a much newer version of the codebase can be found [here](http://marioai.org/){:target="_blank"}.*
+***Note:** course materials have not been updated for some time now, ~~and it appears a much newer version of the codebase can be found [here](http://marioai.org/){:target="_blank"}.~~*
+
+***Note 2:** it seems all of these links are dead now. mama mia :/*
 
 ----
 
