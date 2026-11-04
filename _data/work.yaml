@@ -13,16 +13,9 @@
       caption: "Take the rich bastards for all they're worth"
   thumbnail: "/work/thick-as-thieves/thumbnail.jpg"
 
-- name: "PUBG: DED.NET"
-  id: pubg
+- name: "Undisclosed Game"
+  id: game-1
   date: "2025-2026"
-  shortDescription: "Multiplayer Battle Royale FPS with rogulite elements"
-  coverImage: "/work/pubg/cover.jpg"
-  images:
-    - imagePath: "/work/pubg/screenshot1.jpg"
-      caption: "It's a kill-or-be-killed world"
-    - imagePath: "/work/pubg/screenshot2.jpg"
-      caption: "Arm your squad with an assortment of weapons and vehicles"
-    - imagePath: "/work/pubg/screenshot3.jpg"
-      caption: "Explore a 1990s appalachian landscape hand-crafted with procedural-generation tools"
-  thumbnail: "/work/pubg/cover.jpg"
+  shortDescription: "A first-person shooter with roguelike elements"
+  coverImage: "/work/game-1/thumbnail.jpg"
+  thumbnail: "/work/game-1/thumbnail.jpg"
