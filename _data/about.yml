@@ -1,51 +1,34 @@
 ---
   looking-forward-to:
-    - name: Mouthwashing
-      thumbnail: /about/images/mouthwashing.webp
-      link: "https://store.steampowered.com/app/2475490/Mouthwashing/"
+    - name: RAM
+      thumbnail: /about/images/ram.jpg
+      caption: >
+        It would be nice to be able to afford these again
+      link: "https://isaiprofitable.com/"
     
+  currently-enjoying:
+
+    - name: 'Slitterhead'
+      thumbnail: /about/images/slitterhead.png
+      caption: >
+        When you let AA cook, you eat good! I love the wacky possession mechanic and goofy dialogue.
+      link: "https://store.steampowered.com/app/2631250/Slitterhead/"
 
   recently-enjoyed:
+    - name: 'Dead Rising 2: Off the Record'
+      thumbnail: /about/images/dead rising 2.jpg
+      caption: >
+        This is the most 2010 Xbox 360 game, in the best (and worst) ways possible.
+      link: "https://store.steampowered.com/app/45770/Dead_Rising_2_Off_the_Record/"
+
+    - name: 'Librarian: Tidy Up the Arcane Library!'
+      thumbnail: /about/images/librarian.webp
+      caption: >
+        This was a comforting game for a time when I felt burnt out on gaming. Sometimes you just need to put 3,072 books back on the shelves.
+      link: "https://store.steampowered.com/app/4197610/Librarian_Tidy_Up_the_Arcane_Library/"
 
     - name: Webfishing
       thumbnail: /about/images/webfishing.png
       caption: >
         More of a chatroom than a fishing game, but I loved it! A nice little space.
       link: "https://store.steampowered.com/app/3146520/WEBFISHING/"
-
-    - name: 'Outer Wilds'
-      thumbnail: /about/images/outer-wilds.jpg
-      caption: >
-        This is, hands-down, the best narrative experience I've ever had in a game. 
-        Don't spoil it by reading reviews - just jump in blind and enjoy the ride.
-      link: "https://www.epicgames.com/store/en-US/product/outerwilds/home"
-
-    - name: Metroid Prime
-      thumbnail: /about/images/metroid-prime.jpg
-      caption: >
-        This game does a stellar job of delivering narrative through the environment.
-        Also the soundtrack is sublime, great for listening during work or study.
-      link: "https://kotaku.com/metroid-prime-the-kotaku-review-1764050288"
-
-    - name: Prey
-      thumbnail: /about/images/prey.jpg
-      caption: >
-        A fantastic homage to System Shock. I've just finished the main game
-        and I'm excited to dive into the Mooncrash expansion.
-      link: "https://www.rockpapershotgun.com/2017/05/09/prey-review/"
-
-    - name: 'Ghost in the Shell: Stand Alone Complex'
-      thumbnail: /about/images/ghost-in-the-shell.jpg
-      caption: >
-        Don't be misled by the "tactical lingerie" - it's a fantastic sci-fi
-        about sociopolitical manipulation through social media (an advanced subject
-        considering its 2002 debut).
-      link: "https://www.pcgamesn.com/ghost-in-the-shell-stand-alone-complex-first-assault-online/ghost-in-the-shell-stand-alone-complex-first-assault-online-shutting-down"
-    
-  currently-enjoying:
-    - name: 'DOOM'
-      thumbnail: /about/images/doom.jpg
-      caption: >
-        This game has helped me survive the Hell on Earth that is 2020. It's one of very few games I'll call a 10/10,
-        and it spawned an undying map making community that I'm proud to be a part of.
-      link: "https://5years.doomworld.com/interviews/johnromero/"
