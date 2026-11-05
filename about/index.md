@@ -7,9 +7,7 @@ permalink: /about/
 
 Hello! I'm a game programmer in Cambridge, MA working at [Disbelief](https://disbelief.com/). I graduated from Drexel University in 2020, with a Bachelor's in Computer Science and a concentration in Game Development and AI.
 
-Games were a big part of my life growing up, and I'm lucky enough to enjoy a career making them. Nothing thrills me more than watching someone else enjoy a game I worked on!
-
-When I'm not working on/playing games, I can be found skateboarding with friends, enjoying the weather, or watching a movie.
+As a game developer with over 10 years of experience in writing code for gameplay, network, and user interface, I empower teams to ship AAA titles. I work closely with designers, combining my creative and technical intuition to turn their ideas into playable experiences.
 
 ----
 
